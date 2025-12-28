@@ -1,0 +1,16 @@
+Java Resources
+==============
+
+Core Java
+---------
+
+* https://www.geeksforgeeks.org/java/
+* https://www.geeksforgeeks.org/interfaces-in-java/
+
+Design Patterns
+---------------
+
+Dependency Injection
+^^^^^^^^^^^^^^^^^^^^
+
+* https://www.vogella.com/tutorials/DependencyInjection/article.html

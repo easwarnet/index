@@ -1,0 +1,98 @@
+C++ Language Features
+=====================
+
+Templates
+---------
+
+* What are templates
+* Basic syntax
+* Function templates
+* Class templates
+* When to use templates
+* Typical problems when using templates
+
+Resources
+^^^^^^^^^
+
+* https://www.geeksforgeeks.org/templates-cpp/
+
+OOP - Object-Oriented Programming
+----------------------------------
+
+Smart Pointers
+^^^^^^^^^^^^^^
+
+* https://stackoverflow.com/questions/106508/what-is-a-smart-pointer-and-when-should-i-use-one
+* https://stackoverflow.com/questions/22185896/what-is-the-cyclic-dependency-issue-with-shared-ptr
+* https://www.geeksforgeeks.org/how-to-implement-user-defined-shared-pointers-in-c/
+
+Access Specifiers
+^^^^^^^^^^^^^^^^^
+
+* https://stackoverflow.com/questions/5447498/what-are-access-specifiers-should-i-inherit-with-private-protected-or-public
+* https://stackoverflow.com/questions/3247671/accessing-protected-members-in-a-derived-class
+
+Constructors and Memory
+^^^^^^^^^^^^^^^^^^^^^^^
+
+* https://stackoverflow.com/questions/3278625/when-do-we-have-to-use-copy-constructors
+* https://www.cpp.thiyagaraaj.com/c-programs/c-constructor-example-programs/simple-example-program-for-copy-constructor-in-c
+* https://www.geeksforgeeks.org/friend-class-function-cpp/
+
+Memory Management
+-----------------
+
+RAII and Memory
+^^^^^^^^^^^^^^^
+
+* https://theboostcpplibraries.com/raii-and-memory-management
+* https://stackoverflow.com/questions/240212/what-is-the-difference-between-new-delete-and-malloc-free
+* https://stackoverflow.com/questions/32029860/how-to-check-if-an-object-this-in-c
+
+Type System
+-----------
+
+* https://www.geeksforgeeks.org/reinterpret_cast-in-c-type-casting-operators/
+* https://www.geeksforgeeks.org/c-mutable-keyword/
+
+Exception Handling
+------------------
+
+* https://www.tutorialspoint.com/cplusplus/cpp_exceptions_handling.htm
+* http://www.cplusplus.com/doc/tutorial/exceptions/
+
+Functional Programming
+----------------------
+
+* https://en.cppreference.com/w/cpp/utility/functional/placeholders
+* https://cplusplus.com/reference/future/packaged_task/
+* https://stackoverflow.com/questions/57904835/using-stdbind-and-stdfunction-to-use-a-class-member-function-as-callback-for
+* https://stackoverflow.com/questions/18143661/what-is-the-difference-between-packaged-task-and-async
+* https://blog.mbedded.ninja/programming/languages/c-plus-plus/callbacks/
+* https://mainfunda.com/callable-objects-function-and-bind/
+* https://docs.microsoft.com/en-us/cpp/cpp/lambda-expressions-in-cpp?view=msvc-160
+
+C++ Basics
+----------
+
+* https://www.tutorialspoint.com/cplusplus/cpp_basic_syntax.htm
+* https://www.tutorialspoint.com/cplusplus/cpp_interview_questions.htm
+* https://www.javatpoint.com/cpp-interview-questions
+
+Boost Library
+-------------
+
+* https://www.geeksforgeeks.org/advanced-c-boost-library/
+
+Advanced Topics
+---------------
+
+Code Tracing
+^^^^^^^^^^^^
+
+* https://www.codeproject.com/Tips/5378622/A-Cplusplus-Code-Function-Tracing-Class
+
+Forward Declarations
+^^^^^^^^^^^^^^^^^^^^
+
+* https://www.google.com/search?q=forward+declaration+c%2B%2B+lvalue

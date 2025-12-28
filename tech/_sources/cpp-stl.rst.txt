@@ -1,0 +1,93 @@
+C++ - Inheritance
+======================
+
+**Inheritance - Scope**
+------------------------
+
+In C++, inheritance plays a crucial role in establishing relationships between classes. The access specifiers `public`, `private`, and `protected` further refine how members (data and functions) of base classes are inherited by derived classes. Here's a breakdown of inheritance with respect to these access specifiers:
+
+1. **std::find_if**:
+
+   * find odd
+
+.. code-block:: c++
+
+     auto iter = std::find::if(v.begin(), v.end(), [](const auto& e_) { return (e_ % 2); }
+
+
+2. **std::transform**:
+
+.. code-block:: c++
+
+     std::string s1 {"BLAH"};
+     std::string s2;
+     std::transform(s1.begin(), s1.end(), s2.begin(), std::tolower);
+
+
+3. **std::stable_partition**:
+
+   * ```pivot_``` is an iterator with prime nos. before and composites after
+
+.. code-block:: c++
+
+     auto pivot_ = std::stable_partition(v.begin(), v.end(), [](const auto& e_) { return is_prime(e_); });
+
+
+4. **std::rotate**:
+
+.. code-block:: c++
+
+     auto mid_ = v.begin() + 5;
+     std::rotate(v.begin(), mid_, v.end());
+
+
+5. **std::is_permutation**:
+
+.. code-block:: c++
+
+     std::is_permutation(v1.begin(), v.begin() + 5, v2.begin());
+
+
+6. **std::next_permutation**:
+
+.. code-block:: c++
+
+     bool next_possible_ = std::next_permutation(v1.begin(), v1.begin() + 11);
+     if (next_possible_) {
+	     // v1 through 11 eles are rearranged based on the next avail permutation
+     }
+
+
+7. **std::lower_bound**:
+
+.. code-block:: c++
+
+     auto iter = std::lower_bound(v.begin(), v.end(), 50);
+
+
+8. **std::move_backward**:
+
+.. code-block:: c++
+
+     std::move_backward(v.begin(), v.begin() + 4, v.begin() + 5);
+     // [1, 2, 3, 4] => [_, 1, 2, 3, 4]
+
+
+9. **std::any_of**:
+
+.. code-block:: c++
+
+     bool is_found = std::any_of(v.begin(), v.end(), [](const auto& e_) { return (is_condition(e_)); });
+
+
+
+
+
+
+
+
+
+
+
+
+

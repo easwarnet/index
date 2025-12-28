@@ -1,0 +1,49 @@
+Data Structures
+===============
+
+Trees
+-----
+
+Binary Trees
+^^^^^^^^^^^^
+
+* https://www.geeksforgeeks.org/find-distance-between-two-nodes-of-a-binary-tree/
+* https://www.geeksforgeeks.org/swap-nodes-binary-tree-every-kth-level/
+* https://www.guru99.com/avl-tree.html
+* https://gist.github.com/arunenigma/5183451
+
+Linked Lists
+------------
+
+Basic Operations
+^^^^^^^^^^^^^^^^
+
+* https://www.geeksforgeeks.org/linked-list-set-1-introduction/
+* https://www.geeksforgeeks.org/rearrange-a-linked-list-such-that-all-even-and-odd-positioned-nodes-are-together/
+* https://www.geeksforgeeks.org/function-to-check-if-a-singly-linked-list-is-palindrome/
+* https://www.geeksforgeeks.org/merge-two-sorted-lists-place/
+* https://www.geeksforgeeks.org/rotate-a-linked-list/
+* https://leetcode.com/problems/odd-even-linked-list/
+
+Advanced Operations
+^^^^^^^^^^^^^^^^^^^
+
+* https://www.geeksforgeeks.org/merge-k-sorted-linked-lists/
+* https://www.geeksforgeeks.org/merge-two-sorted-arrays-o1-extra-space/
+
+Sorting Linked Lists
+^^^^^^^^^^^^^^^^^^^^
+
+* https://www.geeksforgeeks.org/bubble-sort-for-linked-list-by-swapping-nodes/
+* https://leetcode.com/problems/insertion-sort-list/solution/
+* https://www.geeksforgeeks.org/merge-sort-for-linked-list/
+
+Disjoint Sets / Union-Find
+---------------------------
+
+* https://www.google.com/search?q=union+find+c%2B%2B
+* https://web.eecs.utk.edu/~jplank/plank/classes/cs302/Notes/Disjoint/
+* https://stackoverflow.com/questions/4498833/implementing-disjoint-sets-union-find-in-c
+* https://stackoverflow.com/questions/41777914/disjoint-set-implementation-in-c
+* https://stackoverflow.com/questions/60955485/disjoint-set-union-implementation-using-c
+* https://www.tutorialspoint.com/cplusplus-program-to-implement-disjoint-set-data-structure

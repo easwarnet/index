@@ -1,0 +1,46 @@
+Gstreamer
+======================
+
+**Pipelines**
+--------------------------
+
+Basic RTSP Client
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. code-block::
+
+    gst-launch-1.0 -v rtspsrc location="rtsp://192.168.1.16:5540/ch0" ! queue max-size-buffers=2 ! rtph264depay ! h264parse ! decodebin ! autovideosink sync=false
+
+
+RTSP Server with Encoding
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. code-block::
+
+    gst-launch-1.0 \
+      v4l2src device=/dev/video0 ! \
+        video/x-raw,width=1280,height=720,framerate=20/1 ! \
+        omxh264enc ! \
+          video/x-h264,stream-format=byte-stream,alignment=au ! \
+          rtph264pay name=pay0 pt=96 ! \
+          rtspserversink location=rtsp://localhost:8554/stream
+
+
+RTSP Client Playback
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. code-block::
+
+    gst-launch-1.0 \
+      rtspsrc location=rtsp://localhost:8554/stream ! \
+        rtph264depay ! \
+          h264parse ! \
+            omxh264dec ! \
+              videoconvert ! \
+                autovideosink
+
+
+
+
+
+

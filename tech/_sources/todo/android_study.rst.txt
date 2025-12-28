@@ -1,0 +1,24 @@
+Android Study Topics
+====================
+
+Study TODO List
+---------------
+
+Core Topics
+^^^^^^^^^^^
+
+* HAL (Hardware Abstraction Layer)
+* VNDK (Vendor Native Development Kit)
+* Android O
+
+  * Partition Differences
+  * System and Vendor Partition
+  * OTA (Over-The-Air updates)
+
+* SELinux (Runtime)
+* VHAL (Vehicle HAL)
+* HIDL, AIDL
+* Different Types of Binder
+* APIs for Binder
+* Binder: How it works
+* VHAL Custom Property

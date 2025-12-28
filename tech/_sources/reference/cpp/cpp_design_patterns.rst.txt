@@ -1,0 +1,41 @@
+Design Patterns
+===============
+
+General Resources
+-----------------
+
+* https://refactoring.guru/design-patterns/cpp
+* https://medium.com/@chakraveer/design-patterns-dilemma-c-part-1-afb864d519a6
+* https://en.wikibooks.org/wiki/C%2B%2B_Programming/Code/Design_Patterns#Observer
+* https://www.geeksforgeeks.org/software-design-patterns/
+
+Specific Patterns
+-----------------
+
+Singleton Pattern
+^^^^^^^^^^^^^^^^^
+
+* http://www.yolinux.com/TUTORIALS/C++Singleton.html
+* http://www.devartplus.com/3-simple-ways-to-create-singleton-in-c/
+* https://www.codeproject.com/Articles/1921/Singleton-Pattern-its-implementation-with-C
+
+Factory Pattern
+^^^^^^^^^^^^^^^
+
+* https://ikeptwalking.com/factory-method-pattern/
+
+Observer Pattern
+^^^^^^^^^^^^^^^^
+
+* http://www.cs.sjsu.edu/faculty/pearce/modules/patterns/events/pubsub.htm
+
+SOLID Principles
+----------------
+
+* https://mainfunda.com/dependency-inversion-principle-solid-design-principles/
+
+Additional Resources
+--------------------
+
+* http://www.vincehuston.org/dp/
+* https://www.eventhelix.com/RealtimeMantra/Patterns/

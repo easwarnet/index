@@ -1,0 +1,29 @@
+Standard Template Library (STL)
+================================
+
+General STL Resources
+---------------------
+
+* https://www.geeksforgeeks.org/the-c-standard-template-library-stl/
+* https://thispointer.com/stl-tutorials-and-interview-questions/
+* http://www.yolinux.com/TUTORIALS/LinuxTutorialC++STL.html
+* http://www.yolinux.com/TUTORIALS/CppBoostStlPtrList.html
+* https://stackoverflow.com/questions/6942273/how-to-get-a-random-element-from-a-c-container
+
+Sequential Containers
+---------------------
+
+Types of Sequential Containers
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+* vector, deque, list and their API
+* Sequential container adapters – stack, queue and priority queue
+* Dealing with objects as container elements
+
+Container Operations
+^^^^^^^^^^^^^^^^^^^^
+
+* https://stackoverflow.com/questions/71811414/how-to-interleave-two-vectors-of-different-sizes
+* https://stackoverflow.com/questions/19826376/insert-into-vector-having-objects-without-copy-constructor
+* https://stackoverflow.com/questions/71104908/how-do-i-create-an-array-of-objects
+

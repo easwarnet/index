@@ -1,0 +1,21 @@
+AI and Machine Learning
+========================
+
+General AI Resources
+------------------------
+
+* https://github.com/D7EAD/liboai
+* https://grow.google/intl/en_pk/guide-ai-machine-learning/
+* https://www.cloudskillsboost.google/course_templates/536
+
+Edge AI
+------------------------
+
+* https://www.google.com/search?q=edge+ai
+
+Gemini API
+------------------------
+
+* https://ai.google.dev/gemini-api/docs
+
+

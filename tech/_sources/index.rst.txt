@@ -20,6 +20,7 @@ Notes
    cpp-container.rst
    cpp-stdlib.rst
    cpp-general.rst
+   cpp-stl.rst
 
 .. toctree::
    :maxdepth: 1
@@ -35,7 +36,6 @@ Notes
 
    linux-posix.rst
    linux-commands.rst
-   os-general.rst
 
 .. toctree::
    :maxdepth: 1
@@ -53,12 +53,76 @@ Notes
 
 .. toctree::
    :maxdepth: 1
-   :caption: Embedded Beginner
+   :caption: Reference - Cpp
 
-   os-rtos.rst
-   c-pointers.rst
-   c-funcpointers.rst
-   c-general.rst
-   c-basicalgo.rst
-   c-tricks.rst
+   reference/cpp/cpp_algorithms.rst
+   reference/cpp/cpp_best_practices.rst
+   reference/cpp/cpp_concurrency.rst
+   reference/cpp/cpp_data_structures.rst
+   reference/cpp/cpp_design_patterns.rst
+   reference/cpp/cpp_language.rst
+   reference/cpp/cpp_stl.rst
+
+.. toctree::
+   :maxdepth: 1
+   :caption: Reference - Android
+
+   reference/android/android_aosp.rst
+   reference/android/android_app_dev.rst
+   reference/android/android_external_frameworks.rst
+   reference/android/android_native.rst
+
+.. toctree::
+   :maxdepth: 1
+   :caption: Reference - Others
+
+   reference/java
+   reference/ai
+   reference/communication
+   reference/kotlin
+   reference/system
+   reference/interviews
+
+.. toctree::
+   :maxdepth: 1
+   :caption: Todo
+
+   todo/android_study
+   todo/cpp_study
+
+
+.. toctree::
+   :maxdepth: 1
+   :caption: Archive - Gstreamer
+
+   archive/gstreamer.rst
+
+.. toctree::
+   :maxdepth: 1
+   :caption: Archive - Links - Streaming
+
+   archive/streaming.rst
+
+.. toctree::
+   :maxdepth: 1
+   :caption: Archive - OS
+
+   archive/os-general.rst
+   archive/os-rtos.rst
+
+.. toctree::
+   :maxdepth: 1
+   :caption: Archive - C
+
+   archive/c-pointers.rst
+   archive/c-funcpointers.rst
+   archive/c-general.rst
+   archive/c-basicalgo.rst
+   archive/c-tricks.rst
+
+.. toctree::
+   :maxdepth: 1
+   :caption: Archive - Links - Combined Old
+
+   archive/old.rst
 

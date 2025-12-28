@@ -1,0 +1,17 @@
+System Administration
+=====================
+
+Linux Commands
+--------------
+
+* https://www.tecmint.com/12-practical-examples-of-linux-grep-command/
+
+Operating Systems
+-----------------
+
+* https://www.linuxliteos.com/download.php
+
+VPN
+---
+
+* https://github.com/OpenVPN/openvpn

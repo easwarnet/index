@@ -1,0 +1,49 @@
+Algorithms
+==========
+
+Graphs - BFS/DFS, Shortest Paths
+---------------------------------
+
+* https://www.geeksforgeeks.org/detect-cycle-undirected-graph/
+* https://www.geeksforgeeks.org/shortest-path-in-a-binary-maze/
+* https://www.geeksforgeeks.org/shortest-path-unweighted-graph/
+* https://stackoverflow.com/questions/17178684/using-bfs-algorithm-to-find-the-shortest-path
+* https://www.techiedelight.com/lee-algorithm-shortest-path-in-a-maze/
+* https://www.educative.io/answers/how-to-implement-dijkstras-algorithm-in-cpp
+* https://www.geeksforgeeks.org/dijkstras-shortest-path-algorithm-greedy-algo-7/
+* https://www.geeksforgeeks.org/printing-paths-dijkstras-shortest-path-algorithm/
+* https://www.techiedelight.com/breadth-first-search/
+* https://medium.com/techie-delight/top-20-breadth-first-search-bfs-practice-problems-ac2812283ab1
+* https://leetcode.com/problems/minimum-obstacle-removal-to-reach-corner/solutions/2086192/c-100-memory-efficient-in-c-submissions/
+* https://sites.google.com/site/rajboston1951/shortest-paths/8
+
+Graph Implementation
+--------------------
+
+* https://stackoverflow.com/questions/36827869/how-to-represent-a-graph-in-c
+* https://stackoverflow.com/questions/5493474/graph-implementation-c
+* https://www.geeksforgeeks.org/graph-implementation-using-stl-for-competitive-programming-set-1-dfs-of-unweighted-and-undirected/
+* https://www.techiedelight.com/root-vertex-graph/
+* https://www.techiedelight.com/check-given-graph-strongly-connected-not/
+
+Matrix / Grid / Flood Fill
+---------------------------
+
+* https://www.techiedelight.com/flood-fill-algorithm/
+* https://www.techiedelight.com/find-minimum-passes-required-convert-negative-values-matrix/
+* https://www.techiedelight.com/find-shortest-path-source-destination-matrix-satisfies-given-constraints/
+
+Dynamic Programming / Combinations / Coin Change
+-------------------------------------------------
+
+* https://stackoverflow.com/questions/59106330/denominate-the-amount-with-the-minimum-number-of-coins-with-a-given-face-value
+* https://www.hackerrank.com/challenges/coin-change/forum
+* https://stackoverflow.com/questions/4632322/finding-all-possible-combinations-of-numbers-to-reach-a-given-sum
+
+Problem Sets and Practice
+--------------------------
+
+* https://leetcode.com/problemset/all/?difficulty=MEDIUM&page=1
+* https://algo.monster/liteproblems/2115
+* https://codeforwin.org/c-programming/number-pattern-17-in-c
+* https://www.geeksforgeeks.org/inner-reducing-pattern-printing/

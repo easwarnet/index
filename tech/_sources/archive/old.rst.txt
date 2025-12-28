@@ -1,0 +1,848 @@
+
+Combined Old Links
+====================
+
+Cpp
+------------------------------------------------------------------
+
+Algorithms – Graphs, BFS/DFS, Shortest Paths
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+* https://www.geeksforgeeks.org/detect-cycle-undirected-graph/
+* https://www.geeksforgeeks.org/shortest-path-in-a-binary-maze/
+* https://www.geeksforgeeks.org/shortest-path-unweighted-graph/
+* https://stackoverflow.com/questions/17178684/using-bfs-algorithm-to-find-the-shortest-path
+* https://www.techiedelight.com/lee-algorithm-shortest-path-in-a-maze/
+* https://www.educative.io/answers/how-to-implement-dijkstras-algorithm-in-cpp
+* https://www.geeksforgeeks.org/dijkstras-shortest-path-algorithm-greedy-algo-7/
+* https://www.geeksforgeeks.org/printing-paths-dijkstras-shortest-path-algorithm/
+* https://www.techiedelight.com/breadth-first-search/
+* https://medium.com/techie-delight/top-20-breadth-first-search-bfs-practice-problems-ac2812283ab1
+* https://leetcode.com/problems/minimum-obstacle-removal-to-reach-corner/solutions/2086192/c-100-memory-efficient-in-c-submissions/
+* https://sites.google.com/site/rajboston1951/shortest-paths/8
+* https://stackoverflow.com/questions/36827869/how-to-represent-a-graph-in-c
+* https://stackoverflow.com/questions/5493474/graph-implementation-c
+* https://www.geeksforgeeks.org/graph-implementation-using-stl-for-competitive-programming-set-1-dfs-of-unweighted-and-undirected/
+* https://www.techiedelight.com/root-vertex-graph/
+* https://www.techiedelight.com/check-given-graph-strongly-connected-not/
+
+Algorithms – Matrix / Grid / Flood Fill
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+* https://www.techiedelight.com/flood-fill-algorithm/
+* https://www.techiedelight.com/find-minimum-passes-required-convert-negative-values-matrix/
+* https://www.techiedelight.com/find-shortest-path-source-destination-matrix-satisfies-given-constraints/
+
+Algorithms – Dynamic Programming / Combinations / Coin Change
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+* https://stackoverflow.com/questions/59106330/denominate-the-amount-with-the-minimum-number-of-coins-with-a-given-face-value
+* https://www.hackerrank.com/challenges/coin-change/forum
+* https://stackoverflow.com/questions/4632322/finding-all-possible-combinations-of-numbers-to-reach-a-given-sum
+
+Data Structures – Trees
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+* https://www.geeksforgeeks.org/find-distance-between-two-nodes-of-a-binary-tree/
+* https://www.geeksforgeeks.org/swap-nodes-binary-tree-every-kth-level/
+* https://www.guru99.com/avl-tree.html
+* https://gist.github.com/arunenigma/5183451
+* https://www.geeksforgeeks.org/linked-list-set-1-introduction/
+* https://www.geeksforgeeks.org/rearrange-a-linked-list-such-that-all-even-and-odd-positioned-nodes-are-together/
+* https://www.geeksforgeeks.org/function-to-check-if-a-singly-linked-list-is-palindrome/
+* https://www.geeksforgeeks.org/merge-two-sorted-lists-place/
+* https://www.geeksforgeeks.org/rotate-a-linked-list/
+* https://leetcode.com/problems/odd-even-linked-list/
+* https://www.geeksforgeeks.org/merge-k-sorted-linked-lists/
+* https://www.geeksforgeeks.org/merge-two-sorted-arrays-o1-extra-space/
+* https://www.geeksforgeeks.org/bubble-sort-for-linked-list-by-swapping-nodes/
+* https://leetcode.com/problems/insertion-sort-list/solution/
+* https://www.geeksforgeeks.org/merge-sort-for-linked-list/
+* https://gist.github.com/arunenigma/5183451
+* https://www.geeksforgeeks.org/linked-list-set-1-introduction/
+* https://www.geeksforgeeks.org/rearrange-a-linked-list-such-that-all-even-and-odd-positioned-nodes-are-together/
+* https://www.geeksforgeeks.org/function-to-check-if-a-singly-linked-list-is-palindrome/
+* https://www.geeksforgeeks.org/merge-two-sorted-lists-place/
+* https://www.geeksforgeeks.org/rotate-a-linked-list/
+* https://leetcode.com/problems/odd-even-linked-list/
+* https://www.geeksforgeeks.org/merge-k-sorted-linked-lists/
+* https://www.geeksforgeeks.org/merge-two-sorted-arrays-o1-extra-space/
+* https://www.geeksforgeeks.org/bubble-sort-for-linked-list-by-swapping-nodes/
+* https://leetcode.com/problems/insertion-sort-list/solution/
+* https://www.geeksforgeeks.org/merge-sort-for-linked-list/
+
+Disjoint Sets / Union–Find
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+* https://www.google.com/search?q=union+find+c%2B%2B
+* https://web.eecs.utk.edu/~jplank/plank/classes/cs302/Notes/Disjoint/
+* https://stackoverflow.com/questions/4498833/implementing-disjoint-sets-union-find-in-c
+* https://stackoverflow.com/questions/41777914/disjoint-set-implementation-in-c
+* https://stackoverflow.com/questions/60955485/disjoint-set-union-implementation-using-c
+* https://www.tutorialspoint.com/cplusplus-program-to-implement-disjoint-set-data-structure
+
+Multithreading / Concurrency
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+* https://codereview.stackexchange.com/questions/274415/c20-single-queue-thread-pool
+* https://github.com/PaulRitaldato1/ThreadPool/blob/master/ThreadPool.h
+* https://www.geeksforgeeks.org/multithreading-in-cpp/
+* https://stackoverflow.com/questions/74735008/understanding-condition-variablewait-for-blocking-a-thread
+* https://stackoverflow.com/questions/23896421/efficiently-waiting-for-all-tasks-in-a-threadpool-to-finish
+
+C++ STL / Standard Library
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+* https://www.geeksforgeeks.org/the-c-standard-template-library-stl/
+* https://thispointer.com/stl-tutorials-and-interview-questions/
+* http://www.yolinux.com/TUTORIALS/LinuxTutorialC++STL.html
+* http://www.yolinux.com/TUTORIALS/CppBoostStlPtrList.html
+* https://stackoverflow.com/questions/6942273/how-to-get-a-random-element-from-a-c-container
+
+C++ Container
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+* https://stackoverflow.com/questions/71811414/how-to-interleave-two-vectors-of-different-sizes
+* https://stackoverflow.com/questions/19826376/insert-into-vector-having-objects-without-copy-constructor
+* https://stackoverflow.com/questions/71104908/how-do-i-create-an-array-of-objects
+
+C++ Functional / Async / Callbacks
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+* https://en.cppreference.com/w/cpp/utility/functional/placeholders
+* https://cplusplus.com/reference/future/packaged_task/
+* https://stackoverflow.com/questions/57904835/using-stdbind-and-stdfunction-to-use-a-class-member-function-as-callback-for
+* https://stackoverflow.com/questions/18143661/what-is-the-difference-between-packaged-task-and-async
+* https://blog.mbedded.ninja/programming/languages/c-plus-plus/callbacks/
+* https://mainfunda.com/callable-objects-function-and-bind/
+
+Design Patterns / SOLID
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+* https://refactoring.guru/design-patterns/cpp
+* https://medium.com/@chakraveer/design-patterns-dilemma-c-part-1-afb864d519a6
+* https://en.wikibooks.org/wiki/C%2B%2B_Programming/Code/Design_Patterns#Observer
+* http://www.yolinux.com/TUTORIALS/C++Singleton.html
+* http://www.devartplus.com/3-simple-ways-to-create-singleton-in-c/
+* https://www.codeproject.com/Articles/1921/Singleton-Pattern-its-implementation-with-C
+* https://mainfunda.com/dependency-inversion-principle-solid-design-principles/
+
+C++ Language – OOP, Memory, Type System
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+* https://stackoverflow.com/questions/106508/what-is-a-smart-pointer-and-when-should-i-use-one
+* https://stackoverflow.com/questions/5447498/what-are-access-specifiers-should-i-inherit-with-private-protected-or-public
+* https://stackoverflow.com/questions/3278625/when-do-we-have-to-use-copy-constructors
+* https://www.cpp.thiyagaraaj.com/c-programs/c-constructor-example-programs/simple-example-program-for-copy-constructor-in-c
+* https://www.geeksforgeeks.org/friend-class-function-cpp/
+* https://www.geeksforgeeks.org/reinterpret_cast-in-c-type-casting-operators/
+* https://theboostcpplibraries.com/raii-and-memory-management
+* https://stackoverflow.com/questions/240212/what-is-the-difference-between-new-delete-and-malloc-free
+* https://stackoverflow.com/questions/32029860/how-to-check-if-an-object-this-in-c
+* https://stackoverflow.com/questions/3247671/accessing-protected-members-in-a-derived-class
+
+C++ Basics / Interview Prep
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+* https://www.tutorialspoint.com/cplusplus/cpp_basic_syntax.htm
+* https://www.tutorialspoint.com/cplusplus/cpp_interview_questions.htm
+* https://www.javatpoint.com/cpp-interview-questions
+
+Problem Sets / Practice
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+* https://leetcode.com/problemset/all/?difficulty=MEDIUM&page=1
+
+Find All Possible Recipes from Given Supplies
+
+* https://algo.monster/liteproblems/2115
+* https://codeforwin.org/c-programming/number-pattern-17-in-c
+* https://www.geeksforgeeks.org/inner-reducing-pattern-printing/
+
+Code Repositories / Snippets
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+* https://github.com/mensenvau/solutions_metacareers_com/blob/main/level_first/rotary_lock.cpp
+* https://github.com/lamerman/cpp-lru-cache/blob/master/include/lrucache.hpp
+* https://gist.github.com/quickgrid/d9f3f416f0dd639425dd2484f9f118f2
+
+Boost
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+* https://www.geeksforgeeks.org/advanced-c-boost-library/
+
+ToBeSorted
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+A C++ Code Function Tracing Class
+
+* https://www.codeproject.com/Tips/5378622/A-Cplusplus-Code-Function-Tracing-Class
+
+forward declaration c++ lvalue
+
+* https://www.google.com/search?q=forward+declaration+c%2B%2B+lvalue&client=ms-android-samsung-gs-rev1&sca_esv=4771c1dce5b9df5f&sxsrf=ADLYWIKsa9Os7WuDimVYLauSyohRZRQ-Dg%3A1715617448961&ei=qD5CZsGeOrWqxc8P4f6x6AM&oq=forward+declaration+c%2B%2B+lvalue&gs_lp=EhNtb2JpbGUtZ3dzLXdpei1zZXJwIh5mb3J3YXJkIGRlY2xhcmF0aW9uIGMrKyBsdmFsdWUyBRAhGKABMgUQIRigAUi8M1D4DFjiLHABeAGQAQCYAa0BoAG6B6oBAzAuN7gBA8gBAPgBAZgCCKACmAjCAgoQABiwAxjWBBhHwgINEAAYgAQYsAMYQxiKBcICBRAAGIAEwgIIEAAYFhgeGA_CAgYQABgWGB7CAgsQABiABBiGAxiKBcICBBAhGBXCAgcQIRigARgKmAMAiAYBkAYPkgcDMS43oAf1GA&sclient=mobile-gws-wiz-serp
+
+===============================================================================================================================================================
+
+Cpp Topics
+------------------------------------------------------------------
+
+Templates
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+What are templates,
+Basic syntax,
+Function templates,
+Class templates,
+When to use templates,
+Typical problems when using templates.
+
+
+
+STL Sequential containers
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Types of sequential containers,
+vector, deque, list and their API,
+Sequential container adapters – stack, queue and priority queue,
+Dealing with objects as container elements,
+Usage – when to use what.
+
+
+
+STL Associative containers
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Types of associative containers,
+set and multiset – behavior and API,
+map and multimap – behavior and API,
+Putting objects into set and map,
+Usage – when to use what.
+
+
+Non-modifying STL algorithms
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Definition of a non-modifying algorithm
+List of non-modifying algorithms: for_each, find, find_if, find_end, find_first_of,
+adjacent_find, count, count_if, mismatch, equal, search, search_n,
+Examples,
+Container compatibility.
+
+
+Modifying STL algorithms
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Definition of a modifying algorithm,
+List of modifying algorithms: transform, copy, copy_backward, swap, swap_ranges,
+iter_swap, replace, fill, fill_n, generate, generate_n, remove, remove_if, unique,
+unique_copy, reverse, reverse_copy, rotate, partition, stable_partition
+Examples,
+Container compatibility.
+
+
+Sorting STL operations
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+List of sorting algorithms: random_shuffle, sort, stable_partition, lower_bound,
+upper_bound, equal_range, binary_search,
+Examples,
+Containers compatibility,
+Sorting of objects.
+
+
+STL merge operations
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+List of merging algorithms: merge, includes, min_element, max_element,
+inplace_merge,
+STL operations for sets,
+Examples,
+Container compatibility.
+
+
+STL utilities and functional library
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+STL “small” tools,
+List of useful functors,
+Examples.
+
+
+STL advanced I/O
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Classes which provide the input and output capability,
+Console I/O,
+Formatting,
+File I/O,
+Strings I/O,
+Examples.
+
+
+===============================================================================================================================================================
+
+Ai
+------------------------------------------------------------------
+
+* https://github.com/D7EAD/liboai
+* https://grow.google/intl/en_pk/guide-ai-machine-learning/
+* https://www.cloudskillsboost.google/course_templates/536
+
+edge ai 
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+* https://www.google.com/search?q=edge+ai&oq=edge+ai
+
+Gemini API  |  Google AI for Developers
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+* https://ai.google.dev/gemini-api/docs
+
+===============================================================================================================================================================
+
+Design Patterns
+================
+
+http://www.vincehuston.org/dp/
+* https://www.eventhelix.com/RealtimeMantra/Patterns/
+http://www.cs.sjsu.edu/faculty/pearce/modules/patterns/events/pubsub.htm
+* https://www.geeksforgeeks.org/software-design-patterns/
+* https://ikeptwalking.com/factory-method-pattern/
+
+===============================================================================================================================================================
+
+C++ Best
+------------------------------------------------------------------
+
+* https://riptutorial.com/ebook/cplusplus
+* https://www.modernescpp.com/index.php/der-einstieg-in-modernes-c
+* https://theboostcpplibraries.com/
+* https://practice.geeksforgeeks.org/courses/placement-100-2019?utm_source=geeksforgeeks&utm_medium=referral&utm_campaign=GfG_Right_Top_P100
+
+===============================================================================================================================================================
+
+Android
+------------------------------------------------------------------
+
+* https://ux.stackexchange.com/questions/78783/is-this-a-proper-way-to-present-back-and-next-buttons-in-android-app
+* https://developer.android.com/jetpack/androidx/releases/leanback
+* https://developer.android.com/reference/android/bluetooth/package-summary
+* https://developer.android.com/training/tv/start/hardware
+* https://developer.android.com/training/tv/start/libraries#java
+* https://developer.android.com/jetpack/guide
+* https://blog.mindorks.com/mvvm-architecture-android-tutorial-for-beginners-step-by-step-guide
+* https://github.com/MindorksOpenSource/android-interview-questions
+* https://intellipaat.com/blog/interview-question/android-interview-questions/
+
+Services
+^^^^^^^^^^^^^^^^
+
+* https://www.geeksforgeeks.org/android-implicit-and-explicit-intents-with-examples/
+* https://medium.com/@anant.rao07/android-bound-services-f1cceb2f1f3e
+* https://www.geeksforgeeks.org/services-in-android-with-example/
+
+Content Providers & Broadcast Receivers
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+* https://www.tutorialspoint.com/android/android_content_providers.htm
+* https://www.geeksforgeeks.org/broadcast-receiver-in-android-with-example/
+* https://www.tutorialspoint.com/android/android_broadcast_receivers.htm
+* https://www.geeksforgeeks.org/how-to-use-localbroadcastmanager-in-android/
+
+
+SearchView in Android with RecyclerView
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+* https://www.geeksforgeeks.org/searchview-in-android-with-recyclerview/
+* https://stackoverflow.com/questions/33582546/how-to-make-whole-activity-scrollable-according-to-the-data-inside-it
+
+BT
+^^^^^^^^^^^^^^^^
+
+* https://github.com/lalit3686/BluetoothDemo/blob/master/src/com/example/bluetoothdemo/MainActivity.java
+* https://github.com/lalit3686/BluetoothDemo/blob/master/src/com/example/bluetoothdemo/MyBlueToothReceiver.java
+
+IP Address
+^^^^^^^^^^^^^^^^
+
+* https://stackoverflow.com/questions/59818891/how-to-get-public-ip-address-of-android-device-programmatically?rq=3
+
+Streaming
+^^^^^^^^^^^^^^^^
+
+* https://github.com/fyhertz/libstreaming-examples#example-2
+* https://stackoverflow.com/questions/62825597/how-can-i-stream-an-m4v-url-from-google-cloud-platform-using-exoplayer
+
+===============================================================================================================================================================
+
+Bluetooth
+------------------------------------------------------------------
+
+* https://ukbaz.github.io/howto/beacon_scan_cmd_line.html
+
+===============================================================================================================================================================
+
+Android Native
+------------------------------------------------------------------
+
+Native
+^^^^^^^^^^^^^^^^
+
+* https://stackoverflow.com/questions/60273871/how-to-handle-custom-vehicle-properties-in-vhal-android-automotive
+* https://proandroiddev.com/android-ndk-interaction-of-kotlin-and-c-c-5e19e35bac74
+* https://riptutorial.com/android-ndk
+* https://blog.actorsfit.com/a?ID=01050-c95abdc1-9fdb-4a16-bbd2-3223df37e420
+* https://devarea.com/android-hidl-and-project-treble/#.Yw3HG2HMIUH
+* https://devarea.com/aosp-adding-a-native-daemon/#.Yw3HLWHMIUH
+* https://medium.com/androiddevelopers/getting-started-with-c-and-android-native-activities-2213b402ffff
+* https://lynxbee.com/how-to-create-a-native-daemon-and-run-from-init-rc-in-android/#.Yw3HXmHMIUH
+* https://stackoverflow.com/questions/61363638/define-and-implement-hidl-interface
+* https://stackoverflow.com/questions/3232718/how-to-add-a-system-service-to-the-android-framework
+* https://stackoverflow.com/questions/48521789/add-native-service-to-aosp
+* https://proandroiddev.com/android-ndk-interaction-of-kotlin-and-c-c-5e19e35bac74
+* https://riptutorial.com/android-ndk
+* https://www.protechtraining.com/blog/post/implementing-remote-interface-using-aidl-66
+* https://stackoverflow.com/questions/60273871/how-to-handle-custom-vehicle-properties-in-vhal-android-automotive
+* https://www.linkedin.com/pulse/use-hidl-create-new-virtual-hal-boudour-ayari?trk=pulse-article_more-articles_related-content-card
+* https://stackoverflow.com/questions/5699107/android-surfaceflinger
+* https://koushikdeb-32921.medium.com/android-system-services-aosp-987172132be1
+* https://medium.com/android-news/system-service-in-aosp-750007d39555
+* http://strayinsights.blogspot.com/2018/04/android-binder-tutorial-part-three.html?m=1
+* https://community.nxp.com/t5/i-MX-Processors-Knowledge-Base/The-Android-Booting-process/ta-p/1129182
+* https://www.vogella.com/tutorials/AndroidTaskScheduling/article.html
+
+VHAL
+^^^^^^^^^^^^^^^^
+
+* https://www.linkedin.com/pulse/android-automotive-os-introduction-chris-simmonds/
+* https://review.arrowos.net/plugins/gitiles/ArrowOS/android_hardware_interfaces/+/8997880087d14e8a8ee7cf13682f457dbb7f5292/automotive/vehicle/2.0/default/impl/vhal_v2_0/DefaultVehicleHal.cpp
+* https://technolinchpin.wordpress.com/2020/09/25/android-carservice-vehicle-data-handling/
+
+Others
+^^^^^^^^^^^^^^^^
+
+* https://devarea.com/aosp-creating-a-system-service/#.Yy1dPtLMJhH
+* https://community.nxp.com/t5/i-MX-Processors/How-to-add-custom-system-service-to-AOSP/m-p/927478
+* https://blog.actorsfit.com/a?ID=01250-65b64df3-84b9-46e6-a999-8ba5690d5fb0
+* https://stuff.mit.edu/afs/sipb/project/android/docs/guide/components/aidl.html
+* https://stackoverflow.com/questions/3232718/how-to-add-a-system-service-to-the-android-framework
+* https://stackoverflow.com/questions/46127942/in-android-recyclerview-how-to-change-the-color-of-alternate-rows
+* https://stackoverflow.com/questions/61363638/define-and-implement-hidl-interface
+* https://devarea.com/android-hidl-and-project-treble/#.Yy1eZdLMJhH
+* https://stackoverflow.com/questions/60273871/how-to-handle-custom-vehicle-properties-in-vhal-android-automotive
+* https://medium.com/swlh/android-and-mqtt-a-simple-guide-cb0cbba1931c
+
+Android HAL
+^^^^^^^^^^^^^^^^
+
+* https://www.e-consystems.com/blog/system-on-module-SOM/android-hal-and-device-driver-architecture/
+* https://stackoverflow.com/questions/23625513/what-is-the-main-advantage-of-having-hal-layer-in-android
+* https://www.nobleprog.com/cc/androidhal
+
+Android Secure Boot
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+* https://www.digi.com/resources/documentation/digidocs/embedded/android/dea11/cc8x/android-trustfence_r_secure-boot-flow#vbmeta-verification
+
+Android Partition Notes
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+* https://code.tutsplus.com/articles/an-introduction-to-android-firmware--cms-26791
+* https://forum.xda-developers.com/t/info-android-device-partitions-and-filesystems.3586565/
+* https://www.addictivetips.com/mobile/android-partitions-explained-boot-system-recovery-data-cache-misc/
+
+Init RC
+^^^^^^^^^^^^^^^^
+
+* https://community.nxp.com/t5/i-MX-Processors-Knowledge-Base/What-is-inside-the-init-rc-and-what-is-it-used-for/ta-p/1106360
+
+ToBeSorted
+^^^^^^^^^^^^^^^^
+
+* https://www.codeinsideout.com/blog/android/hal/aidl/#implement-hal
+* https://www.hackster.io/user2657268124/a-beginner-s-guide-to-implement-jni-callbacks-in-android-cd8226
+* https://stackoverflow.com/questions/4039801/rtsp-streaming-on-java
+* https://community.nxp.com/t5/i-MX-Processors/How-to-add-custom-system-service-to-AOSP/m-p/927478
+* https://medium.com/@number1shiksha/how-to-create-a-system-service-in-android-aosp-72cec54e28b4
+* https://mymusing.co/what-is-binder-in-android/
+* https://developpaper.com/a-simple-example-of-binder/
+* https://medium.com/android-news/android-binder-framework-8a28fb38699a
+* https://www.codetd.com/en/article/11058051
+* https://proandroiddev.com/binders-in-android-part-ii-reference-counting-death-recipients-19d55c8356c3
+* https://guides.codepath.com/android/Understanding-the-Android-Application-Class
+* https://www.geeksforgeeks.org/how-to-implement-preferences-settings-screen-in-android/
+* https://stackoverflow.com/questions/3624280/how-to-use-sharedpreferences-in-android-to-store-fetch-and-edit-values
+* https://stackoverflow.com/questions/22436627/android-how-to-get-current-system-settings-values
+* https://google-developer-training.github.io/android-developer-fundamentals-course-practicals/en/Unit%204/92_p_adding_settings_to_an_app.html
+* https://abhiandroid.com/ui/baseadapter-tutorial-example.html
+* https://www.tutorialspoint.com/how-to-read-all-the-coming-notifications-in-android
+* https://github.com/Chagall/notification-listener-service-example/blob/master/app/src/main/java/com/github/chagall/notificationlistenerexample/NotificationListenerExampleService.java
+* https://www.tutorialspoint.com/how-to-read-all-the-coming-notifications-in-android
+* https://stackoverflow.com/questions/4208886/using-the-android-application-class-to-persist-data
+* https://github.com/DeanThomson/android-udp-audio-chat/tree/91051226b8fd6783cd4234aa4b7aab6c2299bdd6
+* https://stackoverflow.com/questions/4878159/whats-the-best-way-to-share-data-between-activities
+* https://source.android.com/devices/architecture/configstore/interface
+* https://stackoverflow.com/a/54957783
+* https://github.com/android/ndk-samples
+* https://github.com/android/ndk-samples/tree/main/audio-echo/app/src/main/cpp
+* https://gist.github.com/bryanl/4337357
+* https://stuff.mit.edu/afs/sipb/project/android/docs/guide/practices/compatibility.html
+* https://stuff.mit.edu/afs/sipb/project/android/docs/guide/components/processes-and-threads.html
+* https://stuff.mit.edu/afs/sipb/project/android/docs/guide/components/bound-services.html
+* https://www.geeksforgeeks.org/services-in-android-with-example/
+* https://github.com/AshleyRayMaceli/discussion-forum-android/blob/master/app/src/main/java/com/example/guest/discussionforum/adapters/FirebaseThreadViewHolder.java
+* https://android4tv.iwedia.com/documents/Android4TV%20-%20SW%20Architecture%20v1.5.pdf
+* https://stackoverflow.com/questions/51035825/aosp-how-to-initialize-the-vehiclepropertyaudio-volume-property-initialvalu
+* https://www.dre.vanderbilt.edu/~schmidt/PDF/Android-HAL.pdf
+* https://medium.com/@pkurumbudel
+* http://www.sketchwarehelp.com/2018/01/a-simple-navigation-drawer-in-sketchware.html
+* https://mu.microchip.com/getting-started-developing-bluetooth-low-energy-ble-android-apps-using-android-studio/607813
+
+Android Study Todo
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+- HAL
+- VNDK
+- Android O
+
+-- Partition Diff
+-- Sys and Vendor Partition 
+-- OTA
+
+- SELINUX (RunTime)
+- VHAL
+- HIDL, AIDL
+- Diff Types of Binder
+- APIs for Binder
+- Binder: How it works
+- VHAL Custom Property
+
+===============================================================================================================================================================
+
+Java
+------------------------------------------------------------------
+
+* https://www.geeksforgeeks.org/java/?ref=shm
+* https://www.vogella.com/tutorials/DependencyInjection/article.html
+* https://www.geeksforgeeks.org/interfaces-in-java/amp/
+
+===============================================================================================================================================================
+
+Gstreamer
+------------------------------------------------------------------
+
+* https://github.com/GStreamer/gst-docs
+* http://gstreamer.freedesktop.org/documentation/application-development/basics/elements.html?gi-language=c#visualisation-of-a-filter-element
+* https://stackoverflow.com/questions/45044210/gstreamer-examples-in-android-studio
+* https://gstreamer.freedesktop.org/documentation/tutorials/android/a-complete-media-player.html?gi-language=c
+* https://gstreamer.freedesktop.org/documentation/tutorials/android/media-player.html?gi-language=c
+* https://medium.com/swlh/lets-have-fun-gstreamer-android-tutorial-1-951ebfbb3f1e
+* https://medium.com/analytics-vidhya/creating-gstreamer-multimedia-pipeline-with-c-part-2-d3085c471747
+* https://medium.com/analytics-vidhya/creating-gstreamer-multimedia-pipeline-with-c-part-1-a7f0f86b5e1f
+* https://gstreamer.freedesktop.org/documentation/application-development/basics/helloworld.html?gi-language=c
+* https://gstreamer.freedesktop.org/documentation/tutorials/basic/hello-world.html?gi-language=c
+
+* https://www.itcodet.com/cpp/cpp-gst_tuner_norm-function-examples.html
+* https://www.itcodet.com/cpp/cpp-gst_tuner-function-examples.html
+* https://github.com/karthickai/gstreamer
+
+* https://github.com/mareksuma1985/GStreamer_Tutorial_udpsink
+* https://gstreamer.freedesktop.org/documentation/tools/gst-launch.html?gi-language=c
+* https://gstreamer.freedesktop.org/documentation/tutorials/playback/playbin-usage.html?gi-language=c
+* https://github.com/GStreamer/gst-docs/blob/master/examples/tutorials/android/android-tutorial-3/src/org/freedesktop/gstreamer/tutorials/tutorial_3/Tutorial3.java
+* https://github.com/mareksuma1985/GStreamer_Tutorial_udpsink/blob/master/udpsink/src/main/java/pl/bezzalogowe/udpsink/MainActivity.java
+* https://github.com/GStreamer/gst-rtsp-server/blob/master/examples/test-mp4.c
+
+
+===============================================================================================================================================================
+
+FFMPEG
+------------------------------------------------------------------
+
+* https://ffmpeg.org/doxygen/trunk/modules.html
+* https://ffmpeg.org/ffmpeg.html
+* https://github.com/Raveler/ffmpeg-cpp/tree/master/source/ffmpeg-cpp
+* https://stackoverflow.com/questions/11396251/where-can-i-find-a-c-c-ffmpeg-extensive-tutorial
+
+===============================================================================================================================================================
+
+Android FFMPEG
+------------------------------------------------------------------
+
+* https://github.com/bartjoyce/video-app
+* https://github.com/WritingMinds/ffmpeg-android-java/blob/master/FFmpegAndroid/src/main/java/com/github/hiteshsondhi88/libffmpeg/FFmpegExecuteAsyncTask.java
+* https://github.com/WritingMinds/ffmpeg-android-java/blob/master/FFmpegAndroid/src/main/java/com/github/hiteshsondhi88/libffmpeg/ShellCommand.java
+* https://github.com/WritingMinds/ffmpeg-android-java/blob/master/app/src/main/java/com/github/hiteshsondhi88/sampleffmpeg/Home.java
+* https://www.geeksforgeeks.org/how-to-use-ffmpeg-in-android-with-example/
+
+* https://github.com/WritingMinds/ffmpeg-android-java/tree/master/FFmpegAndroid/src/main/java/com/github/hiteshsondhi88/libffmpeg
+* https://github.com/WritingMinds/ffmpeg-android-java/tree/master/FFmpegAndroid/src/androidTest/java/com/github/hiteshsondhi88/libffmpeg
+* https://github.com/WritingMinds/ffmpeg-android-java/tree/master/FFmpegAndroid/src/main/java/com/github/hiteshsondhi88/libffmpeg
+* https://github.com/WritingMinds/ffmpeg-android-java/blob/master/FFmpegAndroid/src/main/java/com/github/hiteshsondhi88/libffmpeg/FFmpegExecuteAsyncTask.java
+* https://github.com/WritingMinds/ffmpeg-android-java/blob/master/FFmpegAndroid/src/main/java/com/github/hiteshsondhi88/libffmpeg/FFmpeg.java
+
+===============================================================================================================================================================
+
+Kotlin
+------------------------------------------------------------------
+
+* https://kotlinlang.org/docs/coroutines-basics.html#scope-builder
+* https://kotlinlang.org/docs/basic-syntax.html#variables
+
+===============================================================================================================================================================
+
+Amazon Interview Test
+------------------------------------------------------------------
+
+* https://leetcode.com/discuss/interview-question/974912/Screening-question
+* https://leetcode.com/discuss/interview-question/1021429/Amazon-OA-or-storage-optimization
+* https://algorithms.tutorialhorizon.com/depth-first-search-dfs-in-2d-matrix-2d-array-recursive-solution/
+* https://algorithms.tutorialhorizon.com/depth-first-search-dfs-in-2d-matrix-2d-array-iterative-solution/
+* https://leetcode.com/problemset/all/
+* https://www.geeksforgeeks.org/find-number-of-islands/
+* https://www.geeksforgeeks.org/shortest-path-unweighted-graph/
+* https://gist.github.com/quickgrid/d9f3f416f0dd639425dd2484f9f118f2
+* https://github.com/dipty13/Algorithm_Implementation/blob/master/Graph%20Algorithm/bfs.cpp
+* https://www.geeksforgeeks.org/connect-leaves-doubly-linked-list/
+* https://www.geeksforgeeks.org/print-all-nodes-at-distance-k-from-given-node-iterative-approach/
+* https://www.quora.com/What-are-the-questions-asked-in-an-Amazon-Online-Test-in-HackerRank
+* https://aonecode.com/interview-question/maximum-bounded-array
+* https://www.hackerrank.com/challenges/bfsshortreach/problem
+* https://www.geeksforgeeks.org/shortest-path-in-a-binary-maze/?ref=leftbar-rightbar
+* https://www.quora.com/Whatre-the-90-minute-Amazon-code-assessments-like
+* https://www.hackerrank.com/challenges/dfs-edges/problem
+* https://www.hackerrank.com/challenges/balanced-brackets/forum
+* https://www.softwaretestinghelp.com/cpp-dfs-program-to-traverse-graph/
+* https://github.com/sol-prog/cpp17_sllist_smart_pointers/blob/master/SLList_06.cpp
+* http://alumni.cs.ucr.edu/~lyan/c++interviewquestions.pdf
+* https://www.geeksforgeeks.org/merge-two-sorted-linked-lists/
+* https://www.educative.io/m/merge-two-sorted-linked-lists
+* https://aonecode.com/amazon-online-assessment-questions
+* https://leetcode.com/problemset/all/
+* https://www.cprogramming.com/tutorial/computersciencetheory/dp.html
+* https://aonecode.com/interview-question/maximum-bounded-array
+* https://stackoverflow.com/questions/40623432/sort-a-linked-list-using-c
+* https://www.geeksforgeeks.org/insertion-sort-for-singly-linked-list/
+* https://www.geeksforgeeks.org/c-program-bubble-sort-linked-list/
+* https://stackoverflow.com/questions/35914574/sorting-linked-list-simplest-way
+* https://stackoverflow.com/questions/7271647/what-is-the-reason-for-using-a-double-pointer-when-adding-a-node-in-a-linked-lis#:~:text=When%20we%20pass%20pointer%20as,order%20to%20use%20the%20result.
+* https://stackoverflow.com/questions/22185896/what-is-the-cyclic-dependency-issue-with-shared-ptr
+* https://www.geeksforgeeks.org/how-to-implement-user-defined-shared-pointers-in-c/
+* https://www.geeksforgeeks.org/tree-traversals-inorder-preorder-and-postorder/
+* https://docs.microsoft.com/en-us/cpp/cpp/lambda-expressions-in-cpp?view=msvc-160
+
+===============================================================================================================================================================
+
+Android App Reference
+------------------------------------------------------------------
+
+android fm radio app java
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+* https://www.google.com/search?q=android+fm+radio+app+java&rlz=1CDGOYI_enSE826SE826&oq=android+fm+radio+app+java&aqs=chrome..69i57.22928j0j4&hl=en-GB&sourceid=chrome-mobile&ie=UTF-8
+
+Android: Network Service Discovery
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+* https://stackoverflow.com/questions/26306305/android-network-service-discovery
+
+How to Develop a Music Streaming Android App
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+* https://www.sitepoint.com/develop-music-streaming-android-app/
+
+How To Build a Live Streaming App in 5 Easy Steps with An API and SDK
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+* https://www.dacast.com/blog/how-to-build-live-streaming-app/
+
+API Terms of Use - SoundCloud Developers
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+* https://developers.soundcloud.com/docs/api/terms-of-use#changes
+
+How to Get Your App Featured on the Google Play Store
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+* https://clutch.co/app-developers/resources/get-app-featured-google-play-store
+
+How to send/receive messages via bluetooth android studio
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+* https://stackoverflow.com/questions/45140098/how-to-send-receive-messages-via-bluetooth-android-studio
+
+ble scan
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+* https://github.com/joelwass/Android-BLE-Scan-Example
+
+android tv app ideas
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+* https://www.google.com/search?q=android+tv+app+ideas&oq=android+tv+app+ide&aqs=chrome.1.69i57j0j0i390l2.13855j0j7&client=ms-android-oppo&sourceid=chrome-mobile&ie=UTF-8
+
+Use network service discovery
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+* https://developer.android.com/training/connect-devices-wirelessly/nsd
+
+How to Create a Music Streaming Service/App like Spotify
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+* https://techrrival.com/how-to-create-a-music-streaming-service/
+
+what-makes-iot-a-popular-trend-in-android
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+* https://www.linkedin.com/posts/android-developer_what-makes-iot-a-popular-trend-in-android-activity-6851052375617236992-wYbB
+
+wifi voip call java android
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+* https://github.com/emugabi/makcal
+* https://www.tutorialspoint.com/android/android_phone_calls.htm
+* https://stackoverflow.com/questions/11176988/android-voip-application-without-access-to-internet/30645348
+
+sending-and-receiving-data-with-sockets-in-android
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+* https://www.tutorialspoint.com/sending-and-receiving-data-with-sockets-in-android
+
+android-send-email-with-examples
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+* https://www.tutlane.com/tutorial/android/android-send-email-with-examples
+
+NotificationListenerService-Example
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+* https://github.com/kpbird/NotificationListenerService-Example
+
+WebView Tutorial With Example In Android Studio
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+* https://abhiandroid.com/ui/webview
+
+Implement Audio Streaming in Android Applications
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+* https://ssaurel.medium.com/implement-audio-streaming-in-android-applications-8758d3bc62f1
+
+QR
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+* https://learntodroid.com/how-to-create-a-qr-code-scanner-app-in-android/
+* https://github.com/learntodroid/AndroidQRCodeScanner/tree/master/app/src/main/java/com/learntodroid/androidqrcodescanner
+
+
+
+===============================================================================================================================================================
+
+Others
+------------------------------------------------------------------
+* https://github.com/OpenVPN/openvpn
+* https://www.linuxliteos.com/download.php
+
+===============================================================================================================================================================
+
+System
+------------------------------------------------------------------
+
+* https://www.tecmint.com/12-practical-examples-of-linux-grep-command/?s=03
+
+===============================================================================================================================================================
+
+Zenuity Interview Questions
+------------------------------------------------------------------
+* https://en.cppreference.com/w/cpp/container/unordered_set
+* https://www.google.com/search?client=ubuntu&channel=fs&q=unordered_set&ie=utf-8&oe=utf-8
+* https://www.geeksforgeeks.org/c-mutable-keyword/
+* https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&ved=2ahUKEwjs5-HP0ufmAhXMwosKHeD8CNsQFjAAegQIAhAB&url=* https%3A%2F%2Fwww.geeksforgeeks.org%2Fc-mutable-keyword%2F&usg=AOvVaw3JzHZf70ERkfGHAdVUBz4n
+* https://www.google.com/search?safe=strict&source=hp&ei=NlAPXrLRGZPZrgSilaDIDA&q=mutable+keyword+c%2B%2B&oq=mutable+k&gs_l=psy-ab.3.0.0j0i10j0l2j0i10l3j0j0i10l2.1369.2831..3970...0.0..0.86.653.9....2..0....1..gws-wiz.I6kJfMnl4O0
+* https://www.google.com/search?safe=strict&ei=_0YPXoufFMKsmwXV64TQDA&q=cpp+std%3A%3Aarray++heap&oq=cpp+std%3A%3Aarray++heap&gs_l=psy-ab.3...363606.372393..372763...0.4..0.139.1858.11j9....2..0....1..gws-wiz.......0i71j0i273j0i67j0j0i10i67j0i10j0i7i30j0i7i10i30.KC85iYMylxA&ved=0ahUKEwjLmtboyefmAhVC1qYKHdU1AcoQ4dUDCAo&uact=5
+* https://stackoverflow.com/questions/15499590/find-in-stdvectorstdpair
+* https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=2&ved=2ahUKEwjLmtboyefmAhVC1qYKHdU1AcoQFjABegQIBhAB&url=* https%3A%2F%2Fstackoverflow.com%2Fq%2F15499590&usg=AOvVaw06ucNh_nYnhhwQXYGRQjpY
+* https://stackoverflow.com/questions/22676301/find-pair-by-key-within-a-vector-of-pairs
+* https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&ved=2ahUKEwjLmtboyefmAhVC1qYKHdU1AcoQFjAAegQIBxAB&url=* https%3A%2F%2Fstackoverflow.com%2Fquestions%2F22676301%2Ffind-pair-by-key-within-a-vector-of-pairs&usg=AOvVaw2NxnZEZMBCzzodu51WcDp-
+* https://www.google.com/search?safe=strict&ei=7kYPXtWoLsyJk74PhPmZsA4&q=std+pair++find&oq=std+pair++find&gs_l=psy-ab.3..0i30j0i8i30l3.3651.3651..4009...0.3..0.113.113.0j1......0....1..gws-wiz.......0i71.5RrxxnvvEHM&ved=0ahUKEwjV1-LgyefmAhXMxMQBHYR8BuYQ4dUDCAo&uact=5
+* https://www.google.com/search?safe=strict&source=hp&ei=6EYPXrPHKPeZk74Pp_-u0A0&q=std+pair+string+find&oq=std+pair+string+find&gs_l=psy-ab.3..33i22i29i30l10.941.5239..5562...0.0..0.113.1608.16j4....2..0....1..gws-wiz.......0j0i22i30.TJiI_APTX0U&ved=0ahUKEwiz2-7dyefmAhX3zMQBHae_C9oQ4dUDCAU&uact=5
+* https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=5&ved=2ahUKEwjyjJWuyefmAhVT6qYKHXaxCecQFjAEegQIBRAB&url=* https%3A%2F%2Fthispointer.com%2Fhow-to-iterate-over-a-map-in-c%2F&usg=AOvVaw10g-liqjfZM9UXaDMDH8PA
+* https://www.techiedelight.com/get-iterator-nth-element-vector-cpp/
+* https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=4&ved=2ahUKEwjyjJWuyefmAhVT6qYKHXaxCecQFjADegQIAhAB&url=* https%3A%2F%2Fwww.techiedelight.com%2Fget-iterator-nth-element-vector-cpp%2F&usg=AOvVaw2LbTSRWKElw46m9xtoARBe
+* https://www.techiedelight.com/iterate-second-element-vector-cpp/
+* https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=3&ved=2ahUKEwjyjJWuyefmAhVT6qYKHXaxCecQFjACegQIAxAB&url=* https%3A%2F%2Fwww.techiedelight.com%2Fiterate-second-element-vector-cpp%2F&usg=AOvVaw0MkKQ8pnCJ8LvpKuXWLuxM
+* http://www.cplusplus.com/forum/general/97436/
+* https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=2&ved=2ahUKEwjyjJWuyefmAhVT6qYKHXaxCecQFjABegQICBAB&url=http%3A%2F%2Fwww.cplusplus.com%2Fforum%2Fgeneral%2F97436%2F&usg=AOvVaw3ZwFhbbIOZ0jZ5c-HSK0vv
+* https://stackoverflow.com/questions/15451287/what-does-iterator-second-mean
+* https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&ved=2ahUKEwjyjJWuyefmAhVT6qYKHXaxCecQFjAAegQICRAB&url=* https%3A%2F%2Fstackoverflow.com%2Fquestions%2F15451287%2Fwhat-does-iterator-second-mean&usg=AOvVaw3RxCUsxk5rgGnH7JKG8-eh
+* https://www.google.com/search?safe=strict&ei=d0YPXq3jFIaimwX8mp_YAg&q=vector+iterator+second+in+c%2B%2B&oq=vector+iterator+second+in+c%2B%2B&gs_l=psy-ab.3...2951.4357..4688...0.3..0.169.726.5j2......0....1..gws-wiz.......0i71j0i13j0i8i7i30j0i13i30j0i13i5i30j0i8i13i30j0i333.ppfFI0eXJfo&ved=0ahUKEwjt-umnyefmAhUG0aYKHXzNBysQ4dUDCAo&uact=5
+* http://www.cplusplus.com/reference/vector/vector/begin/
+* https://www.google.com/search?safe=strict&source=hp&ei=cEYPXvSoBdWFk74PlZWHyAw&q=vector+iterator+in+c%2B%2B&oq=vector+iter&gs_l=psy-ab.3.2.0l10.875.5247..6702...3.0..0.134.1194.10j4....3..0....1..gws-wiz.......0i10.2ZoyZJ_MtvY
+* https://stackoverflow.com/questions/4104544/how-to-access-static-members-of-a-class
+* https://www.google.com/search?safe=strict&ei=4UIPXonGCJTKmwXwt7uAAw&q=accessing+static+members+in+c%2B%2B+outside+class&oq=accessing+static+members+in+c%2B%2B+outs&gs_l=psy-ab.3.0.33i22i29i30l2.674108.681847..683291...1.0..0.118.2395.17j9....2..0....1..gws-wiz.......0i273j0i67j0j0i22i30.AFdw7QWwIuE
+* https://www.google.com/search?safe=strict&source=hp&ei=2EIPXr0yxYubBa_WkvgB&q=is+auto+polimorphism&oq=is+auto+polimorphism&gs_l=psy-ab.3..33i160.504.8170..8553...0.0..0.165.1801.15j5....2..0....1..gws-wiz.......0j0i10j0i22i30j33i21.S4L35-wCQuk&ved=0ahUKEwi9_tHtxefmAhXFxaYKHS-rBB8Q4dUDCAU&uact=5
+* https://www.geeksforgeeks.org/polymorphism-in-c/
+* https://www.google.com/search?safe=strict&source=hp&ei=qEIPXqb_EbHRmwXdyISYDA&q=polymorphism+in+c%2B%2B+geeks&oq=polymorphism+in+c%2B%2B+geeks&gs_l=psy-ab.3..0j0i22i30l4.729.9975..10490...0.0..0.189.1924.21j3....2..0....1..gws-wiz.UdUE0Bb7tZ0&ved=0ahUKEwim8_HWxefmAhWx6KYKHV0kAcMQ4dUDCAU&uact=5
+* https://docs.microsoft.com/en-us/cpp/cpp/string-and-character-literals-cpp?view=vs-2019
+* https://www.geeksforgeeks.org/raw-string-literal-c/
+* https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=12&ved=2ahUKEwiK8JeVxefmAhWMysQBHZSVDkgQFjALegQIAxAB&url=* https%3A%2F%2Fdocs.microsoft.com%2Fen-us%2Fcpp%2Fcpp%2Fstring-and-character-literals-cpp&usg=AOvVaw2E1Fp6rAql3kOgHlk3Uthr
+* https://en.cppreference.com/w/cpp/language/string_literal
+* http://www.cplusplus.com/forum/beginner/33483/
+* https://www.google.com/search?safe=strict&client=ubuntu&hs=Azk&channel=fs&ei=GEIPXpadMqqWk74PmqqD6A0&q=valid+string+literals+in+c%2B%2B&oq=valid+string+literals+&gs_l=psy-ab.1.2.0j0i22i10i30j0i22i30l2.3386.3386..4714...0.2..0.101.101.0j1......0....1..gws-wiz.......0i71.EPKqA-dd4fE
+* https://www.google.com/search?client=ubuntu&channel=fs&q=valid+string+literals&ie=utf-8&oe=utf-8
+* http://www.cplusplus.com/reference/exception/set_unexpected/
+* https://en.cppreference.com/w/cpp/error/unexpected
+* https://www.google.com/search?safe=strict&source=hp&ei=ZEEPXoLWDaKhmwWIhpqYBQ&q=cpp+unexpected&oq=unexpected+cpp+&gs_l=psy-ab.3.0.0i22i30l2j0i22i10i30j0i22i30l3.741.6280..9479...1.0..0.103.766.9j1....2..0....1..gws-wiz.......0j0i10.zGxyGynW81g
+* https://www.geeksforgeeks.org/templates-cpp/
+* https://www.google.com/search?safe=strict&source=hp&ei=iEAPXpyFGqGak74PubySwA4&q=is+there+one+copy+of+template+function&oq=is+there+one+copy+of+template+function&gs_l=psy-ab.3...1939.18996..19329...23.0..0.198.5061.36j17....2..0....1..gws-wiz.....0..0j0i22i30j33i22i29i30j33i21j33i160.k7sfRDrWxzg&ved=0ahUKEwic6cbTw-fmAhUhzcQBHTmeBOgQ4dUDCAU&uact=5
+* https://stackoverflow.com/questions/30412080/redefine-a-constant-member-variable-in-inherited-class
+* https://www.google.com/search?safe=strict&client=ubuntu&hs=8BQ&channel=fs&ei=OUAPXr-ZG66EmwWxip7wCg&q=are+const+data+member+inherited&oq=are+const+data+member+inherited&gs_l=psy-ab.3...22162.25484..26451...0.2..0.118.929.7j3......0....1..gws-wiz.......0i71.q9cDrYLoLRQ&ved=0ahUKEwj_mfKtw-fmAhUuwqYKHTGFB64Q4dUDCAo&uact=5
+* https://www.google.com/search?client=ubuntu&channel=fs&q=const+data+member+are+not+inherited&ie=utf-8&oe=utf-8
+* https://stackoverflow.com/questions/16167649/the-constructor-initializer-list-and-const-variable
+* https://www.google.com/search?safe=strict&source=hp&ei=3z8PXtbBC4OKk74P8e2c-AU&q=constant+data+member+in+c%2B%2B+constructor+initialization+list&oq=constant+data+member+in+c%2B%2B+constructor+initialization+list&gs_l=psy-ab.3...625.12371..12826...0.0..0.261.4530.28j18j1....2..0....1..gws-wiz.......0j0i22i30j33i22i29i30j33i10j33i160.PN45JUx_XUs&ved=0ahUKEwiWre2Cw-fmAhUDxcQBHfE2B18Q4dUDCAU&uact=5
+
+* https://stackoverflow.com/questions/18143661/what-is-the-difference-between-packaged-task-and-async
+* https://www.google.com/search?safe=strict&ei=azgPXsS_D8rnrgSAiqeYBQ&q=packaged_task+get+blocking&oq=packaged_task+get+blocking&gs_l=psy-ab.3...68944.73619..73936...0.5..0.145.1625.3j11....2..0....1..gws-wiz.......0i71j0i67j0i7i30j0i7i10i30j0j0i22i30j0i22i10i30j0i333j33i160j33i21.FCffolteecI&ved=0ahUKEwiEoYr1u-fmAhXKs4sKHQDFCVMQ4dUDCAo&uact=5
+* https://www.google.com/search?safe=strict&source=hp&ei=XTgPXtL3OI_PrgSmgKK4Dg&q=std+async+vs+packaged_task&oq=std+async+and+packaged+&gs_l=psy-ab.3.1.0i22i30l4j0i333.2042.10623..12767...0.0..0.144.2171.14j9....2..0....1..gws-wiz.......0j33i22i29i30.kbJKQwyjaJA
+* https://www.tutorialspoint.com/cplusplus/cpp_exceptions_handling.htm
+* http://www.cplusplus.com/doc/tutorial/exceptions/
+* https://www.google.com/search?safe=strict&source=hp&ei=YzcPXqvhD839rgSnz77wDw&q=declare+exception+c%2B%2B&oq=declare+exception+c&gs_l=psy-ab.3.0.0j0i22i30l9.1094.4486..6085...0.0..0.301.1979.12j6j0j1....2..0....1..gws-wiz.......0i22i10i30.NfCR4kiMqew
+* https://www.google.com/search?safe=strict&source=hp&ei=KjYPXvDXI-WymwX6r66ICA&q=exception+in+cpp&oq=exception+in+cpp&gs_l=psy-ab.3..0j0i22i30l6j0i22i10i30j0i22i30l2.272656.277673..278197...1.0..0.143.875.6j3....2..0....2j1..gws-wiz.cT6-3pKwtmQ&ved=0ahUKEwjwlI3iuefmAhVl2aYKHfqXC4EQ4dUDCAU&uact=5
+* http://www.informit.com/articles/article.aspx?p=2209021
+* https://en.cppreference.com/w/cpp/language/integer_literal
+* https://www.google.com/search?safe=strict&source=hp&ei=pzUPXpLoC8SKmwXZooTICg&q=valid+numeric+literals+in+c%2B%2B14&oq=valid+numeric+literals+&gs_l=psy-ab.3.0.0j0i22i30l2.690.8042..9193...0.0..0.128.2028.18j5....2..0....1..gws-wiz.q9USiw6CBoQ
+* http://www.cplusplus.com/reference/type_traits/remove_const/
+* https://www.google.com/search?safe=strict&source=hp&ei=-zIPXqfiAsKwrgSgxabQCg&q=remove%3A%3Aconst&oq=remove%3A%3Aconst&gs_l=psy-ab.3...829.829..1545...0.0..0.96.96.1......0....2j1..gws-wiz.on8-BEWbQgI&ved=0ahUKEwjny5zdtufmAhVCmIsKHaCiCaoQ4dUDCAU&uact=5
+* https://docs.microsoft.com/en-us/cpp/cpp/new-operator-cpp?view=vs-2019
+* https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=5&ved=2ahUKEwj-1pr5tOfmAhVMxcQBHVKECy4QFjAEegQIAxAB&url=* https%3A%2F%2Fdocs.microsoft.com%2Fen-us%2Fcpp%2Fcpp%2Fnew-operator-cpp&usg=AOvVaw0hmK6TnbTbBWFlFH2pFZrr
+* https://www.geeksforgeeks.org/c-classes-and-objects/
+* https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&ved=2ahUKEwj-1pr5tOfmAhVMxcQBHVKECy4QFjAAegQIBRAB&url=* https%3A%2F%2Fwww.geeksforgeeks.org%2Fc-classes-and-objects%2F&usg=AOvVaw0g4sXAUYNZcaDbHsJ4-vPp
+* https://www.google.com/search?safe=strict&ei=tjAPXs2tHZqBk74Pl6KGmAc&q=c%2B%2B+new+class+object&oq=new+class+object+cpp&gs_l=psy-ab.3.1.0i5i30j0i8i10i30.95425.98694..101430...0.3..1.136.1044.10j2......0....1..gws-wiz.......0i71j0i7i30j0i7i10i30j0i8i7i30j0i8i7i10i30j0i7i5i30j0j0i8i30j0i13i30.KLEtvW0RqLI
+* https://www.geeksforgeeks.org/new-and-delete-operators-in-cpp-for-dynamic-memory/
+* https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=14&ved=2ahUKEwjN4LHItOfmAhWawMQBHReRAXMQFjANegQICBAB&url=* https%3A%2F%2Fwww.geeksforgeeks.org%2Fnew-and-delete-operators-in-cpp-for-dynamic-memory%2F&usg=AOvVaw2bfyNcx2w2I8IMGHfjlajH
+* http://www.cplusplus.com/forum/beginner/49588/
+* https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=11&ved=2ahUKEwjN4LHItOfmAhWawMQBHReRAXMQFjAKegQIBhAB&url=http%3A%2F%2Fwww.cplusplus.com%2Fforum%2Fbeginner%2F49588&usg=AOvVaw1MMVqvaS8QApKYerKkvXXr
+* http://www.cplusplus.com/doc/tutorial/dynamic/
+* https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=10&ved=2ahUKEwjN4LHItOfmAhWawMQBHReRAXMQFjAJegQIBBAB&url=http%3A%2F%2Fwww.cplusplus.com%2Fdoc%2Ftutorial%2Fdynamic%2F&usg=AOvVaw3kMyYH5z0iS_fgOgr_30Bm
+* https://stackoverflow.com/questions/13797926/what-does-new-int100-do
+* https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&ved=2ahUKEwjN4LHItOfmAhWawMQBHReRAXMQFjAAegQIBRAB&url=* https%3A%2F%2Fstackoverflow.com%2Fquestions%2F13797926%2Fwhat-does-new-int100-do&usg=AOvVaw3XNLUPMn3DTOqW0Y-LugF2
+* https://www.google.com/search?safe=strict&ei=dTAPXrLyEcGcmwXx1L2YAg&q=new+int+cpp&oq=new+int+cpp&gs_l=psy-ab.3..0i7i30j0j0i30j0i333.60077.63536..64263...0.3..0.103.773.8j1......0....1..gws-wiz.......0i71j0i8i30j0i8i10i30j0i7i10i30j0i8i7i30.1VYVMoX0ZN0&ved=0ahUKEwjygKeptOfmAhVBzqYKHXFqDyMQ4dUDCAo&uact=5
+* https://stackoverflow.com/questions/9286390/c-pointer-and-reference-with-new-keyword-when-instantiating
+* https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=11&ved=2ahUKEwjygKeptOfmAhVBzqYKHXFqDyMQFjAKegQIBhAB&url=* https%3A%2F%2Fstackoverflow.com%2Fquestions%2F9286390%2Fc-pointer-and-reference-with-new-keyword-when-instantiating&usg=AOvVaw2ndvBdhKODcNCUB5IwP8SK
+* https://www.google.com/search?safe=strict&ei=CjAPXvRXjdKbBY6Ro-AI&q=reference+to+new+cpp+&oq=reference+to+new+cpp+&gs_l=psy-ab.3..33i22i29i30l6.87325.93512..93946...0.4..1.153.2239.13j9......0....1..gws-wiz.......0i71.qqwxZbl3qW8&ved=0ahUKEwj0hJP2s-fmAhUN6aYKHY7ICIwQ4dUDCAo&uact=5
+* https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=11&ved=2ahUKEwj0hJP2s-fmAhUN6aYKHY7ICIwQFjAKegQIAxAB&url=* https%3A%2F%2Fdocs.microsoft.com%2Fen-us%2Fcpp%2Fcpp%2Fnew-operator-cpp&usg=AOvVaw0hmK6TnbTbBWFlFH2pFZrr
+* https://stackoverflow.com/questions/15310846/creating-a-class-object-in-c
+* https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=10&ved=2ahUKEwj0hJP2s-fmAhUN6aYKHY7ICIwQFjAJegQIBhAB&url=* https%3A%2F%2Fstackoverflow.com%2Fquestions%2F15310846%2Fcreating-a-class-object-in-c&usg=AOvVaw3IspDGA6-XqvHTLH9iXYiN
+* https://www.geeksforgeeks.org/new-vs-operator-new-in-cpp/
+* https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=12&ved=2ahUKEwj0hJP2s-fmAhUN6aYKHY7ICIwQFjALegQIBRAB&url=* https%3A%2F%2Fwww.geeksforgeeks.org%2Fnew-vs-operator-new-in-cpp%2F&usg=AOvVaw05MiFD5ZCKRWXDMD8mhTEF
+* https://stackoverflow.com/questions/15310846/creating-a-class-object-in-c/40169699
+* https://www.google.com/search?safe=strict&source=hp&ei=-S8PXtOCIsWHmwXbk5KwCQ&q=new+cpp+for+object&oq=new+cpp+for+object&gs_l=psy-ab.3..0i22i30.752.14890..15956...11.0..0.121.2352.26j3....2..0....1..gws-wiz.......0j0i10j0i22i10i30j33i22i29i30j0i333j33i160.JGCVuG19Nd0&ved=0ahUKEwiT46bus-fmAhXFw6YKHduJBJYQ4dUDCAU&uact=5
+* https://www.google.com/search?safe=strict&source=hp&ei=Ny4PXoecLeOqrgTzg6y4Ag&q=*****+in+c%2B%2B&oq=*****+in+c%2B%2B&gs_l=psy-ab.3..0i22i30l10.2107.6666..7044...0.0..0.139.988.11j1....2..0....1..gws-wiz.......0j0i13i30.FwSGn4rg3eE&ved=0ahUKEwjHk-iXsufmAhVjlYsKHfMBCycQ4dUDCAU&uact=5
+* https://stackoverflow.com/questions/18949375/demorgans-law-and-c
+* https://www.google.com/search?safe=strict&source=hp&ei=QysPXv70JqGak74PubySwA4&q=c%2B%2B+demorgan+equivalent&oq=demorgan+c%2B%2B+&gs_l=psy-ab.3.3.0i22i10i30j0i22i30l4.669.9406..12493...1.0..0.158.1105.13j1....2..0....1..gws-wiz.......0j0i10.xYbIzcixAcs
+* https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&ved=2ahUKEwj-tKnfrufmAhXjzMQBHfzqBjsQFjAAegQIBxAB&url=* https%3A%2F%2Fstackoverflow.com%2Fquestions%2F50888127%2Fhow-can-i-use-an-unordered-set-with-a-custom-struct&usg=AOvVaw34ir0ZExyqMBLvMmFq73Kh
+* https://www.google.com/search?safe=strict&ei=CSoPXuD9HMGcmwXx1L2YAg&q=unordered_set+c%2B%2B+struct&oq=unordered_set+c%2B%2B+struct&gs_l=psy-ab.3..0j0i22i30.135759.144852..145633...11.3..0.233.1963.19j3j1....2..0....1..gws-wiz.......0i71j0i10i30j0i30j0i8i30j0i8i10i30j0i22i10i30j0i333j33i22i29i30j33i160j33i21.c6PIxhWotao&ved=0ahUKEwigpryZrufmAhVBzqYKHXFqDyMQ4dUDCAo&uact=5
+* https://www.google.com/search?safe=strict&ei=_SkPXuyhFs2ymwWuuaGYCA&q=unordered_set+c%2B%2B+st+hash&oq=unordered_set+c%2B%2B+st+hash&gs_l=psy-ab.3..33i22i29i30l7.7110.9323..11362...0.2..0.347.1222.3j3j1j1....2..0....1..gws-wiz.......0i71j0j0i22i30j0i22i10i30j0i13i30j0i8i13i30j0i8i13i10i30.Mk_qZ0amI7c&ved=0ahUKEwislNmTrufmAhVN2aYKHa5cCIMQ4dUDCAo&uact=5
+* https://www.geeksforgeeks.org/unordered_set-in-cpp-stl/
+* https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=5&ved=2ahUKEwislNmTrufmAhVN2aYKHa5cCIMQFjAEegQIBxAB&url=* https%3A%2F%2Fwww.geeksforgeeks.org%2Funordered_set-in-cpp-stl%2F&usg=AOvVaw1GXse68WE2-v27JGNxpEuZ
+* https://www.google.com/search?safe=strict&source=hp&ei=5SkPXre4Ncj16QT_2rnQCQ&q=unordered_set+c%2B%2B+&oq=unordered_set+c%2B%2B+&gs_l=psy-ab.3..0l10.7948.18902..23026...1.0..0.88.930.13....3..0....1..gws-wiz.....0.K4eype6NA8g&ved=0ahUKEwj3vr-IrufmAhXIepoKHX9tDpoQ4dUDCAU&uact=5
+* https://www.google.com/search?q=lambda+c%2B%2B+%22*****%22&safe=strict&source=lnms&tbm=isch&sa=X&ved=2ahUKEwj-nuPkrefmAhVEyaYKHZtHAgwQ_AUoAXoECA0QAw&biw=1920&bih=1061
+* https://www.google.com/search?safe=strict&ei=kCkPXrWBD-qLmwWLhq_oDQ&q=lambda+c%2B%2B+%22*****%22&oq=lambda+c%2B%2B+%22*****%22&gs_l=psy-ab.3..0i30l10.6957.9389..9789...0.2..0.97.166.2......0....1..gws-wiz.......0i71j0i22i30.XxQ7rvhmbvs&ved=0ahUKEwi1idXfrefmAhXqxaYKHQvDC90Q4dUDCAo&uact=5
+* https://www.google.com/search?safe=strict&ei=aycPXo3NCOKlmwW30q7QDA&q=lambda+c%2B%2B+*****&oq=lambda+c%2B%2B+*****&gs_l=psy-ab.3..0i22i30l10.505503.513387..514012...1.4..0.97.955.11....2..0....1..gws-wiz.......0i71j0i273j0j0i67j0i10.7DOYUoLiAC8&ved=0ahUKEwjNrurZq-fmAhXi0qYKHTepC8oQ4dUDCAo&uact=5
+* https://cboard.cprogramming.com/cplusplus-programming/80575-unhandled-exceptions-throw-no-try.html
+* https://stackoverflow.com/questions/19429360/what-happens-if-i-dont-catch-a-throw
+* https://www.google.com/search?safe=strict&ei=fiUPXqq7JIrrrgSomp3oCA&q=throw+without+catch+c%2B%2B&oq=throw+without+catch+c&gs_l=psy-ab.3.0.0j0i22i30l3j0i333.483601.489298..491536...0.4..0.234.1760.20j0j1....2..0....1..gws-wiz.......0i71j0i273j0i67.x4sowMblfRc
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

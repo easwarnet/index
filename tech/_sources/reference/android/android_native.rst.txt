@@ -1,0 +1,73 @@
+Android Native Development
+==========================
+
+NDK (Native Development Kit)
+-----------------------------
+
+General NDK Resources
+^^^^^^^^^^^^^^^^^^^^^
+
+* https://stackoverflow.com/questions/45044210/gstreamer-examples-in-android-studio
+* https://proandroiddev.com/android-ndk-interaction-of-kotlin-and-c-c-5e19e35bac74
+* https://riptutorial.com/android-ndk
+* https://medium.com/androiddevelopers/getting-started-with-c-and-android-native-activities-2213b402ffff
+* https://www.hackster.io/user2657268124/a-beginner-s-guide-to-implement-jni-callbacks-in-android-cd8226
+* https://github.com/android/ndk-samples
+* https://github.com/android/ndk-samples/tree/main/audio-echo/app/src/main/cpp
+* https://github.com/bartjoyce/video-app
+
+HIDL and AIDL
+-------------
+
+* https://devarea.com/android-hidl-and-project-treble/
+* https://stackoverflow.com/questions/61363638/define-and-implement-hidl-interface
+* https://www.linkedin.com/pulse/use-hidl-create-new-virtual-hal-boudour-ayari
+* https://www.protechtraining.com/blog/post/implementing-remote-interface-using-aidl-66
+* https://stuff.mit.edu/afs/sipb/project/android/docs/guide/components/aidl.html
+* https://www.codeinsideout.com/blog/android/hal/aidl/#implement-hal
+
+Binder
+------
+
+* https://mymusing.co/what-is-binder-in-android/
+* https://developpaper.com/a-simple-example-of-binder/
+* https://medium.com/android-news/android-binder-framework-8a28fb38699a
+* https://www.codetd.com/en/article/11058051
+* https://proandroiddev.com/binders-in-android-part-ii-reference-counting-death-recipients-19d55c8356c3
+* http://strayinsights.blogspot.com/2018/04/android-binder-tutorial-part-three.html
+
+System Services
+---------------
+
+* https://devarea.com/aosp-adding-a-native-daemon/
+* https://lynxbee.com/how-to-create-a-native-daemon-and-run-from-init-rc-in-android/
+* https://stackoverflow.com/questions/3232718/how-to-add-a-system-service-to-the-android-framework
+* https://stackoverflow.com/questions/48521789/add-native-service-to-aosp
+* https://devarea.com/aosp-creating-a-system-service/
+* https://community.nxp.com/t5/i-MX-Processors/How-to-add-custom-system-service-to-AOSP/m-p/927478
+* https://blog.actorsfit.com/a?ID=01250-65b64df3-84b9-46e6-a999-8ba5690d5fb0
+* https://koushikdeb-32921.medium.com/android-system-services-aosp-987172132be1
+* https://medium.com/android-news/system-service-in-aosp-750007d39555
+* https://medium.com/@number1shiksha/how-to-create-a-system-service-in-android-aosp-72cec54e28b4
+
+SurfaceFlinger
+--------------
+
+* https://stackoverflow.com/questions/5699107/android-surfaceflinger
+
+Task Scheduling
+---------------
+
+* https://www.vogella.com/tutorials/AndroidTaskScheduling/article.html
+
+Processes and Threads
+---------------------
+
+* https://stuff.mit.edu/afs/sipb/project/android/docs/guide/components/processes-and-threads.html
+* https://stuff.mit.edu/afs/sipb/project/android/docs/guide/components/bound-services.html
+
+Compatibility
+-------------
+
+* https://stuff.mit.edu/afs/sipb/project/android/docs/guide/practices/compatibility.html
+* https://gist.github.com/bryanl/4337357

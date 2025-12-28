@@ -1,0 +1,150 @@
+Android App Development
+=======================
+
+General Resources
+-----------------
+
+* https://ux.stackexchange.com/questions/78783/is-this-a-proper-way-to-present-back-and-next-buttons-in-android-app
+* https://developer.android.com/jetpack/androidx/releases/leanback
+* https://developer.android.com/reference/android/bluetooth/package-summary
+* https://developer.android.com/training/tv/start/hardware
+* https://developer.android.com/training/tv/start/libraries#java
+* https://developer.android.com/jetpack/guide
+* https://blog.mindorks.com/mvvm-architecture-android-tutorial-for-beginners-step-by-step-guide
+* https://github.com/MindorksOpenSource/android-interview-questions
+* https://intellipaat.com/blog/interview-question/android-interview-questions/
+
+Services
+--------
+
+* https://www.geeksforgeeks.org/android-implicit-and-explicit-intents-with-examples/
+* https://medium.com/@anant.rao07/android-bound-services-f1cceb2f1f3e
+* https://www.geeksforgeeks.org/services-in-android-with-example/
+
+Content Providers & Broadcast Receivers
+----------------------------------------
+
+* https://www.tutorialspoint.com/android/android_content_providers.htm
+* https://www.geeksforgeeks.org/broadcast-receiver-in-android-with-example/
+* https://www.tutorialspoint.com/android/android_broadcast_receivers.htm
+* https://www.geeksforgeeks.org/how-to-use-localbroadcastmanager-in-android/
+
+UI Components
+-------------
+
+SearchView and RecyclerView
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+* https://www.geeksforgeeks.org/searchview-in-android-with-recyclerview/
+* https://stackoverflow.com/questions/33582546/how-to-make-whole-activity-scrollable-according-to-the-data-inside-it
+
+WebView
+^^^^^^^
+
+* https://abhiandroid.com/ui/webview
+
+Notifications
+^^^^^^^^^^^^^
+
+* https://www.tutorialspoint.com/how-to-read-all-the-coming-notifications-in-android
+* https://github.com/Chagall/notification-listener-service-example/blob/master/app/src/main/java/com/github/chagall/notificationlistenerexample/NotificationListenerExampleService.java
+* https://github.com/kpbird/NotificationListenerService-Example
+
+Adapters
+^^^^^^^^
+
+* https://abhiandroid.com/ui/baseadapter-tutorial-example.html
+* https://github.com/AshleyRayMaceli/discussion-forum-android/blob/master/app/src/main/java/com/example/guest/discussionforum/adapters/FirebaseThreadViewHolder.java
+
+Bluetooth
+---------
+
+* https://github.com/lalit3686/BluetoothDemo/blob/master/src/com/example/bluetoothdemo/MainActivity.java
+* https://github.com/lalit3686/BluetoothDemo/blob/master/src/com/example/bluetoothdemo/MyBlueToothReceiver.java
+* https://stackoverflow.com/questions/45044210/how-to-send-receive-messages-via-bluetooth-android-studio
+* https://github.com/joelwass/Android-BLE-Scan-Example
+
+Networking
+----------
+
+Network Service Discovery
+^^^^^^^^^^^^^^^^^^^^^^^^^
+
+* https://stackoverflow.com/questions/26306305/android-network-service-discovery
+* https://developer.android.com/training/connect-devices-wirelessly/nsd
+
+Sockets
+^^^^^^^
+
+* https://www.tutorialspoint.com/sending-and-receiving-data-with-sockets-in-android
+
+IP Address
+^^^^^^^^^^
+
+* https://stackoverflow.com/questions/59818891/how-to-get-public-ip-address-of-android-device-programmatically
+
+VoIP
+^^^^
+
+* https://github.com/emugabi/makcal
+* https://www.tutorialspoint.com/android/android_phone_calls.htm
+* https://stackoverflow.com/questions/11176988/android-voip-application-without-access-to-internet
+
+Email
+-----
+
+* https://www.tutlane.com/tutorial/android/android-send-email-with-examples
+
+Data Storage and Preferences
+-----------------------------
+
+* https://guides.codepath.com/android/Understanding-the-Android-Application-Class
+* https://www.geeksforgeeks.org/how-to-implement-preferences-settings-screen-in-android/
+* https://stackoverflow.com/questions/3624280/how-to-use-sharedpreferences-in-android-to-store-fetch-and-edit-values
+* https://stackoverflow.com/questions/22436627/android-how-to-get-current-system-settings-values
+* https://google-developer-training.github.io/android-developer-fundamentals-course-practicals/en/Unit%204/92_p_adding_settings_to_an_app.html
+* https://stackoverflow.com/questions/4208886/using-the-android-application-class-to-persist-data
+* https://stackoverflow.com/questions/4878159/whats-the-best-way-to-share-data-between-activities
+
+Streaming and Media
+-------------------
+
+* https://www.sitepoint.com/develop-music-streaming-android-app/
+* https://www.dacast.com/blog/how-to-build-live-streaming-app/
+* https://ssaurel.medium.com/implement-audio-streaming-in-android-applications-8758d3bc62f1
+* https://stackoverflow.com/questions/62825597/how-can-i-stream-an-m4v-url-from-google-cloud-platform-using-exoplayer
+
+QR Code Scanner
+---------------
+
+* https://learntodroid.com/how-to-create-a-qr-code-scanner-app-in-android/
+* https://github.com/learntodroid/AndroidQRCodeScanner
+
+UI Patterns
+-----------
+
+Navigation Drawer
+^^^^^^^^^^^^^^^^^
+
+* http://www.sketchwarehelp.com/2018/01/a-simple-navigation-drawer-in-sketchware.html
+
+RecyclerView Tips
+^^^^^^^^^^^^^^^^^
+
+* https://stackoverflow.com/questions/46127942/in-android-recyclerview-how-to-change-the-color-of-alternate-rows
+
+Audio
+-----
+
+* https://github.com/DeanThomson/android-udp-audio-chat
+
+Google Play Store
+-----------------
+
+* https://clutch.co/app-developers/resources/get-app-featured-google-play-store
+* https://developers.soundcloud.com/docs/api/terms-of-use#changes
+
+IoT and Trends
+--------------
+
+* https://www.linkedin.com/posts/android-developer_what-makes-iot-a-popular-trend-in-android-activity-6851052375617236992-wYbB

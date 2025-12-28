@@ -1,0 +1,118 @@
+Interview Preparation
+=====================
+
+Amazon Interview Questions
+--------------------------
+
+Online Assessment
+^^^^^^^^^^^^^^^^^
+
+* https://leetcode.com/discuss/interview-question/974912/Screening-question
+* https://leetcode.com/discuss/interview-question/1021429/Amazon-OA-or-storage-optimization
+* https://www.quora.com/What-are-the-questions-asked-in-an-Amazon-Online-Test-in-HackerRank
+* https://www.quora.com/Whatre-the-90-minute-Amazon-code-assessments-like
+* https://aonecode.com/amazon-online-assessment-questions
+* https://aonecode.com/interview-question/maximum-bounded-array
+
+Algorithm Problems
+^^^^^^^^^^^^^^^^^^
+
+* https://algorithms.tutorialhorizon.com/depth-first-search-dfs-in-2d-matrix-2d-array-recursive-solution/
+* https://algorithms.tutorialhorizon.com/depth-first-search-dfs-in-2d-matrix-2d-array-iterative-solution/
+* https://www.geeksforgeeks.org/find-number-of-islands/
+* https://www.geeksforgeeks.org/shortest-path-unweighted-graph/
+* https://gist.github.com/quickgrid/d9f3f416f0dd639425dd2484f9f118f2
+* https://github.com/dipty13/Algorithm_Implementation/blob/master/Graph%20Algorithm/bfs.cpp
+* https://www.geeksforgeeks.org/connect-leaves-doubly-linked-list/
+* https://www.geeksforgeeks.org/print-all-nodes-at-distance-k-from-given-node-iterative-approach/
+* https://www.geeksforgeeks.org/shortest-path-in-a-binary-maze/
+
+HackerRank Problems
+^^^^^^^^^^^^^^^^^^^
+
+* https://www.hackerrank.com/challenges/bfsshortreach/problem
+* https://www.hackerrank.com/challenges/dfs-edges/problem
+* https://www.hackerrank.com/challenges/balanced-brackets/forum
+
+Data Structures
+^^^^^^^^^^^^^^^
+
+Linked Lists
+""""""""""""
+
+* https://github.com/sol-prog/cpp17_sllist_smart_pointers/blob/master/SLList_06.cpp
+* http://alumni.cs.ucr.edu/~lyan/c++interviewquestions.pdf
+* https://www.geeksforgeeks.org/merge-two-sorted-linked-lists/
+* https://www.educative.io/m/merge-two-sorted-linked-lists
+* https://stackoverflow.com/questions/40623432/sort-a-linked-list-using-c
+* https://www.geeksforgeeks.org/insertion-sort-for-singly-linked-list/
+* https://www.geeksforgeeks.org/c-program-bubble-sort-linked-list/
+* https://stackoverflow.com/questions/35914574/sorting-linked-list-simplest-way
+* https://stackoverflow.com/questions/7271647/what-is-the-reason-for-using-a-double-pointer-when-adding-a-node-in-a-linked-lis
+
+Trees
+"""""
+
+* https://www.geeksforgeeks.org/tree-traversals-inorder-preorder-and-postorder/
+
+Dynamic Programming
+^^^^^^^^^^^^^^^^^^^
+
+* https://www.cprogramming.com/tutorial/computersciencetheory/dp.html
+
+LeetCode
+--------
+
+* https://leetcode.com/problemset/all/
+
+General Programming
+-------------------
+
+* https://www.softwaretestinghelp.com/cpp-dfs-program-to-traverse-graph/
+
+Zenuity Interview Topics
+-------------------------
+
+C++ Specific Topics
+^^^^^^^^^^^^^^^^^^^
+
+* https://en.cppreference.com/w/cpp/container/unordered_set
+* https://www.google.com/search?q=unordered_set
+* https://www.geeksforgeeks.org/c-mutable-keyword/
+* https://stackoverflow.com/questions/15499590/find-in-stdvectorstdpair
+* https://stackoverflow.com/questions/22676301/find-pair-by-key-within-a-vector-of-pairs
+* https://www.techiedelight.com/get-iterator-nth-element-vector-cpp/
+* https://www.techiedelight.com/iterate-second-element-vector-cpp/
+* http://www.cplusplus.com/forum/general/97436/
+* https://stackoverflow.com/questions/15451287/what-does-iterator-second-mean
+* http://www.cplusplus.com/reference/vector/vector/begin/
+* https://stackoverflow.com/questions/4104544/how-to-access-static-members-of-a-class
+* https://www.geeksforgeeks.org/polymorphism-in-c/
+* https://docs.microsoft.com/en-us/cpp/cpp/string-and-character-literals-cpp
+* https://www.geeksforgeeks.org/raw-string-literal-c/
+* https://en.cppreference.com/w/cpp/language/string_literal
+* http://www.cplusplus.com/forum/beginner/33483/
+* http://www.cplusplus.com/reference/exception/set_unexpected/
+* https://en.cppreference.com/w/cpp/error/unexpected
+* https://www.geeksforgeeks.org/templates-cpp/
+* https://stackoverflow.com/questions/30412080/redefine-a-constant-member-variable-in-inherited-class
+* https://stackoverflow.com/questions/16167649/the-constructor-initializer-list-and-const-variable
+* https://stackoverflow.com/questions/18143661/what-is-the-difference-between-packaged-task-and-async
+* https://www.tutorialspoint.com/cplusplus/cpp_exceptions_handling.htm
+* http://www.cplusplus.com/doc/tutorial/exceptions/
+* https://en.cppreference.com/w/cpp/language/integer_literal
+* http://www.cplusplus.com/reference/type_traits/remove_const/
+* https://docs.microsoft.com/en-us/cpp/cpp/new-operator-cpp
+* https://www.geeksforgeeks.org/c-classes-and-objects/
+* https://www.geeksforgeeks.org/new-and-delete-operators-in-cpp-for-dynamic-memory/
+* http://www.cplusplus.com/forum/beginner/49588/
+* http://www.cplusplus.com/doc/tutorial/dynamic/
+* https://stackoverflow.com/questions/13797926/what-does-new-int100-do
+* https://stackoverflow.com/questions/9286390/c-pointer-and-reference-with-new-keyword-when-instantiating
+* https://stackoverflow.com/questions/15310846/creating-a-class-object-in-c
+* https://www.geeksforgeeks.org/new-vs-operator-new-in-cpp/
+* https://stackoverflow.com/questions/18949375/demorgans-law-and-c
+* https://stackoverflow.com/questions/50888127/how-can-i-use-an-unordered-set-with-a-custom-struct
+* https://www.geeksforgeeks.org/unordered_set-in-cpp-stl/
+* https://cboard.cprogramming.com/cplusplus-programming/80575-unhandled-exceptions-throw-no-try.html
+* https://stackoverflow.com/questions/19429360/what-happens-if-i-dont-catch-a-throw

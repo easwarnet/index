@@ -1,0 +1,71 @@
+Cpp Study Topics
+====================
+
+Study TODO List
+---------------
+
+Core Topics
+^^^^^^^^^^^
+
+
+Associative Containers
+----------------------
+
+Types of Associative Containers
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+* set and multiset – behavior and API
+* map and multimap – behavior and API
+* Putting objects into set and map
+
+STL Algorithms
+--------------
+
+Non-modifying Algorithms
+^^^^^^^^^^^^^^^^^^^^^^^^
+
+* for_each, find, find_if, find_end, find_first_of
+* adjacent_find, count, count_if, mismatch, equal, search, search_n
+* Container compatibility
+
+Modifying Algorithms
+^^^^^^^^^^^^^^^^^^^^
+
+* transform, copy, copy_backward, swap, swap_ranges
+* iter_swap, replace, fill, fill_n, generate, generate_n
+* remove, remove_if, unique, unique_copy, reverse, reverse_copy, rotate
+* partition, stable_partition
+* Container compatibility
+
+Sorting Operations
+^^^^^^^^^^^^^^^^^^
+
+* random_shuffle, sort, stable_partition
+* lower_bound, upper_bound, equal_range, binary_search
+* Containers compatibility
+* Sorting of objects
+
+Merge Operations
+^^^^^^^^^^^^^^^^
+
+* merge, includes, min_element, max_element
+* inplace_merge
+* STL operations for sets
+* Container compatibility
+
+STL Utilities and Functional Library
+-------------------------------------
+
+* STL "small" tools
+* List of useful functors
+* Examples
+
+Advanced I/O
+------------
+
+* Classes which provide input and output capability
+* Console I/O
+* Formatting
+* File I/O
+* Strings I/O
+

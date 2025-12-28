@@ -1,0 +1,60 @@
+AOSP (Android Open Source Project)
+===================================
+
+HAL (Hardware Abstraction Layer)
+---------------------------------
+
+General HAL Resources
+^^^^^^^^^^^^^^^^^^^^^
+
+* https://www.e-consystems.com/blog/system-on-module-SOM/android-hal-and-device-driver-architecture/
+* https://stackoverflow.com/questions/23625513/what-is-the-main-advantage-of-having-hal-layer-in-android
+* https://www.nobleprog.com/cc/androidhal
+* https://www.dre.vanderbilt.edu/~schmidt/PDF/Android-HAL.pdf
+
+Vehicle HAL (VHAL)
+------------------
+
+* https://stackoverflow.com/questions/60273871/how-to-handle-custom-vehicle-properties-in-vhal-android-automotive
+* https://www.linkedin.com/pulse/android-automotive-os-introduction-chris-simmonds/
+* https://review.arrowos.net/plugins/gitiles/ArrowOS/android_hardware_interfaces/+/8997880087d14e8a8ee7cf13682f457dbb7f5292/automotive/vehicle/2.0/default/impl/vhal_v2_0/DefaultVehicleHal.cpp
+* https://technolinchpin.wordpress.com/2020/09/25/android-carservice-vehicle-data-handling/
+* https://stackoverflow.com/questions/51035825/aosp-how-to-initialize-the-vehiclepropertyaudio-volume-property-initialvalu
+
+Android Automotive
+------------------
+
+* https://android4tv.iwedia.com/documents/Android4TV%20-%20SW%20Architecture%20v1.5.pdf
+
+Boot Process
+------------
+
+* https://community.nxp.com/t5/i-MX-Processors-Knowledge-Base/The-Android-Booting-process/ta-p/1129182
+
+Secure Boot
+-----------
+
+* https://www.digi.com/resources/documentation/digidocs/embedded/android/dea11/cc8x/android-trustfence_r_secure-boot-flow#vbmeta-verification
+
+Partitions
+----------
+
+* https://code.tutsplus.com/articles/an-introduction-to-android-firmware--cms-26791
+* https://forum.xda-developers.com/t/info-android-device-partitions-and-filesystems.3586565/
+* https://www.addictivetips.com/mobile/android-partitions-explained-boot-system-recovery-data-cache-misc/
+
+Init RC
+-------
+
+* https://community.nxp.com/t5/i-MX-Processors-Knowledge-Base/What-is-inside-the-init-rc-and-what-is-it-used-for/ta-p/1106360
+
+ConfigStore
+-----------
+
+* https://source.android.com/devices/architecture/configstore/interface
+* https://stackoverflow.com/a/54957783
+
+CarService
+----------
+
+* https://blog.actorsfit.com/a?ID=01050-c95abdc1-9fdb-4a16-bbd2-3223df37e420
