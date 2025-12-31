@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Os - RTOS &mdash; Easwarnet  documentation</title>
+      <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/_sphinx_javascript_frameworks_compat.js"></script>
+        <script src="../_static/doctools.js"></script>
+    <script src="../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="C - Pointers" href="c-pointers.html" />
+    <link rel="prev" title="Os - General Concepts" href="os-general.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="../index.html" class="icon icon-home"> Easwarnet
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Reference - Cpp</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../reference/cpp/cpp_algorithms.html">Algorithms</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../reference/cpp/cpp_best_practices.html">Best Practices and Resources</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../reference/cpp/cpp_concurrency.html">Multithreading and Concurrency</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../reference/cpp/cpp_data_structures.html">Data Structures</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../reference/cpp/cpp_design_patterns.html">Design Patterns</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../reference/cpp/cpp_language.html">C++ Language Features</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../reference/cpp/cpp_stl.html">Standard Template Library (STL)</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Reference - Android</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../reference/android/android_aosp.html">AOSP (Android Open Source Project)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../reference/android/android_app_dev.html">Android App Development</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../reference/android/android_external_frameworks.html">Android External Frameworks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../reference/android/android_native.html">Android Native Development</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Reference - Others</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../reference/java.html">Java Resources</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../reference/ai.html">AI and Machine Learning</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../reference/communication.html">Communication</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../reference/kotlin.html">Kotlin</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../reference/system.html">System Administration</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../reference/interviews.html">Interview Preparation</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Todo</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../todo/android_study.html">Android Study Topics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../todo/cpp_study.html">Cpp Study Topics</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Archive - Gstreamer</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="gstreamer.html">Gstreamer</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Archive - Links - Streaming</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="streaming.html">Streaming Technologies</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Archive - OS</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="os-general.html">Os - General Concepts</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Os - RTOS</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#what-is-rtos"><strong>What is RTOS?</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="#kernel"><strong>Kernel</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="#rtos"><strong>RTOS</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="#desirable-features-of-real-time-systems"><strong>Desirable Features of Real-Time Systems</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="#categories"><strong>Categories</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="#real-time-systems"><strong>Real-Time Systems</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="#basic-requirements-of-an-rtos"><strong>Basic requirements of an RTOS</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="#memory-management"><strong>Memory Management</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="#task-and-task-control-blocks"><strong>Task and Task Control Blocks</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="#priorities"><strong>Priorities</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="#scheduling-algorithms-of-rtos"><strong>Scheduling algorithms of RTOS</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="#others"><strong>Others</strong></a></li>
+</ul>
+</li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Archive - C</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="c-pointers.html">C - Pointers</a></li>
+<li class="toctree-l1"><a class="reference internal" href="c-funcpointers.html">C - Function Pointers</a></li>
+<li class="toctree-l1"><a class="reference internal" href="c-general.html">C - General</a></li>
+<li class="toctree-l1"><a class="reference internal" href="c-basicalgo.html">C - Basic Algorithms</a></li>
+<li class="toctree-l1"><a class="reference internal" href="c-tricks.html">C - Tricks and Others</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Archive - Links - Combined Old</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="old.html">Combined Old Links</a></li>
+<li class="toctree-l1"><a class="reference internal" href="old.html#design-patterns">Design Patterns</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">Easwarnet</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
+      <li>Os - RTOS</li>
+      <li class="wy-breadcrumbs-aside">
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="os-rtos">
+<h1>Os - RTOS<a class="headerlink" href="#os-rtos" title="Permalink to this heading"></a></h1>
+<section id="what-is-rtos">
+<h2><strong>What is RTOS?</strong><a class="headerlink" href="#what-is-rtos" title="Permalink to this heading"></a></h2>
+<p><strong>What is RTOS?</strong></p>
+<p>A real-time operating system (RTOS) is an operating system that guarantees a certain capability within a specified time constraint. For example, an operating system might be designed to ensure that a certain object was available for a robot on an assembly line. In what is usually called a “hard” real-time operating system, if the calculation could not be performed for making the object available at the designated time, the operating system would terminate with a failure. In a “soft” real-time operating system, the assembly line would continue to function but the production output might be lower as objects failed to appear at their designated time, causing the robot to be temporarily unproductive. Some real-time operating systems are created for a special application and others are more general purpose. Some existing general purpose operating systems claim to be a real-time operating systems. To some extent, almost any general purpose operating system such as Microsoft’s Windows 2000 or IBM’s OS/390 can be evaluated for its real-time operating system qualities. That is, even if an operating system doesn’t qualify, it may have characteristics that enable it to be considered as a solution to a particular real-time application problem.
+In general, real-time operating systems are said to require:
+* multitasking
+* Process threads that can be prioritized
+* A sufficient number of interrupt levels
+Real-time operating systems are often required in small embedded operating systems that are packaged as part of micro devices. Some kernels can be considered to meet the requirements of a real-time operating system. However, since other components, such as device drivers, are also usually needed for a particular solution, a real-time operating system is usually larger than just the kernel.</p>
+</section>
+<hr class="docutils" />
+<section id="kernel">
+<h2><strong>Kernel</strong><a class="headerlink" href="#kernel" title="Permalink to this heading"></a></h2>
+<p>Kernel: the smallest portion of the operating system that provides
+task scheduling, dispatching, and intertask communication.</p>
+<p><strong>Kernel types</strong></p>
+<ul class="simple">
+<li><p>Nanokernel - the dispatcher</p></li>
+<li><p>Microkernel - a nanokernel with task scheduling</p></li>
+<li><p>Kernel - a microkernel with intertask synchronization</p></li>
+<li><p>Executive - a kernel that includes privatized memory blocks, I/O services, and other complex issues. Most commercial real-time kernels are in this category.</p></li>
+</ul>
+<p>Operating system - an executive that also provides generalized user interface, security, file management system, etc</p>
+</section>
+<section id="rtos">
+<h2><strong>RTOS</strong><a class="headerlink" href="#rtos" title="Permalink to this heading"></a></h2>
+<p>A real-time operating system (RTOS) that supports real-time applications and embedded systems.
+Real-time applications have the requirement to meet task deadlines in addition to the logical correctness of the results.</p>
+<ul class="simple">
+<li><p>Multiple events handled by a single processor</p></li>
+<li><p>Events may occur simultaneously</p></li>
+<li><p>Processor must handle multiple, often competing events</p></li>
+</ul>
+</section>
+<section id="desirable-features-of-real-time-systems">
+<h2><strong>Desirable Features of Real-Time Systems</strong><a class="headerlink" href="#desirable-features-of-real-time-systems" title="Permalink to this heading"></a></h2>
+<ul class="simple">
+<li><dl class="simple">
+<dt>Timeliness</dt><dd><ul>
+<li><p>OS has to provide kernel mechanisms for</p></li>
+<li><p>time management</p></li>
+<li><p>handling tasks with explicit time constraints</p></li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><p>Deterministic</p></li>
+<li><p>Design for peak load</p></li>
+<li><p>Predictability</p></li>
+<li><p>Fault tolerance</p></li>
+<li><p>Maintainability</p></li>
+<li><p>Multitasking</p></li>
+<li><p>Must provide mechanisms for scheduling and switching for several user and kernel tasks</p></li>
+<li><p>Maximize CPU utilization</p></li>
+<li><p>Allow for managing of complex and real-time applications</p></li>
+</ul>
+</section>
+<section id="categories">
+<h2><strong>Categories</strong><a class="headerlink" href="#categories" title="Permalink to this heading"></a></h2>
+<p><strong>Hard Real Time System:</strong>
+failure to meet time constraints leads to system failure</p>
+<p><strong>Firm Real Time System:</strong>
+low occurrence of missing a deadline can be tolerated</p>
+<p><strong>Soft Real Time System:</strong>
+performance is degraded by failure to meet time constraints</p>
+<p>An RTOS differs from common OS, in that the user when using the former has the ability to directly access the microprocessor and peripherals.
+Such an ability of the RTOS helps to meet deadlines.</p>
+</section>
+<section id="real-time-systems">
+<h2><strong>Real-Time Systems</strong><a class="headerlink" href="#real-time-systems" title="Permalink to this heading"></a></h2>
+<p>RTOS is a multitasking system where multiple tasks run concurrently</p>
+<ul class="simple">
+<li><p>system shifts from task to task</p></li>
+<li><p>must remember key registers of each task</p></li>
+<li><p>called its context</p></li>
+</ul>
+<p>RTOS responsible for all activities related to a task:</p>
+<ul class="simple">
+<li><p>scheduling and dispatching</p></li>
+<li><p>intertask communication</p></li>
+<li><p>memory system management</p></li>
+<li><p>input/output system management</p></li>
+<li><p>timing</p></li>
+<li><p>error management</p></li>
+<li><p>message management</p></li>
+</ul>
+</section>
+<section id="basic-requirements-of-an-rtos">
+<h2><strong>Basic requirements of an RTOS</strong><a class="headerlink" href="#basic-requirements-of-an-rtos" title="Permalink to this heading"></a></h2>
+<ul class="simple">
+<li><p><strong>Basic scheduling</strong></p></li>
+<li><p><strong>Context switching</strong></p></li>
+<li><p><strong>Multi-threading and preemptibility</strong></p></li>
+<li><p><strong>Thread priority</strong></p></li>
+<li><p><strong>Thread synchronization mechanisms</strong></p></li>
+<li><p><strong>Priority inheritance</strong></p></li>
+<li><p><strong>Predefined latencies</strong></p></li>
+<li><p><strong>Task switching latency:</strong> Time to save the context of a currently executing task and switch to another task..</p></li>
+<li><p><strong>Interrupt latency:</strong> Time elapsed between the execution of the last instruction of the interrupted task and the first instruction in the interrupt handler</p></li>
+<li><p><strong>Interrupt dispatch latency:</strong> This is the time to go from the last instruction in the interrupt handler to the next task scheduled to run</p></li>
+<li><p><strong>Multiple Stacks:</strong> RTOS requires multiple stacks - one for each task</p></li>
+<li><p><strong>Time Delay</strong></p></li>
+<li><p><strong>System Time</strong></p></li>
+<li><p><strong>Inter-Process Communication (IPC)</strong></p></li>
+<li><p><strong>Synchronization:</strong> Semaphores, Mutex</p></li>
+<li><p><strong>Resource Protection:</strong> Mutex</p></li>
+</ul>
+<p><strong>Priority inversion</strong>
+occurs when a higher priority task must wait on a low priority task to release a resource</p>
+<p><strong>Priority Ceiling</strong></p>
+<ul class="simple">
+<li><p>Each resource has an assigned priority</p></li>
+<li><p>Priority of thread is the highest of all priorities of the resources it’s holding</p></li>
+</ul>
+<p><strong>Priority Inheritance</strong></p>
+<p>The thread holding a resource inherits the priority of the thread  blocked on that resource</p>
+<p><strong>Preemptive scheduling</strong></p>
+<p>In a preemptive kernel, when an event makes a higher priority task ready to run, the current task is immediately suspended and the higher priority task is given control of the CPU.</p>
+<p><strong>Reentrancy</strong></p>
+<ul class="simple">
+<li><p><strong>reentrant function:</strong> can be used by more than one task without fear of data corruption.</p></li>
+<li><p><strong>non-reentrant function:</strong> cannot be shared by more than one task unless mutual exclusion to the function is ensured by either using a semaphore, by disabling interrupts during critical sections of code.</p></li>
+</ul>
+<p><strong>reentrant function</strong></p>
+<ul class="simple">
+<li><p>A reentrant function can be interrupted at any time and resumed at a later time without loss of data.</p></li>
+<li><p>Reentrant functions either use local variables (CPU registers or variables on the stack) or protect their data when global variables are used.</p></li>
+<li><p>Compilers specifically designed for embedded software will generally provide reentrant run-time libraries.</p></li>
+</ul>
+</section>
+<section id="memory-management">
+<h2><strong>Memory Management</strong><a class="headerlink" href="#memory-management" title="Permalink to this heading"></a></h2>
+<p><strong>Heap</strong></p>
+<ul>
+<li><p><strong>Classic heap</strong></p>
+<blockquote>
+<div><ul class="simple">
+<li><p>The memory is collected into one giant heap and partitioned according to the demand from tasks.</p></li>
+<li><p>There are several “fit” memory allocation algorithms, e.g., best-fit, first-fit, that also attempt to minimize the memory fragmentation.</p></li>
+<li><p>Has a big management overhead so is not used in real-time systems</p></li>
+</ul>
+</div></blockquote>
+</li>
+<li><p><strong>Priority heap</strong></p>
+<blockquote>
+<div><ul class="simple">
+<li><p>partitions the memory along priority boundaries, e.g., a high and a low priority partitions are created</p></li>
+</ul>
+</div></blockquote>
+</li>
+<li><p><strong>Fixed block heap</strong></p>
+<blockquote>
+<div><ul class="simple">
+<li><p>partitions the memory into several pools of fixed block length and upon a request, allocates a single block of memory from the pool with size equal or larger than the requested amount</p></li>
+</ul>
+</div></blockquote>
+</li>
+</ul>
+<p><strong>Stack</strong></p>
+<p>When multiple tasks share a single processor, their contexts
+volatile information such as the contents of hardware registers,
+memory-management registers, and the program counter,
+need to be saved and restored so as to switch them.</p>
+<p>This can be done using task-control block model OR
+one or more run-time stacks</p>
+<p>Run-time stacks used to keep context. It may use only one run-time
+stack for all the tasks or one run-time stack in conjunction with
+several application stacks (or private stacks), one for each task in memory.</p>
+<p>Multiple stack case allows tasks to interrupt themselves,
+Stack size must be known a priority. Operating system manages the stacks.</p>
+</section>
+<section id="task-and-task-control-blocks">
+<h2><strong>Task and Task Control Blocks</strong><a class="headerlink" href="#task-and-task-control-blocks" title="Permalink to this heading"></a></h2>
+<p>In RTOS program consists of independent,asynchronous, and interacting tasks
+* Must have capability to store task context</p>
+<p>Context is kept in the control block of the task</p>
+<p>Having multiple tasks means multiple control blocks, which are maintained in a list
+* RTOS updates TCB when task is switched best for full-featured real-time operating systems</p>
+<p>Device Control Block (DCB)
+* tracks status of system associated devices</p>
+</section>
+<section id="priorities">
+<h2><strong>Priorities</strong><a class="headerlink" href="#priorities" title="Permalink to this heading"></a></h2>
+<p><strong>Priority</strong>
+* An ordinal number which represents the relative importance of a task.</p>
+<p><strong>Static priority</strong>
+* A priority which is not automatically adjusted by the system.
+* Static priority can typically be changed by user.</p>
+<p><strong>Dynamic priority</strong>
+* A priority which is adjusted automatically by the system according to task behavior and system loading.
+* Dynamic priority imposes an overhead on the system.
+* Dynamic priority can improve response times and eliminate indefinite postponing</p>
+</section>
+<section id="scheduling-algorithms-of-rtos">
+<h2><strong>Scheduling algorithms of RTOS</strong><a class="headerlink" href="#scheduling-algorithms-of-rtos" title="Permalink to this heading"></a></h2>
+<p><strong>Rate Monotonic</strong></p>
+<p>The most commonly used static scheduling algorithm is the
+Rate Monotonic (RM) scheduling algorithm</p>
+<p>The RM algorithm assigns different priorities proportional to the frequency of tasks.
+The task with the shortest period gets the highest priority, and the task with the
+longest period gets the lowest static priority.</p>
+<p>Rate monotonic algorithm is a dynamic preemptive algorithm based on static priorities
+RM algorithm provides no support for dynamically changing task periods and/or priorities
+and tasks that may experience priority inversion.</p>
+<p>Priority inversion occurs in an RM system where in order to enforce rate monotonicity,
+a non-critical task with a high frequency of execution is assigned a higher priority
+than a critical task with lower frequency of execution</p>
+<p>A priority ceiling protocol (PCP) can be used to counter priority inversion, wherein
+a task blocking a higher priority task inherits the higher priority for the duration
+of the blocked task.</p>
+<p>The priority ceiling protocol is used to schedule a set dependant periodic tasks
+that share resources protected by semaphores</p>
+<p><strong>Earliest deadline first</strong></p>
+<p>Earliest deadline first (EDF) scheduling can be used for both static and
+dynamic real-time scheduling. A dynamic priority algorithm which uses the
+deadline of a task as its priority. The task with the earliest deadline has the highest priority</p>
+<p><strong>Minimum Laxity First</strong></p>
+<p>A variant of EDF is Minimum Laxity First (MLF) scheduling where a laxity
+is assigned to each task in the system and minimum laxity tasks are executed first.</p>
+<p>Laxity : The difference between the time until a tasks completion deadline and
+its remaining processing time requirement.</p>
+<p><code class="docutils literal notranslate"><span class="pre">`{the</span> <span class="pre">deadline</span> <span class="pre">by</span> <span class="pre">which_{the</span> <span class="pre">amount</span> <span class="pre">of</span> <span class="pre">the</span> <span class="pre">task</span> <span class="pre">must</span> <span class="pre">be</span> <span class="pre">completed</span> <span class="pre">}computation</span> <span class="pre">remaining</span> <span class="pre">to</span> <span class="pre">be</span> <span class="pre">performed</span> <span class="pre">}`</span></code></p>
+<p>MLF considers the execution time of a task, which EDF does not.
+MLF assigns higher priority to a task with the least laxity. A task with zero laxity must be
+scheduled right away and executed without preemption or it will fail to meet its deadline.</p>
+<p>The negative laxity indicates that the task will miss the deadline, no matter when it is picked up for execution.</p>
+<p>A major problem with LLF algorithm is that it is impractical to implement because laxity ties
+(two or more tasks have the same laxities) result in the frequent context switches among the
+corresponding tasks.</p>
+<p>This will cause the system performance to remarkably degrade. MLLF schedules the
+task sets the same as LLF algorithm. If the laxity tie occurs, the running task continues
+to run with no preemption as far as the deadlines of other tasks are not missed.</p>
+<p>The MLLF algorithm defers the context switching until necessary and it is safe even if the laxity tie occurs.
+That is, it allows the laxity inversion  where a task with the least laxity may not be scheduled immediately.
+Laxity inversion applies to the duration that the currently running task can continue running with no loss in schedulability</p>
+<p><strong>Maximum Urgency First Algorithm</strong></p>
+<p>MUF solves the problem of unpredictability during a transient overload for EDF, LLF and MLLF algorithms.
+This algorithm is a combination of fixed and dynamic priority scheduling, also called mixed priority scheduling.
+With this algorithm, each task is given an urgency which is defined as a combination of two fixed
+priorities (criticality and user priority) and a dynamic priority that is inversely proportional to the laxity.
+CHIMERA II, a real-time operating system being used to control sensor-based control systems.</p>
+<p>The MUF algorithm assigns priorities in two phases
+- Phase One concerns the assignment of static priorities to tasks
+- Phase Two deals with the run-time behavior of the MUF scheduler</p>
+<p>The first phase consists of these steps :
+1) It sorts the tasks from the shortest period to the longest period. Then it defines the critical set as
+the first N tasks such that the total CPU load factor does not exceed 100%. These tasks are guaranteed not
+to fail even during a transient overload.
+2) All tasks in the critical set are assigned high criticality.The remaining tasks are considered to have low criticality.
+3) Every task in the system is assigned an optional unique user priority</p>
+<p>In the second phase, the MUF scheduler follows an algorithm to select a task for execution.
+This algorithm is executed whenever a new task is arrived to the ready queue.
+The algorithm is as follows:</p>
+<ol class="arabic simple">
+<li><p>If there is only one highly critical task, pick it up and execute it.</p></li>
+<li><p>If there are more than one highly critical task, select the one with the highest dynamic priority. Here, the task with the least laxity is considered to be the one with the highest priority.</p></li>
+<li><p>If there is more than one task with the same laxity, select the one with the highest user priority.</p></li>
+</ol>
+</section>
+<section id="others">
+<h2><strong>Others</strong><a class="headerlink" href="#others" title="Permalink to this heading"></a></h2>
+<ul class="simple">
+<li><p>RTOS for small footprint, mobile and connected devices</p></li>
+</ul>
+<p>Windows CE: 32 bit devices, minimum footprint of 400KB, 256 priority levels</p>
+<ul class="simple">
+<li><p>RTOS for complex, hard real-time applications</p></li>
+</ul>
+<p>LynxOS: microkernel is 28 KB, 512 thread priority levels, supports memory protection</p>
+<ul class="simple">
+<li><p>General purpose RTOS in the embedded industry</p></li>
+</ul>
+<p>VxWorks: 256 priority levels, multitasking, deterministic context switching,
+preemptive and round robin scheduling, binary and counting semaphores, mutual
+exclusion with inheritance, supports virtual memory configuration</p>
+<ul class="simple">
+<li><p>RTOS for the Java Platform</p></li>
+</ul>
+<p>Jbed RTOS package: runs on 32-bit microprocessors and controllers.
+Current versions support ARM7, 68k, PowerPC architectures, supports up to 10-thread priority levels, EDF</p>
+<ul class="simple">
+<li><p>Objected-oriented RTOS</p></li>
+</ul>
+<p>pSOSystem</p>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="os-general.html" class="btn btn-neutral float-left" title="Os - General Concepts" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="c-pointers.html" class="btn btn-neutral float-right" title="C - Pointers" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2022, Easwarnet.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

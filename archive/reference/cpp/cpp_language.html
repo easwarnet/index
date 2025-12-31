@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>C++ Language Features &mdash; Easwarnet  documentation</title>
+      <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+        <script src="../../_static/jquery.js"></script>
+        <script src="../../_static/underscore.js"></script>
+        <script src="../../_static/_sphinx_javascript_frameworks_compat.js"></script>
+        <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="next" title="Standard Template Library (STL)" href="cpp_stl.html" />
+    <link rel="prev" title="Design Patterns" href="cpp_design_patterns.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="../../index.html" class="icon icon-home"> Easwarnet
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Reference - Cpp</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="cpp_algorithms.html">Algorithms</a></li>
+<li class="toctree-l1"><a class="reference internal" href="cpp_best_practices.html">Best Practices and Resources</a></li>
+<li class="toctree-l1"><a class="reference internal" href="cpp_concurrency.html">Multithreading and Concurrency</a></li>
+<li class="toctree-l1"><a class="reference internal" href="cpp_data_structures.html">Data Structures</a></li>
+<li class="toctree-l1"><a class="reference internal" href="cpp_design_patterns.html">Design Patterns</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">C++ Language Features</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#templates">Templates</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#resources">Resources</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#oop-object-oriented-programming">OOP - Object-Oriented Programming</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#smart-pointers">Smart Pointers</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#access-specifiers">Access Specifiers</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#constructors-and-memory">Constructors and Memory</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#memory-management">Memory Management</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#raii-and-memory">RAII and Memory</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#type-system">Type System</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#exception-handling">Exception Handling</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#functional-programming">Functional Programming</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#c-basics">C++ Basics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#boost-library">Boost Library</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#advanced-topics">Advanced Topics</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#code-tracing">Code Tracing</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#forward-declarations">Forward Declarations</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="cpp_stl.html">Standard Template Library (STL)</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Reference - Android</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../android/android_aosp.html">AOSP (Android Open Source Project)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../android/android_app_dev.html">Android App Development</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../android/android_external_frameworks.html">Android External Frameworks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../android/android_native.html">Android Native Development</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Reference - Others</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../java.html">Java Resources</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../ai.html">AI and Machine Learning</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../communication.html">Communication</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../kotlin.html">Kotlin</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../system.html">System Administration</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../interviews.html">Interview Preparation</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Todo</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../todo/android_study.html">Android Study Topics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../todo/cpp_study.html">Cpp Study Topics</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Archive - Gstreamer</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../archive/gstreamer.html">Gstreamer</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Archive - Links - Streaming</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../archive/streaming.html">Streaming Technologies</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Archive - OS</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../archive/os-general.html">Os - General Concepts</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../archive/os-rtos.html">Os - RTOS</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Archive - C</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../archive/c-pointers.html">C - Pointers</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../archive/c-funcpointers.html">C - Function Pointers</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../archive/c-general.html">C - General</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../archive/c-basicalgo.html">C - Basic Algorithms</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../archive/c-tricks.html">C - Tricks and Others</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Archive - Links - Combined Old</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../archive/old.html">Combined Old Links</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../archive/old.html#design-patterns">Design Patterns</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../index.html">Easwarnet</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../../index.html" class="icon icon-home"></a> &raquo;</li>
+      <li>C++ Language Features</li>
+      <li class="wy-breadcrumbs-aside">
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="c-language-features">
+<h1>C++ Language Features<a class="headerlink" href="#c-language-features" title="Permalink to this heading"></a></h1>
+<section id="templates">
+<h2>Templates<a class="headerlink" href="#templates" title="Permalink to this heading"></a></h2>
+<ul class="simple">
+<li><p>What are templates</p></li>
+<li><p>Basic syntax</p></li>
+<li><p>Function templates</p></li>
+<li><p>Class templates</p></li>
+<li><p>When to use templates</p></li>
+<li><p>Typical problems when using templates</p></li>
+</ul>
+<section id="resources">
+<h3>Resources<a class="headerlink" href="#resources" title="Permalink to this heading"></a></h3>
+<ul class="simple">
+<li><p><a class="reference external" href="https://www.geeksforgeeks.org/templates-cpp/">https://www.geeksforgeeks.org/templates-cpp/</a></p></li>
+</ul>
+</section>
+</section>
+<section id="oop-object-oriented-programming">
+<h2>OOP - Object-Oriented Programming<a class="headerlink" href="#oop-object-oriented-programming" title="Permalink to this heading"></a></h2>
+<section id="smart-pointers">
+<h3>Smart Pointers<a class="headerlink" href="#smart-pointers" title="Permalink to this heading"></a></h3>
+<ul class="simple">
+<li><p><a class="reference external" href="https://stackoverflow.com/questions/106508/what-is-a-smart-pointer-and-when-should-i-use-one">https://stackoverflow.com/questions/106508/what-is-a-smart-pointer-and-when-should-i-use-one</a></p></li>
+<li><p><a class="reference external" href="https://stackoverflow.com/questions/22185896/what-is-the-cyclic-dependency-issue-with-shared-ptr">https://stackoverflow.com/questions/22185896/what-is-the-cyclic-dependency-issue-with-shared-ptr</a></p></li>
+<li><p><a class="reference external" href="https://www.geeksforgeeks.org/how-to-implement-user-defined-shared-pointers-in-c/">https://www.geeksforgeeks.org/how-to-implement-user-defined-shared-pointers-in-c/</a></p></li>
+</ul>
+</section>
+<section id="access-specifiers">
+<h3>Access Specifiers<a class="headerlink" href="#access-specifiers" title="Permalink to this heading"></a></h3>
+<ul class="simple">
+<li><p><a class="reference external" href="https://stackoverflow.com/questions/5447498/what-are-access-specifiers-should-i-inherit-with-private-protected-or-public">https://stackoverflow.com/questions/5447498/what-are-access-specifiers-should-i-inherit-with-private-protected-or-public</a></p></li>
+<li><p><a class="reference external" href="https://stackoverflow.com/questions/3247671/accessing-protected-members-in-a-derived-class">https://stackoverflow.com/questions/3247671/accessing-protected-members-in-a-derived-class</a></p></li>
+</ul>
+</section>
+<section id="constructors-and-memory">
+<h3>Constructors and Memory<a class="headerlink" href="#constructors-and-memory" title="Permalink to this heading"></a></h3>
+<ul class="simple">
+<li><p><a class="reference external" href="https://stackoverflow.com/questions/3278625/when-do-we-have-to-use-copy-constructors">https://stackoverflow.com/questions/3278625/when-do-we-have-to-use-copy-constructors</a></p></li>
+<li><p><a class="reference external" href="https://www.cpp.thiyagaraaj.com/c-programs/c-constructor-example-programs/simple-example-program-for-copy-constructor-in-c">https://www.cpp.thiyagaraaj.com/c-programs/c-constructor-example-programs/simple-example-program-for-copy-constructor-in-c</a></p></li>
+<li><p><a class="reference external" href="https://www.geeksforgeeks.org/friend-class-function-cpp/">https://www.geeksforgeeks.org/friend-class-function-cpp/</a></p></li>
+</ul>
+</section>
+</section>
+<section id="memory-management">
+<h2>Memory Management<a class="headerlink" href="#memory-management" title="Permalink to this heading"></a></h2>
+<section id="raii-and-memory">
+<h3>RAII and Memory<a class="headerlink" href="#raii-and-memory" title="Permalink to this heading"></a></h3>
+<ul class="simple">
+<li><p><a class="reference external" href="https://theboostcpplibraries.com/raii-and-memory-management">https://theboostcpplibraries.com/raii-and-memory-management</a></p></li>
+<li><p><a class="reference external" href="https://stackoverflow.com/questions/240212/what-is-the-difference-between-new-delete-and-malloc-free">https://stackoverflow.com/questions/240212/what-is-the-difference-between-new-delete-and-malloc-free</a></p></li>
+<li><p><a class="reference external" href="https://stackoverflow.com/questions/32029860/how-to-check-if-an-object-this-in-c">https://stackoverflow.com/questions/32029860/how-to-check-if-an-object-this-in-c</a></p></li>
+</ul>
+</section>
+</section>
+<section id="type-system">
+<h2>Type System<a class="headerlink" href="#type-system" title="Permalink to this heading"></a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="https://www.geeksforgeeks.org/reinterpret_cast-in-c-type-casting-operators/">https://www.geeksforgeeks.org/reinterpret_cast-in-c-type-casting-operators/</a></p></li>
+<li><p><a class="reference external" href="https://www.geeksforgeeks.org/c-mutable-keyword/">https://www.geeksforgeeks.org/c-mutable-keyword/</a></p></li>
+</ul>
+</section>
+<section id="exception-handling">
+<h2>Exception Handling<a class="headerlink" href="#exception-handling" title="Permalink to this heading"></a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="https://www.tutorialspoint.com/cplusplus/cpp_exceptions_handling.htm">https://www.tutorialspoint.com/cplusplus/cpp_exceptions_handling.htm</a></p></li>
+<li><p><a class="reference external" href="http://www.cplusplus.com/doc/tutorial/exceptions/">http://www.cplusplus.com/doc/tutorial/exceptions/</a></p></li>
+</ul>
+</section>
+<section id="functional-programming">
+<h2>Functional Programming<a class="headerlink" href="#functional-programming" title="Permalink to this heading"></a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="https://en.cppreference.com/w/cpp/utility/functional/placeholders">https://en.cppreference.com/w/cpp/utility/functional/placeholders</a></p></li>
+<li><p><a class="reference external" href="https://cplusplus.com/reference/future/packaged_task/">https://cplusplus.com/reference/future/packaged_task/</a></p></li>
+<li><p><a class="reference external" href="https://stackoverflow.com/questions/57904835/using-stdbind-and-stdfunction-to-use-a-class-member-function-as-callback-for">https://stackoverflow.com/questions/57904835/using-stdbind-and-stdfunction-to-use-a-class-member-function-as-callback-for</a></p></li>
+<li><p><a class="reference external" href="https://stackoverflow.com/questions/18143661/what-is-the-difference-between-packaged-task-and-async">https://stackoverflow.com/questions/18143661/what-is-the-difference-between-packaged-task-and-async</a></p></li>
+<li><p><a class="reference external" href="https://blog.mbedded.ninja/programming/languages/c-plus-plus/callbacks/">https://blog.mbedded.ninja/programming/languages/c-plus-plus/callbacks/</a></p></li>
+<li><p><a class="reference external" href="https://mainfunda.com/callable-objects-function-and-bind/">https://mainfunda.com/callable-objects-function-and-bind/</a></p></li>
+<li><p><a class="reference external" href="https://docs.microsoft.com/en-us/cpp/cpp/lambda-expressions-in-cpp?view=msvc-160">https://docs.microsoft.com/en-us/cpp/cpp/lambda-expressions-in-cpp?view=msvc-160</a></p></li>
+</ul>
+</section>
+<section id="c-basics">
+<h2>C++ Basics<a class="headerlink" href="#c-basics" title="Permalink to this heading"></a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="https://www.tutorialspoint.com/cplusplus/cpp_basic_syntax.htm">https://www.tutorialspoint.com/cplusplus/cpp_basic_syntax.htm</a></p></li>
+<li><p><a class="reference external" href="https://www.tutorialspoint.com/cplusplus/cpp_interview_questions.htm">https://www.tutorialspoint.com/cplusplus/cpp_interview_questions.htm</a></p></li>
+<li><p><a class="reference external" href="https://www.javatpoint.com/cpp-interview-questions">https://www.javatpoint.com/cpp-interview-questions</a></p></li>
+</ul>
+</section>
+<section id="boost-library">
+<h2>Boost Library<a class="headerlink" href="#boost-library" title="Permalink to this heading"></a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="https://www.geeksforgeeks.org/advanced-c-boost-library/">https://www.geeksforgeeks.org/advanced-c-boost-library/</a></p></li>
+</ul>
+</section>
+<section id="advanced-topics">
+<h2>Advanced Topics<a class="headerlink" href="#advanced-topics" title="Permalink to this heading"></a></h2>
+<section id="code-tracing">
+<h3>Code Tracing<a class="headerlink" href="#code-tracing" title="Permalink to this heading"></a></h3>
+<ul class="simple">
+<li><p><a class="reference external" href="https://www.codeproject.com/Tips/5378622/A-Cplusplus-Code-Function-Tracing-Class">https://www.codeproject.com/Tips/5378622/A-Cplusplus-Code-Function-Tracing-Class</a></p></li>
+</ul>
+</section>
+<section id="forward-declarations">
+<h3>Forward Declarations<a class="headerlink" href="#forward-declarations" title="Permalink to this heading"></a></h3>
+<ul class="simple">
+<li><p><a class="reference external" href="https://www.google.com/search?q=forward+declaration+c%2B%2B+lvalue">https://www.google.com/search?q=forward+declaration+c%2B%2B+lvalue</a></p></li>
+</ul>
+</section>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="cpp_design_patterns.html" class="btn btn-neutral float-left" title="Design Patterns" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="cpp_stl.html" class="btn btn-neutral float-right" title="Standard Template Library (STL)" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2022, Easwarnet.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
