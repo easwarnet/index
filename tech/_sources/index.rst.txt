@@ -5,7 +5,7 @@ Easwarnet
 
 Notes
 ---------
-- Notes for Embedded Software Development in Embedded Android and Embedded Linux.
+- Notes for Software Development in Android and Linux.
 - Log of my experiences and findings in the tech world
 - A Collection of useful information for devs
 
