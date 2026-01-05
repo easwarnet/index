@@ -20,7 +20,7 @@
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
     <link rel="next" title="Android App Development" href="android_app_dev.html" />
-    <link rel="prev" title="Standard Template Library (STL)" href="../cpp/cpp_stl.html" /> 
+    <link rel="prev" title="External Frameworks" href="../cpp/cpp_projects.html" /> 
 </head>
 
 <body class="wy-body-for-nav"> 
@@ -41,12 +41,12 @@
               <p class="caption" role="heading"><span class="caption-text">Reference - Cpp</span></p>
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="../cpp/cpp_algorithms.html">Algorithms</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../cpp/cpp_best_practices.html">Best Practices and Resources</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../cpp/cpp_concurrency.html">Multithreading and Concurrency</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../cpp/cpp_data_structures.html">Data Structures</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../cpp/cpp_concurrency.html">Multithreading and Concurrency</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../cpp/cpp_design_patterns.html">Design Patterns</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../cpp/cpp_language.html">C++ Language Features</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../cpp/cpp_stl.html">Standard Template Library (STL)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../cpp/cpp_projects.html">External Frameworks</a></li>
 </ul>
 <p class="caption" role="heading"><span class="caption-text">Reference - Android</span></p>
 <ul class="current">
@@ -55,18 +55,23 @@
 <li class="toctree-l3"><a class="reference internal" href="#general-hal-resources">General HAL Resources</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="#vehicle-hal-vhal">Vehicle HAL (VHAL)</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#android-automotive">Android Automotive</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#android-automotive-vehicle-hal-vhal">Android Automotive &amp; Vehicle HAL (VHAL)</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#boot-process">Boot Process</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#secure-boot">Secure Boot</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#partitions">Partitions</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#init-rc">Init RC</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#configstore">ConfigStore</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#carservice">CarService</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#hidl-and-aidl">HIDL and AIDL</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#binder">Binder</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#system-services">System Services</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#surfaceflinger">SurfaceFlinger</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#task-scheduling">Task Scheduling</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#processes-and-threads">Processes and Threads</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#compatibility">Compatibility</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#projects">Projects</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="android_app_dev.html">Android App Development</a></li>
-<li class="toctree-l1"><a class="reference internal" href="android_external_frameworks.html">Android External Frameworks</a></li>
 <li class="toctree-l1"><a class="reference internal" href="android_native.html">Android Native Development</a></li>
 </ul>
 <p class="caption" role="heading"><span class="caption-text">Reference - Others</span></p>
@@ -77,11 +82,16 @@
 <li class="toctree-l1"><a class="reference internal" href="../kotlin.html">Kotlin</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../system.html">System Administration</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../interviews.html">Interview Preparation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../linux.html">Linux</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../streaming.html">Streaming Technologies</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../external_frameworks.html">External Frameworks</a></li>
 </ul>
 <p class="caption" role="heading"><span class="caption-text">Todo</span></p>
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="../../todo/android_study.html">Android Study Topics</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../../todo/cpp_study.html">Cpp Study Topics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../todo/dsa_study.html">DSA</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../todo/others.html">Others</a></li>
 </ul>
 <p class="caption" role="heading"><span class="caption-text">Archive - Gstreamer</span></p>
 <ul>
@@ -144,23 +154,25 @@
 <li><p><a class="reference external" href="https://stackoverflow.com/questions/23625513/what-is-the-main-advantage-of-having-hal-layer-in-android">https://stackoverflow.com/questions/23625513/what-is-the-main-advantage-of-having-hal-layer-in-android</a></p></li>
 <li><p><a class="reference external" href="https://www.nobleprog.com/cc/androidhal">https://www.nobleprog.com/cc/androidhal</a></p></li>
 <li><p><a class="reference external" href="https://www.dre.vanderbilt.edu/~schmidt/PDF/Android-HAL.pdf">https://www.dre.vanderbilt.edu/~schmidt/PDF/Android-HAL.pdf</a></p></li>
+<li><p><a class="reference external" href="https://aospinsight.com/how-to-add-an-aidl-hal-service-daemon/">https://aospinsight.com/how-to-add-an-aidl-hal-service-daemon/</a></p></li>
+<li><p><a class="reference external" href="https://devarea.com/aosp-creating-a-system-service/">https://devarea.com/aosp-creating-a-system-service/</a></p></li>
+<li><p><a class="reference external" href="https://aospinsight.com/how-to-implement-the-aidl-interface/">https://aospinsight.com/how-to-implement-the-aidl-interface/</a></p></li>
 </ul>
 </section>
 </section>
-<section id="vehicle-hal-vhal">
-<h2>Vehicle HAL (VHAL)<a class="headerlink" href="#vehicle-hal-vhal" title="Permalink to this heading"></a></h2>
+<section id="android-automotive-vehicle-hal-vhal">
+<h2>Android Automotive &amp; Vehicle HAL (VHAL)<a class="headerlink" href="#android-automotive-vehicle-hal-vhal" title="Permalink to this heading"></a></h2>
 <ul class="simple">
 <li><p><a class="reference external" href="https://stackoverflow.com/questions/60273871/how-to-handle-custom-vehicle-properties-in-vhal-android-automotive">https://stackoverflow.com/questions/60273871/how-to-handle-custom-vehicle-properties-in-vhal-android-automotive</a></p></li>
 <li><p><a class="reference external" href="https://www.linkedin.com/pulse/android-automotive-os-introduction-chris-simmonds/">https://www.linkedin.com/pulse/android-automotive-os-introduction-chris-simmonds/</a></p></li>
 <li><p><a class="reference external" href="https://review.arrowos.net/plugins/gitiles/ArrowOS/android_hardware_interfaces/+/8997880087d14e8a8ee7cf13682f457dbb7f5292/automotive/vehicle/2.0/default/impl/vhal_v2_0/DefaultVehicleHal.cpp">https://review.arrowos.net/plugins/gitiles/ArrowOS/android_hardware_interfaces/+/8997880087d14e8a8ee7cf13682f457dbb7f5292/automotive/vehicle/2.0/default/impl/vhal_v2_0/DefaultVehicleHal.cpp</a></p></li>
 <li><p><a class="reference external" href="https://technolinchpin.wordpress.com/2020/09/25/android-carservice-vehicle-data-handling/">https://technolinchpin.wordpress.com/2020/09/25/android-carservice-vehicle-data-handling/</a></p></li>
 <li><p><a class="reference external" href="https://stackoverflow.com/questions/51035825/aosp-how-to-initialize-the-vehiclepropertyaudio-volume-property-initialvalu">https://stackoverflow.com/questions/51035825/aosp-how-to-initialize-the-vehiclepropertyaudio-volume-property-initialvalu</a></p></li>
-</ul>
-</section>
-<section id="android-automotive">
-<h2>Android Automotive<a class="headerlink" href="#android-automotive" title="Permalink to this heading"></a></h2>
-<ul class="simple">
+<li><p><a class="reference external" href="https://github.com/nkh-lab/aosp-ncar-vehicle-hal/tree/master/impl/src">https://github.com/nkh-lab/aosp-ncar-vehicle-hal/tree/master/impl/src</a></p></li>
+<li><p><a class="reference external" href="https://stackoverflow.com/questions/60273871/how-to-handle-custom-vehicle-properties-in-vhal-android-automotive">https://stackoverflow.com/questions/60273871/how-to-handle-custom-vehicle-properties-in-vhal-android-automotive</a></p></li>
+<li><p><a class="reference external" href="https://github.com/nkh-lab/aosp-ncar-vehicle-hal">https://github.com/nkh-lab/aosp-ncar-vehicle-hal</a></p></li>
 <li><p><a class="reference external" href="https://android4tv.iwedia.com/documents/Android4TV%20-%20SW%20Architecture%20v1.5.pdf">https://android4tv.iwedia.com/documents/Android4TV%20-%20SW%20Architecture%20v1.5.pdf</a></p></li>
+<li><p><a class="reference external" href="https://blog.actorsfit.com/a?ID=01050-c95abdc1-9fdb-4a16-bbd2-3223df37e420">https://blog.actorsfit.com/a?ID=01050-c95abdc1-9fdb-4a16-bbd2-3223df37e420</a></p></li>
 </ul>
 </section>
 <section id="boot-process">
@@ -196,10 +208,75 @@
 <li><p><a class="reference external" href="https://stackoverflow.com/a/54957783">https://stackoverflow.com/a/54957783</a></p></li>
 </ul>
 </section>
-<section id="carservice">
-<h2>CarService<a class="headerlink" href="#carservice" title="Permalink to this heading"></a></h2>
+<section id="hidl-and-aidl">
+<h2>HIDL and AIDL<a class="headerlink" href="#hidl-and-aidl" title="Permalink to this heading"></a></h2>
 <ul class="simple">
-<li><p><a class="reference external" href="https://blog.actorsfit.com/a?ID=01050-c95abdc1-9fdb-4a16-bbd2-3223df37e420">https://blog.actorsfit.com/a?ID=01050-c95abdc1-9fdb-4a16-bbd2-3223df37e420</a></p></li>
+<li><p><a class="reference external" href="https://devarea.com/android-hidl-and-project-treble/">https://devarea.com/android-hidl-and-project-treble/</a></p></li>
+<li><p><a class="reference external" href="https://stackoverflow.com/questions/61363638/define-and-implement-hidl-interface">https://stackoverflow.com/questions/61363638/define-and-implement-hidl-interface</a></p></li>
+<li><p><a class="reference external" href="https://www.linkedin.com/pulse/use-hidl-create-new-virtual-hal-boudour-ayari">https://www.linkedin.com/pulse/use-hidl-create-new-virtual-hal-boudour-ayari</a></p></li>
+<li><p><a class="reference external" href="https://www.protechtraining.com/blog/post/implementing-remote-interface-using-aidl-66">https://www.protechtraining.com/blog/post/implementing-remote-interface-using-aidl-66</a></p></li>
+<li><p><a class="reference external" href="https://stuff.mit.edu/afs/sipb/project/android/docs/guide/components/aidl.html">https://stuff.mit.edu/afs/sipb/project/android/docs/guide/components/aidl.html</a></p></li>
+<li><p><a class="reference external" href="https://www.codeinsideout.com/blog/android/hal/aidl/#implement-hal">https://www.codeinsideout.com/blog/android/hal/aidl/#implement-hal</a></p></li>
+<li><p><a class="reference external" href="https://android.googlesource.com/platform/system/tools/aidl/+/android-n-preview-2/docs/aidl-cpp.md">https://android.googlesource.com/platform/system/tools/aidl/+/android-n-preview-2/docs/aidl-cpp.md</a></p></li>
+<li><p><a class="reference external" href="https://budhdisharma.medium.com/aidl-and-its-uses-in-android-e7a2520093e">https://budhdisharma.medium.com/aidl-and-its-uses-in-android-e7a2520093e</a></p></li>
+</ul>
+</section>
+<section id="binder">
+<h2>Binder<a class="headerlink" href="#binder" title="Permalink to this heading"></a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="https://mymusing.co/what-is-binder-in-android/">https://mymusing.co/what-is-binder-in-android/</a></p></li>
+<li><p><a class="reference external" href="https://developpaper.com/a-simple-example-of-binder/">https://developpaper.com/a-simple-example-of-binder/</a></p></li>
+<li><p><a class="reference external" href="https://medium.com/android-news/android-binder-framework-8a28fb38699a">https://medium.com/android-news/android-binder-framework-8a28fb38699a</a></p></li>
+<li><p><a class="reference external" href="https://www.codetd.com/en/article/11058051">https://www.codetd.com/en/article/11058051</a></p></li>
+<li><p><a class="reference external" href="https://proandroiddev.com/binders-in-android-part-ii-reference-counting-death-recipients-19d55c8356c3">https://proandroiddev.com/binders-in-android-part-ii-reference-counting-death-recipients-19d55c8356c3</a></p></li>
+<li><p><a class="reference external" href="http://strayinsights.blogspot.com/2018/04/android-binder-tutorial-part-three.html">http://strayinsights.blogspot.com/2018/04/android-binder-tutorial-part-three.html</a></p></li>
+</ul>
+</section>
+<section id="system-services">
+<h2>System Services<a class="headerlink" href="#system-services" title="Permalink to this heading"></a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="https://devarea.com/aosp-adding-a-native-daemon/">https://devarea.com/aosp-adding-a-native-daemon/</a></p></li>
+<li><p><a class="reference external" href="https://lynxbee.com/how-to-create-a-native-daemon-and-run-from-init-rc-in-android/">https://lynxbee.com/how-to-create-a-native-daemon-and-run-from-init-rc-in-android/</a></p></li>
+<li><p><a class="reference external" href="https://stackoverflow.com/questions/3232718/how-to-add-a-system-service-to-the-android-framework">https://stackoverflow.com/questions/3232718/how-to-add-a-system-service-to-the-android-framework</a></p></li>
+<li><p><a class="reference external" href="https://stackoverflow.com/questions/48521789/add-native-service-to-aosp">https://stackoverflow.com/questions/48521789/add-native-service-to-aosp</a></p></li>
+<li><p><a class="reference external" href="https://devarea.com/aosp-creating-a-system-service/">https://devarea.com/aosp-creating-a-system-service/</a></p></li>
+<li><p><a class="reference external" href="https://community.nxp.com/t5/i-MX-Processors/How-to-add-custom-system-service-to-AOSP/m-p/927478">https://community.nxp.com/t5/i-MX-Processors/How-to-add-custom-system-service-to-AOSP/m-p/927478</a></p></li>
+<li><p><a class="reference external" href="https://blog.actorsfit.com/a?ID=01250-65b64df3-84b9-46e6-a999-8ba5690d5fb0">https://blog.actorsfit.com/a?ID=01250-65b64df3-84b9-46e6-a999-8ba5690d5fb0</a></p></li>
+<li><p><a class="reference external" href="https://koushikdeb-32921.medium.com/android-system-services-aosp-987172132be1">https://koushikdeb-32921.medium.com/android-system-services-aosp-987172132be1</a></p></li>
+<li><p><a class="reference external" href="https://medium.com/android-news/system-service-in-aosp-750007d39555">https://medium.com/android-news/system-service-in-aosp-750007d39555</a></p></li>
+<li><p><a class="reference external" href="https://medium.com/&#64;number1shiksha/how-to-create-a-system-service-in-android-aosp-72cec54e28b4">https://medium.com/&#64;number1shiksha/how-to-create-a-system-service-in-android-aosp-72cec54e28b4</a></p></li>
+</ul>
+</section>
+<section id="surfaceflinger">
+<h2>SurfaceFlinger<a class="headerlink" href="#surfaceflinger" title="Permalink to this heading"></a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="https://stackoverflow.com/questions/5699107/android-surfaceflinger">https://stackoverflow.com/questions/5699107/android-surfaceflinger</a></p></li>
+</ul>
+</section>
+<section id="task-scheduling">
+<h2>Task Scheduling<a class="headerlink" href="#task-scheduling" title="Permalink to this heading"></a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="https://www.vogella.com/tutorials/AndroidTaskScheduling/article.html">https://www.vogella.com/tutorials/AndroidTaskScheduling/article.html</a></p></li>
+</ul>
+</section>
+<section id="processes-and-threads">
+<h2>Processes and Threads<a class="headerlink" href="#processes-and-threads" title="Permalink to this heading"></a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="https://stuff.mit.edu/afs/sipb/project/android/docs/guide/components/processes-and-threads.html">https://stuff.mit.edu/afs/sipb/project/android/docs/guide/components/processes-and-threads.html</a></p></li>
+<li><p><a class="reference external" href="https://stuff.mit.edu/afs/sipb/project/android/docs/guide/components/bound-services.html">https://stuff.mit.edu/afs/sipb/project/android/docs/guide/components/bound-services.html</a></p></li>
+</ul>
+</section>
+<section id="compatibility">
+<h2>Compatibility<a class="headerlink" href="#compatibility" title="Permalink to this heading"></a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="https://stuff.mit.edu/afs/sipb/project/android/docs/guide/practices/compatibility.html">https://stuff.mit.edu/afs/sipb/project/android/docs/guide/practices/compatibility.html</a></p></li>
+<li><p><a class="reference external" href="https://gist.github.com/bryanl/4337357">https://gist.github.com/bryanl/4337357</a></p></li>
+</ul>
+</section>
+<section id="projects">
+<h2>Projects<a class="headerlink" href="#projects" title="Permalink to this heading"></a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="https://github.com/jollen/libv4l2-android/blob/master/CameraHardware.cpp">https://github.com/jollen/libv4l2-android/blob/master/CameraHardware.cpp</a></p></li>
 </ul>
 </section>
 </section>
@@ -208,7 +285,7 @@
            </div>
           </div>
           <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
-        <a href="../cpp/cpp_stl.html" class="btn btn-neutral float-left" title="Standard Template Library (STL)" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="../cpp/cpp_projects.html" class="btn btn-neutral float-left" title="External Frameworks" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
         <a href="android_app_dev.html" class="btn btn-neutral float-right" title="Android App Development" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
     </div>
 

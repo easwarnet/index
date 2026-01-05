@@ -19,8 +19,8 @@
     <script src="../../_static/js/theme.js"></script>
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
-    <link rel="next" title="Data Structures" href="cpp_data_structures.html" />
-    <link rel="prev" title="Best Practices and Resources" href="cpp_best_practices.html" /> 
+    <link rel="next" title="Design Patterns" href="cpp_design_patterns.html" />
+    <link rel="prev" title="Data Structures" href="cpp_data_structures.html" /> 
 </head>
 
 <body class="wy-body-for-nav"> 
@@ -41,26 +41,24 @@
               <p class="caption" role="heading"><span class="caption-text">Reference - Cpp</span></p>
 <ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="cpp_algorithms.html">Algorithms</a></li>
-<li class="toctree-l1"><a class="reference internal" href="cpp_best_practices.html">Best Practices and Resources</a></li>
+<li class="toctree-l1"><a class="reference internal" href="cpp_data_structures.html">Data Structures</a></li>
 <li class="toctree-l1 current"><a class="current reference internal" href="#">Multithreading and Concurrency</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="#thread-pools">Thread Pools</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#multithreading-basics">Multithreading Basics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#thread">Thread</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#synchronization">Synchronization</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="#condition-variables">Condition Variables</a></li>
 </ul>
 </li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="cpp_data_structures.html">Data Structures</a></li>
 <li class="toctree-l1"><a class="reference internal" href="cpp_design_patterns.html">Design Patterns</a></li>
 <li class="toctree-l1"><a class="reference internal" href="cpp_language.html">C++ Language Features</a></li>
 <li class="toctree-l1"><a class="reference internal" href="cpp_stl.html">Standard Template Library (STL)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="cpp_projects.html">External Frameworks</a></li>
 </ul>
 <p class="caption" role="heading"><span class="caption-text">Reference - Android</span></p>
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="../android/android_aosp.html">AOSP (Android Open Source Project)</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../android/android_app_dev.html">Android App Development</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../android/android_external_frameworks.html">Android External Frameworks</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../android/android_native.html">Android Native Development</a></li>
 </ul>
 <p class="caption" role="heading"><span class="caption-text">Reference - Others</span></p>
@@ -71,11 +69,16 @@
 <li class="toctree-l1"><a class="reference internal" href="../kotlin.html">Kotlin</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../system.html">System Administration</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../interviews.html">Interview Preparation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../linux.html">Linux</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../streaming.html">Streaming Technologies</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../external_frameworks.html">External Frameworks</a></li>
 </ul>
 <p class="caption" role="heading"><span class="caption-text">Todo</span></p>
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="../../todo/android_study.html">Android Study Topics</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../../todo/cpp_study.html">Cpp Study Topics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../todo/dsa_study.html">DSA</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../todo/others.html">Others</a></li>
 </ul>
 <p class="caption" role="heading"><span class="caption-text">Archive - Gstreamer</span></p>
 <ul>
@@ -129,17 +132,16 @@
              
   <section id="multithreading-and-concurrency">
 <h1>Multithreading and Concurrency<a class="headerlink" href="#multithreading-and-concurrency" title="Permalink to this heading"></a></h1>
-<section id="thread-pools">
-<h2>Thread Pools<a class="headerlink" href="#thread-pools" title="Permalink to this heading"></a></h2>
+<section id="thread">
+<h2>Thread<a class="headerlink" href="#thread" title="Permalink to this heading"></a></h2>
 <ul class="simple">
 <li><p><a class="reference external" href="https://codereview.stackexchange.com/questions/274415/c20-single-queue-thread-pool">https://codereview.stackexchange.com/questions/274415/c20-single-queue-thread-pool</a></p></li>
 <li><p><a class="reference external" href="https://github.com/PaulRitaldato1/ThreadPool/blob/master/ThreadPool.h">https://github.com/PaulRitaldato1/ThreadPool/blob/master/ThreadPool.h</a></p></li>
-</ul>
-</section>
-<section id="multithreading-basics">
-<h2>Multithreading Basics<a class="headerlink" href="#multithreading-basics" title="Permalink to this heading"></a></h2>
-<ul class="simple">
 <li><p><a class="reference external" href="https://www.geeksforgeeks.org/multithreading-in-cpp/">https://www.geeksforgeeks.org/multithreading-in-cpp/</a></p></li>
+<li><p><a class="reference external" href="https://github.com/progschj/ThreadPool/blob/master/ThreadPool.h">https://github.com/progschj/ThreadPool/blob/master/ThreadPool.h</a></p></li>
+<li><p><a class="reference external" href="https://stackoverflow.com/questions/266168/simple-example-of-threading-in-c">https://stackoverflow.com/questions/266168/simple-example-of-threading-in-c</a></p></li>
+<li><p><a class="reference external" href="https://stackoverflow.com/questions/22030027/c11-dynamic-threadpool/32593766#32593766">https://stackoverflow.com/questions/22030027/c11-dynamic-threadpool/32593766#32593766</a></p></li>
+<li><p><a class="reference external" href="https://stackoverflow.com/questions/15752659/thread-pooling-in-c11">https://stackoverflow.com/questions/15752659/thread-pooling-in-c11</a></p></li>
 </ul>
 </section>
 <section id="synchronization">
@@ -158,8 +160,8 @@
            </div>
           </div>
           <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
-        <a href="cpp_best_practices.html" class="btn btn-neutral float-left" title="Best Practices and Resources" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
-        <a href="cpp_data_structures.html" class="btn btn-neutral float-right" title="Data Structures" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="cpp_data_structures.html" class="btn btn-neutral float-left" title="Data Structures" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="cpp_design_patterns.html" class="btn btn-neutral float-right" title="Design Patterns" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
     </div>
 
   <hr/>

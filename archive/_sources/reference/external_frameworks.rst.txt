@@ -1,0 +1,62 @@
+External Frameworks
+============================
+
+Vulkan
+-------
+
+* https://vulkan-tutorial.com/
+
+MQTT
+--------
+
+* https://medium.com/swlh/android-and-mqtt-a-simple-guide-cb0cbba1931c
+* https://www.hivemq.com/blog/mqtt-essentials-part-5-mqtt-topics-best-practices/
+* https://www.hivemq.com/blog/mqtt-essentials-part-3-client-broker-connection-establishment/
+* https://www.hivemq.com/docs/hivemq/4.8/user-guide/introduction.html
+* https://stackoverflow.com/questions/71065180/using-ca-certificate-in-mqtt-paho
+* https://www.eclipse.org/paho/files/cppdoc/annotated.html
+* https://github.com/eclipse/paho.mqtt.cpp/tree/master/src/samples
+* https://github.com/eclipse/paho.mqtt.android/blob/master/org.eclipse.paho.android.service/src/main/java/org/eclipse/paho/android/service/DatabaseMessageStore.java
+
+yocto
+--------
+
+* https://blog.mbedded.ninja/programming/embedded-linux/yocto-project/adding-a-custom-app-to-a-yocto-build/
+* https://wiki.yoctoproject.org/wiki/Building_your_own_recipes_from_first_principles
+
+restsdk
+--------
+
+* https://github.com/Microsoft/cpprestsdk
+* https://github.com/Microsoft/cpprestsdk/wiki/Getting-Started-Tutorial
+* https://code.tutsplus.com/tutorials/android-from-scratch-using-rest-apis--cms-27117
+* https://github.com/Microsoft/cpprestsdk
+* https://github.com/Microsoft/cpprestsdk/wiki/Getting-Started-Tutorial
+* https://aws.github.io/chalice/tutorials/basicrestapi.html
+* https://blog.stoplight.io/python-rest-api?hs_amp=true
+
+vsomeip
+---------
+
+* https://docs.projects.genivi.org/vSomeIP/2.0.1/html/README.html
+* https://github.com/GENIVI/vsomeip/tree/master/examples/hello_world
+
+AWS
+----
+
+* https://github.com/aws/aws-sdk-cpp
+* https://github.com/awsdocs/aws-doc-sdk-examples/blob/master/cpp/example_code/s3/put_object_async.cpp
+* https://stackoverflow.com/questions/19193413/pathfinding-in-a-grid-system
+* https://docs.aws.amazon.com/sdk-for-cpp/v1/developer-guide/basic-use.html
+
+Android Dependancy Injections
+--------------------------------
+
+* https://www.toptal.com/android/functional-reactive-android-rxjava
+* https://www.vogella.com/tutorials/Dagger/article.html
+
+OAuth
+-------
+
+* https://towardsdatascience.com/how-to-authenticate-using-keys-basicauth-oauth2-in-python-94fddec609cc
+

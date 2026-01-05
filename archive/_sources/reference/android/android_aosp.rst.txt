@@ -11,20 +11,24 @@ General HAL Resources
 * https://stackoverflow.com/questions/23625513/what-is-the-main-advantage-of-having-hal-layer-in-android
 * https://www.nobleprog.com/cc/androidhal
 * https://www.dre.vanderbilt.edu/~schmidt/PDF/Android-HAL.pdf
+* https://aospinsight.com/how-to-add-an-aidl-hal-service-daemon/
+* https://devarea.com/aosp-creating-a-system-service/
+* https://aospinsight.com/how-to-implement-the-aidl-interface/
 
-Vehicle HAL (VHAL)
-------------------
+
+Android Automotive & Vehicle HAL (VHAL)
+------------------------------------------------------
 
 * https://stackoverflow.com/questions/60273871/how-to-handle-custom-vehicle-properties-in-vhal-android-automotive
 * https://www.linkedin.com/pulse/android-automotive-os-introduction-chris-simmonds/
 * https://review.arrowos.net/plugins/gitiles/ArrowOS/android_hardware_interfaces/+/8997880087d14e8a8ee7cf13682f457dbb7f5292/automotive/vehicle/2.0/default/impl/vhal_v2_0/DefaultVehicleHal.cpp
 * https://technolinchpin.wordpress.com/2020/09/25/android-carservice-vehicle-data-handling/
 * https://stackoverflow.com/questions/51035825/aosp-how-to-initialize-the-vehiclepropertyaudio-volume-property-initialvalu
-
-Android Automotive
-------------------
-
+* https://github.com/nkh-lab/aosp-ncar-vehicle-hal/tree/master/impl/src
+* https://stackoverflow.com/questions/60273871/how-to-handle-custom-vehicle-properties-in-vhal-android-automotive
+* https://github.com/nkh-lab/aosp-ncar-vehicle-hal
 * https://android4tv.iwedia.com/documents/Android4TV%20-%20SW%20Architecture%20v1.5.pdf
+* https://blog.actorsfit.com/a?ID=01050-c95abdc1-9fdb-4a16-bbd2-3223df37e420
 
 Boot Process
 ------------
@@ -54,7 +58,71 @@ ConfigStore
 * https://source.android.com/devices/architecture/configstore/interface
 * https://stackoverflow.com/a/54957783
 
-CarService
-----------
 
-* https://blog.actorsfit.com/a?ID=01050-c95abdc1-9fdb-4a16-bbd2-3223df37e420
+HIDL and AIDL
+-------------
+
+* https://devarea.com/android-hidl-and-project-treble/
+* https://stackoverflow.com/questions/61363638/define-and-implement-hidl-interface
+* https://www.linkedin.com/pulse/use-hidl-create-new-virtual-hal-boudour-ayari
+* https://www.protechtraining.com/blog/post/implementing-remote-interface-using-aidl-66
+* https://stuff.mit.edu/afs/sipb/project/android/docs/guide/components/aidl.html
+* https://www.codeinsideout.com/blog/android/hal/aidl/#implement-hal
+* https://android.googlesource.com/platform/system/tools/aidl/+/android-n-preview-2/docs/aidl-cpp.md
+* https://budhdisharma.medium.com/aidl-and-its-uses-in-android-e7a2520093e
+
+Binder
+------
+
+* https://mymusing.co/what-is-binder-in-android/
+* https://developpaper.com/a-simple-example-of-binder/
+* https://medium.com/android-news/android-binder-framework-8a28fb38699a
+* https://www.codetd.com/en/article/11058051
+* https://proandroiddev.com/binders-in-android-part-ii-reference-counting-death-recipients-19d55c8356c3
+* http://strayinsights.blogspot.com/2018/04/android-binder-tutorial-part-three.html
+
+System Services
+---------------
+
+* https://devarea.com/aosp-adding-a-native-daemon/
+* https://lynxbee.com/how-to-create-a-native-daemon-and-run-from-init-rc-in-android/
+* https://stackoverflow.com/questions/3232718/how-to-add-a-system-service-to-the-android-framework
+* https://stackoverflow.com/questions/48521789/add-native-service-to-aosp
+* https://devarea.com/aosp-creating-a-system-service/
+* https://community.nxp.com/t5/i-MX-Processors/How-to-add-custom-system-service-to-AOSP/m-p/927478
+* https://blog.actorsfit.com/a?ID=01250-65b64df3-84b9-46e6-a999-8ba5690d5fb0
+* https://koushikdeb-32921.medium.com/android-system-services-aosp-987172132be1
+* https://medium.com/android-news/system-service-in-aosp-750007d39555
+* https://medium.com/@number1shiksha/how-to-create-a-system-service-in-android-aosp-72cec54e28b4
+
+SurfaceFlinger
+--------------
+
+* https://stackoverflow.com/questions/5699107/android-surfaceflinger
+
+Task Scheduling
+---------------
+
+* https://www.vogella.com/tutorials/AndroidTaskScheduling/article.html
+
+Processes and Threads
+---------------------
+
+* https://stuff.mit.edu/afs/sipb/project/android/docs/guide/components/processes-and-threads.html
+* https://stuff.mit.edu/afs/sipb/project/android/docs/guide/components/bound-services.html
+
+Compatibility
+-------------
+
+* https://stuff.mit.edu/afs/sipb/project/android/docs/guide/practices/compatibility.html
+* https://gist.github.com/bryanl/4337357
+
+Projects
+-------------
+
+* https://github.com/jollen/libv4l2-android/blob/master/CameraHardware.cpp
+
+
+
+
+

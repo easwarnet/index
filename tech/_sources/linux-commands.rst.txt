@@ -40,7 +40,12 @@ inotify utility is an effective tool to monitor and notify filesystem changes.
     pkg-config --cflags dbus-1
 
 
+**Compress JPG Image**
+----------------------------------------------------------------
 
+.. code-block:: bash
+
+    mogrify -quality 80 *.jpg
 
 
 

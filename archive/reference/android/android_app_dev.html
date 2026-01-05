@@ -19,7 +19,7 @@
     <script src="../../_static/js/theme.js"></script>
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
-    <link rel="next" title="Android External Frameworks" href="android_external_frameworks.html" />
+    <link rel="next" title="Android Native Development" href="android_native.html" />
     <link rel="prev" title="AOSP (Android Open Source Project)" href="android_aosp.html" /> 
 </head>
 
@@ -41,12 +41,12 @@
               <p class="caption" role="heading"><span class="caption-text">Reference - Cpp</span></p>
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="../cpp/cpp_algorithms.html">Algorithms</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../cpp/cpp_best_practices.html">Best Practices and Resources</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../cpp/cpp_concurrency.html">Multithreading and Concurrency</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../cpp/cpp_data_structures.html">Data Structures</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../cpp/cpp_concurrency.html">Multithreading and Concurrency</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../cpp/cpp_design_patterns.html">Design Patterns</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../cpp/cpp_language.html">C++ Language Features</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../cpp/cpp_stl.html">Standard Template Library (STL)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../cpp/cpp_projects.html">External Frameworks</a></li>
 </ul>
 <p class="caption" role="heading"><span class="caption-text">Reference - Android</span></p>
 <ul class="current">
@@ -55,36 +55,41 @@
 <li class="toctree-l2"><a class="reference internal" href="#general-resources">General Resources</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#services">Services</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#content-providers-broadcast-receivers">Content Providers &amp; Broadcast Receivers</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#ui-components">UI Components</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#searchview-and-recyclerview">SearchView and RecyclerView</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#webview">WebView</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#notifications">Notifications</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#adapters">Adapters</a></li>
-</ul>
-</li>
 <li class="toctree-l2"><a class="reference internal" href="#bluetooth">Bluetooth</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#networking">Networking</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="#network-service-discovery">Network Service Discovery</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#sockets">Sockets</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#ip-address">IP Address</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#voip">VoIP</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#android-socket">Android Socket</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#android-nsd">Android NSD</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="#email">Email</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#chat">Chat</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#data-storage-and-preferences">Data Storage and Preferences</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#streaming-and-media">Streaming and Media</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#qr-code-scanner">QR Code Scanner</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#ui-patterns">UI Patterns</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#navigation-drawer">Navigation Drawer</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#recyclerview-tips">RecyclerView Tips</a></li>
-</ul>
-</li>
 <li class="toctree-l2"><a class="reference internal" href="#audio">Audio</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#google-play-store">Google Play Store</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#iot-and-trends">IoT and Trends</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#online-streaming">Online Streaming</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#streaming-device-to-device">Streaming Device to Device</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#tv">TV</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#others">Others</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#google-play-store">Google Play Store</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#other-ideas">Other Ideas</a></li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="android_external_frameworks.html">Android External Frameworks</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#ui-components">UI Components</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#searchview-recyclerview-gridview">SearchView RecyclerView Gridview</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#webview">WebView</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#notifications">Notifications</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#adapters">Adapters</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#navigation-drawer">Navigation Drawer</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#email">Email</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id1">Others</a></li>
+</ul>
+</li>
+</ul>
+</li>
 <li class="toctree-l1"><a class="reference internal" href="android_native.html">Android Native Development</a></li>
 </ul>
 <p class="caption" role="heading"><span class="caption-text">Reference - Others</span></p>
@@ -95,11 +100,16 @@
 <li class="toctree-l1"><a class="reference internal" href="../kotlin.html">Kotlin</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../system.html">System Administration</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../interviews.html">Interview Preparation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../linux.html">Linux</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../streaming.html">Streaming Technologies</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../external_frameworks.html">External Frameworks</a></li>
 </ul>
 <p class="caption" role="heading"><span class="caption-text">Todo</span></p>
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="../../todo/android_study.html">Android Study Topics</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../../todo/cpp_study.html">Cpp Study Topics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../todo/dsa_study.html">DSA</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../todo/others.html">Others</a></li>
 </ul>
 <p class="caption" role="heading"><span class="caption-text">Archive - Gstreamer</span></p>
 <ul>
@@ -184,37 +194,6 @@
 <li><p><a class="reference external" href="https://www.geeksforgeeks.org/how-to-use-localbroadcastmanager-in-android/">https://www.geeksforgeeks.org/how-to-use-localbroadcastmanager-in-android/</a></p></li>
 </ul>
 </section>
-<section id="ui-components">
-<h2>UI Components<a class="headerlink" href="#ui-components" title="Permalink to this heading"></a></h2>
-<section id="searchview-and-recyclerview">
-<h3>SearchView and RecyclerView<a class="headerlink" href="#searchview-and-recyclerview" title="Permalink to this heading"></a></h3>
-<ul class="simple">
-<li><p><a class="reference external" href="https://www.geeksforgeeks.org/searchview-in-android-with-recyclerview/">https://www.geeksforgeeks.org/searchview-in-android-with-recyclerview/</a></p></li>
-<li><p><a class="reference external" href="https://stackoverflow.com/questions/33582546/how-to-make-whole-activity-scrollable-according-to-the-data-inside-it">https://stackoverflow.com/questions/33582546/how-to-make-whole-activity-scrollable-according-to-the-data-inside-it</a></p></li>
-</ul>
-</section>
-<section id="webview">
-<h3>WebView<a class="headerlink" href="#webview" title="Permalink to this heading"></a></h3>
-<ul class="simple">
-<li><p><a class="reference external" href="https://abhiandroid.com/ui/webview">https://abhiandroid.com/ui/webview</a></p></li>
-</ul>
-</section>
-<section id="notifications">
-<h3>Notifications<a class="headerlink" href="#notifications" title="Permalink to this heading"></a></h3>
-<ul class="simple">
-<li><p><a class="reference external" href="https://www.tutorialspoint.com/how-to-read-all-the-coming-notifications-in-android">https://www.tutorialspoint.com/how-to-read-all-the-coming-notifications-in-android</a></p></li>
-<li><p><a class="reference external" href="https://github.com/Chagall/notification-listener-service-example/blob/master/app/src/main/java/com/github/chagall/notificationlistenerexample/NotificationListenerExampleService.java">https://github.com/Chagall/notification-listener-service-example/blob/master/app/src/main/java/com/github/chagall/notificationlistenerexample/NotificationListenerExampleService.java</a></p></li>
-<li><p><a class="reference external" href="https://github.com/kpbird/NotificationListenerService-Example">https://github.com/kpbird/NotificationListenerService-Example</a></p></li>
-</ul>
-</section>
-<section id="adapters">
-<h3>Adapters<a class="headerlink" href="#adapters" title="Permalink to this heading"></a></h3>
-<ul class="simple">
-<li><p><a class="reference external" href="https://abhiandroid.com/ui/baseadapter-tutorial-example.html">https://abhiandroid.com/ui/baseadapter-tutorial-example.html</a></p></li>
-<li><p><a class="reference external" href="https://github.com/AshleyRayMaceli/discussion-forum-android/blob/master/app/src/main/java/com/example/guest/discussionforum/adapters/FirebaseThreadViewHolder.java">https://github.com/AshleyRayMaceli/discussion-forum-android/blob/master/app/src/main/java/com/example/guest/discussionforum/adapters/FirebaseThreadViewHolder.java</a></p></li>
-</ul>
-</section>
-</section>
 <section id="bluetooth">
 <h2>Bluetooth<a class="headerlink" href="#bluetooth" title="Permalink to this heading"></a></h2>
 <ul class="simple">
@@ -253,11 +232,25 @@
 <li><p><a class="reference external" href="https://stackoverflow.com/questions/11176988/android-voip-application-without-access-to-internet">https://stackoverflow.com/questions/11176988/android-voip-application-without-access-to-internet</a></p></li>
 </ul>
 </section>
-</section>
-<section id="email">
-<h2>Email<a class="headerlink" href="#email" title="Permalink to this heading"></a></h2>
+<section id="android-socket">
+<h3>Android Socket<a class="headerlink" href="#android-socket" title="Permalink to this heading"></a></h3>
 <ul class="simple">
-<li><p><a class="reference external" href="https://www.tutlane.com/tutorial/android/android-send-email-with-examples">https://www.tutlane.com/tutorial/android/android-send-email-with-examples</a></p></li>
+<li><p><a class="reference external" href="https://examples.javacodegeeks.com/android/core/socket-core/android-socket-example/">https://examples.javacodegeeks.com/android/core/socket-core/android-socket-example/</a></p></li>
+</ul>
+</section>
+<section id="android-nsd">
+<h3>Android NSD<a class="headerlink" href="#android-nsd" title="Permalink to this heading"></a></h3>
+<ul class="simple">
+<li><p><a class="reference external" href="https://jayrambhia.com/blog/android-wireless-connection-1">https://jayrambhia.com/blog/android-wireless-connection-1</a></p></li>
+<li><p><a class="reference external" href="https://android.googlesource.com/platform/development/+/master/samples/training/NsdChat/src/com/example/android/nsdchat">https://android.googlesource.com/platform/development/+/master/samples/training/NsdChat/src/com/example/android/nsdchat</a></p></li>
+</ul>
+</section>
+</section>
+<section id="chat">
+<h2>Chat<a class="headerlink" href="#chat" title="Permalink to this heading"></a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="https://www.scaledrone.com/blog/android-chat-tutorial/">https://www.scaledrone.com/blog/android-chat-tutorial/</a></p></li>
+<li><p><a class="reference external" href="https://bambuser.com/docs/video-platform/broadcasting/android/">https://bambuser.com/docs/video-platform/broadcasting/android/</a></p></li>
 </ul>
 </section>
 <section id="data-storage-and-preferences">
@@ -288,39 +281,103 @@
 <li><p><a class="reference external" href="https://github.com/learntodroid/AndroidQRCodeScanner">https://github.com/learntodroid/AndroidQRCodeScanner</a></p></li>
 </ul>
 </section>
-<section id="ui-patterns">
-<h2>UI Patterns<a class="headerlink" href="#ui-patterns" title="Permalink to this heading"></a></h2>
-<section id="navigation-drawer">
-<h3>Navigation Drawer<a class="headerlink" href="#navigation-drawer" title="Permalink to this heading"></a></h3>
-<ul class="simple">
-<li><p><a class="reference external" href="http://www.sketchwarehelp.com/2018/01/a-simple-navigation-drawer-in-sketchware.html">http://www.sketchwarehelp.com/2018/01/a-simple-navigation-drawer-in-sketchware.html</a></p></li>
-</ul>
-</section>
-<section id="recyclerview-tips">
-<h3>RecyclerView Tips<a class="headerlink" href="#recyclerview-tips" title="Permalink to this heading"></a></h3>
-<ul class="simple">
-<li><p><a class="reference external" href="https://stackoverflow.com/questions/46127942/in-android-recyclerview-how-to-change-the-color-of-alternate-rows">https://stackoverflow.com/questions/46127942/in-android-recyclerview-how-to-change-the-color-of-alternate-rows</a></p></li>
-</ul>
-</section>
-</section>
 <section id="audio">
 <h2>Audio<a class="headerlink" href="#audio" title="Permalink to this heading"></a></h2>
 <ul class="simple">
 <li><p><a class="reference external" href="https://github.com/DeanThomson/android-udp-audio-chat">https://github.com/DeanThomson/android-udp-audio-chat</a></p></li>
 </ul>
 </section>
+<section id="online-streaming">
+<h2>Online Streaming<a class="headerlink" href="#online-streaming" title="Permalink to this heading"></a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="https://stackoverflow.com/questions/6283568/online-radio-streaming-app-for-android">https://stackoverflow.com/questions/6283568/online-radio-streaming-app-for-android</a></p></li>
+<li><p><a class="reference external" href="https://ssaurel.medium.com/implement-audio-streaming-in-android-applications-8758d3bc62f1">https://ssaurel.medium.com/implement-audio-streaming-in-android-applications-8758d3bc62f1</a></p></li>
+<li><p><a class="reference external" href="https://en.buradabiliyorum.com/download-android-my-fm-app-live-streaming-app-source-code/">https://en.buradabiliyorum.com/download-android-my-fm-app-live-streaming-app-source-code/</a></p></li>
+<li><p><a class="reference external" href="https://github.com/SueSmith/android-streaming-video/blob/master/media-player-streaming/src/com/example/package/MainActivity.java">https://github.com/SueSmith/android-streaming-video/blob/master/media-player-streaming/src/com/example/package/MainActivity.java</a></p></li>
+<li><p><a class="reference external" href="https://github.com/dibakarece/DMAudioStreamer/tree/master/dmaudiostreamer/src/main/java/dm/audiostreamer">https://github.com/dibakarece/DMAudioStreamer/tree/master/dmaudiostreamer/src/main/java/dm/audiostreamer</a></p></li>
+</ul>
+</section>
+<section id="streaming-device-to-device">
+<h2>Streaming Device to Device<a class="headerlink" href="#streaming-device-to-device" title="Permalink to this heading"></a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="https://stackoverflow.com/questions/47687861/android-stream-video-from-camera-into-another-android-device">https://stackoverflow.com/questions/47687861/android-stream-video-from-camera-into-another-android-device</a></p></li>
+</ul>
+</section>
+<section id="tv">
+<h2>TV<a class="headerlink" href="#tv" title="Permalink to this heading"></a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="https://github.com/googlearchive/androidtv-Leanback/blob/master/app/src/main/java/com/example/android/tvleanback/ui/MainFragment.java">https://github.com/googlearchive/androidtv-Leanback/blob/master/app/src/main/java/com/example/android/tvleanback/ui/MainFragment.java</a></p></li>
+<li><p><a class="reference external" href="https://github.com/android/tv-samples/blob/main/ClassicsKotlin/app/src/main/java/com/android/tv/classics/MainActivity.kt">https://github.com/android/tv-samples/blob/main/ClassicsKotlin/app/src/main/java/com/android/tv/classics/MainActivity.kt</a></p></li>
+</ul>
+</section>
+<section id="others">
+<h2>Others<a class="headerlink" href="#others" title="Permalink to this heading"></a></h2>
 <section id="google-play-store">
-<h2>Google Play Store<a class="headerlink" href="#google-play-store" title="Permalink to this heading"></a></h2>
+<h3>Google Play Store<a class="headerlink" href="#google-play-store" title="Permalink to this heading"></a></h3>
 <ul class="simple">
 <li><p><a class="reference external" href="https://clutch.co/app-developers/resources/get-app-featured-google-play-store">https://clutch.co/app-developers/resources/get-app-featured-google-play-store</a></p></li>
 <li><p><a class="reference external" href="https://developers.soundcloud.com/docs/api/terms-of-use#changes">https://developers.soundcloud.com/docs/api/terms-of-use#changes</a></p></li>
 </ul>
 </section>
-<section id="iot-and-trends">
-<h2>IoT and Trends<a class="headerlink" href="#iot-and-trends" title="Permalink to this heading"></a></h2>
+<section id="other-ideas">
+<h3>Other Ideas<a class="headerlink" href="#other-ideas" title="Permalink to this heading"></a></h3>
 <ul class="simple">
 <li><p><a class="reference external" href="https://www.linkedin.com/posts/android-developer_what-makes-iot-a-popular-trend-in-android-activity-6851052375617236992-wYbB">https://www.linkedin.com/posts/android-developer_what-makes-iot-a-popular-trend-in-android-activity-6851052375617236992-wYbB</a></p></li>
+<li><p><a class="reference external" href="https://www.udemy.com/course/how-to-make-an-e-commerce-application-with-android/">https://www.udemy.com/course/how-to-make-an-e-commerce-application-with-android/</a></p></li>
+<li><p><a class="reference external" href="https://stackoverflow.com/questions/13373878/android-image-editor">https://stackoverflow.com/questions/13373878/android-image-editor</a></p></li>
 </ul>
+</section>
+</section>
+<section id="ui-components">
+<h2>UI Components<a class="headerlink" href="#ui-components" title="Permalink to this heading"></a></h2>
+<section id="searchview-recyclerview-gridview">
+<h3>SearchView RecyclerView Gridview<a class="headerlink" href="#searchview-recyclerview-gridview" title="Permalink to this heading"></a></h3>
+<ul class="simple">
+<li><p><a class="reference external" href="https://www.geeksforgeeks.org/searchview-in-android-with-recyclerview/">https://www.geeksforgeeks.org/searchview-in-android-with-recyclerview/</a></p></li>
+<li><p><a class="reference external" href="https://stackoverflow.com/questions/33582546/how-to-make-whole-activity-scrollable-according-to-the-data-inside-it">https://stackoverflow.com/questions/33582546/how-to-make-whole-activity-scrollable-according-to-the-data-inside-it</a></p></li>
+<li><p><a class="reference external" href="https://stackoverflow.com/questions/46127942/in-android-recyclerview-how-to-change-the-color-of-alternate-rows">https://stackoverflow.com/questions/46127942/in-android-recyclerview-how-to-change-the-color-of-alternate-rows</a></p></li>
+<li><p><a class="reference external" href="https://www.tutorialspoint.com/android/android_grid_view.htm#:~:text=Android%20GridView%20shows%20items%20in,the%20layout%20using%20a%20ListAdapter">https://www.tutorialspoint.com/android/android_grid_view.htm#:~:text=Android%20GridView%20shows%20items%20in,the%20layout%20using%20a%20ListAdapter</a></p></li>
+</ul>
+</section>
+<section id="webview">
+<h3>WebView<a class="headerlink" href="#webview" title="Permalink to this heading"></a></h3>
+<ul class="simple">
+<li><p><a class="reference external" href="https://abhiandroid.com/ui/webview">https://abhiandroid.com/ui/webview</a></p></li>
+</ul>
+</section>
+<section id="notifications">
+<h3>Notifications<a class="headerlink" href="#notifications" title="Permalink to this heading"></a></h3>
+<ul class="simple">
+<li><p><a class="reference external" href="https://www.tutorialspoint.com/how-to-read-all-the-coming-notifications-in-android">https://www.tutorialspoint.com/how-to-read-all-the-coming-notifications-in-android</a></p></li>
+<li><p><a class="reference external" href="https://github.com/Chagall/notification-listener-service-example/blob/master/app/src/main/java/com/github/chagall/notificationlistenerexample/NotificationListenerExampleService.java">https://github.com/Chagall/notification-listener-service-example/blob/master/app/src/main/java/com/github/chagall/notificationlistenerexample/NotificationListenerExampleService.java</a></p></li>
+<li><p><a class="reference external" href="https://github.com/kpbird/NotificationListenerService-Example">https://github.com/kpbird/NotificationListenerService-Example</a></p></li>
+</ul>
+</section>
+<section id="adapters">
+<h3>Adapters<a class="headerlink" href="#adapters" title="Permalink to this heading"></a></h3>
+<ul class="simple">
+<li><p><a class="reference external" href="https://abhiandroid.com/ui/baseadapter-tutorial-example.html">https://abhiandroid.com/ui/baseadapter-tutorial-example.html</a></p></li>
+<li><p><a class="reference external" href="https://github.com/AshleyRayMaceli/discussion-forum-android/blob/master/app/src/main/java/com/example/guest/discussionforum/adapters/FirebaseThreadViewHolder.java">https://github.com/AshleyRayMaceli/discussion-forum-android/blob/master/app/src/main/java/com/example/guest/discussionforum/adapters/FirebaseThreadViewHolder.java</a></p></li>
+</ul>
+</section>
+<section id="navigation-drawer">
+<h3>Navigation Drawer<a class="headerlink" href="#navigation-drawer" title="Permalink to this heading"></a></h3>
+<ul class="simple">
+<li><p><a class="reference external" href="http://www.sketchwarehelp.com/2018/01/a-simple-navigation-drawer-in-sketchware.html">http://www.sketchwarehelp.com/2018/01/a-simple-navigation-drawer-in-sketchware.html</a></p></li>
+</ul>
+</section>
+<section id="email">
+<h3>Email<a class="headerlink" href="#email" title="Permalink to this heading"></a></h3>
+<ul class="simple">
+<li><p><a class="reference external" href="https://www.tutlane.com/tutorial/android/android-send-email-with-examples">https://www.tutlane.com/tutorial/android/android-send-email-with-examples</a></p></li>
+</ul>
+</section>
+<section id="id1">
+<h3>Others<a class="headerlink" href="#id1" title="Permalink to this heading"></a></h3>
+<ul class="simple">
+<li><p><a class="reference external" href="https://stackoverflow.com/questions/4623508/how-to-set-the-font-style-to-bold-italic-and-underlined-in-an-android-textview">https://stackoverflow.com/questions/4623508/how-to-set-the-font-style-to-bold-italic-and-underlined-in-an-android-textview</a></p></li>
+</ul>
+</section>
 </section>
 </section>
 
@@ -329,7 +386,7 @@
           </div>
           <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
         <a href="android_aosp.html" class="btn btn-neutral float-left" title="AOSP (Android Open Source Project)" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
-        <a href="android_external_frameworks.html" class="btn btn-neutral float-right" title="Android External Frameworks" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="android_native.html" class="btn btn-neutral float-right" title="Android Native Development" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
     </div>
 
   <hr/>

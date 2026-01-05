@@ -40,10 +40,38 @@ Dynamic Programming / Combinations / Coin Change
 * https://www.hackerrank.com/challenges/coin-change/forum
 * https://stackoverflow.com/questions/4632322/finding-all-possible-combinations-of-numbers-to-reach-a-given-sum
 
-Problem Sets and Practice
---------------------------
+Algorithms
+-------------
+
+* https://rosettacode.org/wiki/A*_search_algorithm#C++
+
+
+Problem Sets
+---------------
 
 * https://leetcode.com/problemset/all/?difficulty=MEDIUM&page=1
 * https://algo.monster/liteproblems/2115
 * https://codeforwin.org/c-programming/number-pattern-17-in-c
 * https://www.geeksforgeeks.org/inner-reducing-pattern-printing/
+
+
+Others
+---------------
+
+* https://www.geeksforgeeks.org/given-an-array-a-and-a-number-x-check-for-pair-in-a-with-sum-as-x/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

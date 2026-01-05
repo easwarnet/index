@@ -1,16 +1,16 @@
 Multithreading and Concurrency
 ==============================
 
-Thread Pools
+Thread 
 ------------
 
 * https://codereview.stackexchange.com/questions/274415/c20-single-queue-thread-pool
 * https://github.com/PaulRitaldato1/ThreadPool/blob/master/ThreadPool.h
-
-Multithreading Basics
----------------------
-
 * https://www.geeksforgeeks.org/multithreading-in-cpp/
+* https://github.com/progschj/ThreadPool/blob/master/ThreadPool.h
+* https://stackoverflow.com/questions/266168/simple-example-of-threading-in-c
+* https://stackoverflow.com/questions/22030027/c11-dynamic-threadpool/32593766#32593766
+* https://stackoverflow.com/questions/15752659/thread-pooling-in-c11
 
 Synchronization
 ---------------

@@ -1,0 +1,18 @@
+External Frameworks
+============================
+
+wav-mp3 encoder
+^^^^^^^^^^^^^^^^^^
+
+* https://github.com/antonl1911/encode
+
+Code Tracing
+^^^^^^^^^^^^
+
+* https://www.codeproject.com/Tips/5378622/A-Cplusplus-Code-Function-Tracing-Class
+
+
+V4L2 Wrapper
+^^^^^^^^^^^^^^
+
+* https://github.com/severin-lemaignan/webcam-v4l2

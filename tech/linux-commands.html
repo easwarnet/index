@@ -62,6 +62,7 @@
 <li class="toctree-l2"><a class="reference internal" href="#remount-partition"><strong>Remount Partition</strong></a></li>
 <li class="toctree-l2"><a class="reference internal" href="#fix-tty-resource-temporarily-unavailable"><strong>Fix - tty Resource temporarily unavailable</strong></a></li>
 <li class="toctree-l2"><a class="reference internal" href="#find-path-of-c-cpp-includes"><strong>Find Path of C/Cpp Includes</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="#compress-jpg-image"><strong>Compress JPG Image</strong></a></li>
 </ul>
 </li>
 </ul>
@@ -130,6 +131,12 @@ sudo <span class="nb">kill</span> -9 &lt;PID&gt;
 <section id="find-path-of-c-cpp-includes">
 <h2><strong>Find Path of C/Cpp Includes</strong><a class="headerlink" href="#find-path-of-c-cpp-includes" title="Permalink to this heading"></a></h2>
 <div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>pkg-config --cflags dbus-1
+</pre></div>
+</div>
+</section>
+<section id="compress-jpg-image">
+<h2><strong>Compress JPG Image</strong><a class="headerlink" href="#compress-jpg-image" title="Permalink to this heading"></a></h2>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>mogrify -quality <span class="m">80</span> *.jpg
 </pre></div>
 </div>
 </section>

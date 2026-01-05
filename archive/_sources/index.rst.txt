@@ -15,12 +15,12 @@ Notes
    :caption: Reference - Cpp
 
    reference/cpp/cpp_algorithms.rst
-   reference/cpp/cpp_best_practices.rst
-   reference/cpp/cpp_concurrency.rst
    reference/cpp/cpp_data_structures.rst
+   reference/cpp/cpp_concurrency.rst
    reference/cpp/cpp_design_patterns.rst
    reference/cpp/cpp_language.rst
    reference/cpp/cpp_stl.rst
+   reference/cpp/cpp_projects.rst
 
 .. toctree::
    :maxdepth: 1
@@ -28,7 +28,6 @@ Notes
 
    reference/android/android_aosp.rst
    reference/android/android_app_dev.rst
-   reference/android/android_external_frameworks.rst
    reference/android/android_native.rst
 
 .. toctree::
@@ -41,6 +40,9 @@ Notes
    reference/kotlin
    reference/system
    reference/interviews
+   reference/linux
+   reference/streaming
+   reference/external_frameworks
 
 .. toctree::
    :maxdepth: 1
@@ -48,6 +50,8 @@ Notes
 
    todo/android_study
    todo/cpp_study
+   todo/dsa_study
+   todo/others
 
 
 .. toctree::

@@ -60,15 +60,6 @@ Dynamic Programming
 
 * https://www.cprogramming.com/tutorial/computersciencetheory/dp.html
 
-LeetCode
---------
-
-* https://leetcode.com/problemset/all/
-
-General Programming
--------------------
-
-* https://www.softwaretestinghelp.com/cpp-dfs-program-to-traverse-graph/
 
 Zenuity Interview Topics
 -------------------------
@@ -116,3 +107,14 @@ C++ Specific Topics
 * https://www.geeksforgeeks.org/unordered_set-in-cpp-stl/
 * https://cboard.cprogramming.com/cplusplus-programming/80575-unhandled-exceptions-throw-no-try.html
 * https://stackoverflow.com/questions/19429360/what-happens-if-i-dont-catch-a-throw
+
+
+General Questions
+-------------------
+
+* https://www.softwaretestinghelp.com/cpp-dfs-program-to-traverse-graph/
+* https://practice.geeksforgeeks.org/explore/?company%5B%5D=Amazon&page=1
+* https://www.geeksforgeeks.org/must-do-coding-questions-for-companies-like-amazon-microsoft-adobe/
+* https://www.geeksforgeeks.org/commonly-asked-c-interview-questions-set-2/
+* https://www.interviewsansar.com/interview-question-cpp-polymorphism-in-oops/
+* https://www.interviewbit.com/cpp-interview-questions/

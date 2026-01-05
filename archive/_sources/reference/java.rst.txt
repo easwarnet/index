@@ -6,6 +6,15 @@ Core Java
 
 * https://www.geeksforgeeks.org/java/
 * https://www.geeksforgeeks.org/interfaces-in-java/
+* https://stackoverflow.com/questions/55323763/forcing-java-to-make-a-compile-error-with-the-user-input-as-message
+* https://stackoverflow.com/questions/18279302/how-do-i-perform-a-java-callback-between-classes
+
+
+Android
+---------
+
+* https://stackoverflow.com/questions/10108646/how-to-store-small-amounts-of-data-for-frequent-lookup-in-android
+
 
 Design Patterns
 ---------------

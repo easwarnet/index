@@ -1,0 +1,96 @@
+Streaming Technologies
+======================
+
+GStreamer
+---------
+
+Documentation and Tutorials
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+* https://github.com/GStreamer/gst-docs
+* http://gstreamer.freedesktop.org/documentation/application-development/basics/elements.html
+* https://gstreamer.freedesktop.org/documentation/tutorials/android/a-complete-media-player.html
+* https://gstreamer.freedesktop.org/documentation/tutorials/android/media-player.html
+* https://medium.com/swlh/lets-have-fun-gstreamer-android-tutorial-1-951ebfbb3f1e
+* https://medium.com/analytics-vidhya/creating-gstreamer-multimedia-pipeline-with-c-part-2-d3085c471747
+* https://medium.com/analytics-vidhya/creating-gstreamer-multimedia-pipeline-with-c-part-1-a7f0f86b5e1f
+* https://gstreamer.freedesktop.org/documentation/application-development/basics/helloworld.html
+* https://gstreamer.freedesktop.org/documentation/tutorials/basic/hello-world.html
+* https://github.com/GStreamer/gst-rtsp-server/blob/master/examples/test-mp4.c
+* https://stackoverflow.com/questions/74022478/using-gstreamer-rtsp-server-with-multi-streams-camera
+* https://gstreamer.freedesktop.org/documentation/tools/gst-launch.html
+* https://gstreamer.freedesktop.org/documentation/tutorials/playback/playbin-usage.html
+* https://docs.xilinx.com/r/en-US/ug1449-multimedia/Recording
+* https://github.com/leandromoreira/ffmpeg-libav-tutorial#learn-ffmpeg-libav-the-hard-way
+* https://github.com/karthickai/gstreamer/blob/master/gstreamer-02/main.cpp
+* https://medium.com/analytics-vidhya/creating-gstreamer-multimedia-pipeline-with-c-part-1-a7f0f86b5e1f
+* https://medium.com/lifesjourneythroughalens/implementing-gstreamer-webcam-usb-internal-streaming-mac-c-clion-76de0fdb8b34
+* https://dev.to/ethand91/gstreamer-c-stream-webcam-over-tcp-tutorial-lfh
+* https://www.codeleading.com/article/67115642873/
+* https://gstreamer.freedesktop.org/documentation/application-development/highlevel/playback-components.html?gi-language=c
+* https://gstreamer.freedesktop.org/documentation/tools/gst-launch.html?gi-language=c
+* https://stackoverflow.com/questions/59858898/how-to-convert-a-video-on-disk-to-a-rtsp-stream
+* https://dev.to/ethand91/gstreamer-c-stream-webcam-over-tcp-tutorial-lfh
+* https://medium.com/lifesjourneythroughalens/implementing-gstreamer-webcam-usb-internal-streaming-mac-c-clion-76de0fdb8b34
+
+Code Examples
+^^^^^^^^^^^^^
+
+* https://www.itcodet.com/cpp/cpp-gst_tuner_norm-function-examples.html
+* https://www.itcodet.com/cpp/cpp-gst_tuner-function-examples.html
+* https://github.com/karthickai/gstreamer
+* https://github.com/mareksuma1985/GStreamer_Tutorial_udpsink
+* https://github.com/GStreamer/gstreamer/tree/main/subprojects/gst-docs/examples/tutorials/android
+* https://github.com/GStreamer/gstreamer/tree/main/subprojects/gst-rtsp-server/examples
+* https://github.com/enthusiasticgeek/gstreamer-rtsp-ssl-example
+* https://github.com/ethand91/gstreamer-samples/blob/master/src/sender.cpp
+* https://github.com/ethand91/gstreamer-samples/blob/master/src/sender.cpp
+* https://github.com/enthusiasticgeek/gstreamer-rtsp-ssl-example/blob/master/CMakeLists.txt
+* https://github.com/uutzinger/camera/blob/master/RTSP_RTP_gstreamer.md
+* https://gstreamer.freedesktop.org/documentation/rtsp/rtspsrc.html?gi-language=c#rtspsrc
+* https://github.com/mareksuma1985/GStreamer_Tutorial_udpsink/blob/master/udpsink/src/main/cpp/android_camera.c
+* https://github.com/crs4/most-streaming/blob/master/android/android_studio/MOSTStreamingLib/MOSTStreaming/src/main/jni/gst-rtsp-streaming.c
+* https://github.com/uutzinger/camera/blob/master/RTSP_RTP_gstreamer.md
+* https://redirect.cs.umbc.edu/~pmundur/courses/CMSC691C/lab5-kurose-ross.html
+* https://github.com/GNOME/gstreamermm/blob/master/examples/hello_world/main.cc
+
+Android 
+^^^^^^^^^^
+
+* https://gstreamer.freedesktop.org/documentation/tutorials/android/a-complete-media-player.html
+* https://gstreamer.freedesktop.org/documentation/tutorials/android/media-player.html
+* https://medium.com/swlh/lets-have-fun-gstreamer-android-tutorial-1-951ebfbb3f1e
+* https://github.com/GStreamer/gst-docs/blob/master/examples/tutorials/android/android-tutorial-3/src/org/freedesktop/gstreamer/tutorials/tutorial_3/Tutorial3.java
+* https://github.com/mareksuma1985/GStreamer_Tutorial_udpsink/blob/master/udpsink/src/main/java/pl/bezzalogowe/udpsink/MainActivity.java
+* https://github.com/mareksuma1985/GStreamer_Tutorial_udpsink/tree/master/udpsink/src/main/cpp
+* https://github.com/crs4/most-streaming/blob/master/android/android_studio/MOSTStreamingLib/MOSTStreaming/src/main/jni/gst-rtsp-streaming.c
+
+FFmpeg
+------
+
+Documentation
+^^^^^^^^^^^^^
+
+* https://ffmpeg.org/doxygen/trunk/modules.html
+* https://ffmpeg.org/ffmpeg.html
+* https://stackoverflow.com/questions/4039801/rtsp-streaming-on-java
+* http://ffmpeg.org/doxygen/trunk/index.html
+
+Code Examples
+^^^^^^^^^^^^^^^
+
+* https://github.com/Raveler/ffmpeg-cpp/tree/master/source/ffmpeg-cpp
+* https://stackoverflow.com/questions/11396251/where-can-i-find-a-c-c-ffmpeg-extensive-tutorial
+* https://github.com/bartjoyce/video-app
+
+Android 
+^^^^^^^^^^
+
+* https://github.com/WritingMinds/ffmpeg-android-java/tree/master/FFmpegAndroid/src/main/java/com/github/hiteshsondhi88/libffmpeg
+* https://github.com/WritingMinds/ffmpeg-android-java/tree/master/FFmpegAndroid/src/androidTest/java/com/github/hiteshsondhi88/libffmpeg
+* https://github.com/WritingMinds/ffmpeg-android-java/blob/master/FFmpegAndroid/src/main/java/com/github/hiteshsondhi88/libffmpeg/FFmpegExecuteAsyncTask.java
+* https://github.com/WritingMinds/ffmpeg-android-java/blob/master/FFmpegAndroid/src/main/java/com/github/hiteshsondhi88/libffmpeg/ShellCommand.java
+* https://github.com/WritingMinds/ffmpeg-android-java/blob/master/app/src/main/java/com/github/hiteshsondhi88/sampleffmpeg/Home.java
+* https://www.geeksforgeeks.org/how-to-use-ffmpeg-in-android-with-example/
+* https://github.com/WritingMinds/ffmpeg-android-java/blob/master/FFmpegAndroid/src/main/java/com/github/hiteshsondhi88/libffmpeg/FFmpeg.java
+

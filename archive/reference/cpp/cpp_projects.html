@@ -4,7 +4,7 @@
   <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Best Practices and Resources &mdash; Easwarnet  documentation</title>
+  <title>External Frameworks &mdash; Easwarnet  documentation</title>
       <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
       <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
   <!--[if lt IE 9]>
@@ -19,8 +19,8 @@
     <script src="../../_static/js/theme.js"></script>
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
-    <link rel="next" title="Multithreading and Concurrency" href="cpp_concurrency.html" />
-    <link rel="prev" title="Algorithms" href="cpp_algorithms.html" /> 
+    <link rel="next" title="AOSP (Android Open Source Project)" href="../android/android_aosp.html" />
+    <link rel="prev" title="Standard Template Library (STL)" href="cpp_stl.html" /> 
 </head>
 
 <body class="wy-body-for-nav"> 
@@ -41,22 +41,22 @@
               <p class="caption" role="heading"><span class="caption-text">Reference - Cpp</span></p>
 <ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="cpp_algorithms.html">Algorithms</a></li>
-<li class="toctree-l1 current"><a class="current reference internal" href="#">Best Practices and Resources</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="#comprehensive-resources">Comprehensive Resources</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#code-repositories-and-snippets">Code Repositories and Snippets</a></li>
-</ul>
-</li>
-<li class="toctree-l1"><a class="reference internal" href="cpp_concurrency.html">Multithreading and Concurrency</a></li>
 <li class="toctree-l1"><a class="reference internal" href="cpp_data_structures.html">Data Structures</a></li>
+<li class="toctree-l1"><a class="reference internal" href="cpp_concurrency.html">Multithreading and Concurrency</a></li>
 <li class="toctree-l1"><a class="reference internal" href="cpp_design_patterns.html">Design Patterns</a></li>
 <li class="toctree-l1"><a class="reference internal" href="cpp_language.html">C++ Language Features</a></li>
 <li class="toctree-l1"><a class="reference internal" href="cpp_stl.html">Standard Template Library (STL)</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">External Frameworks</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#wav-mp3-encoder">wav-mp3 encoder</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#code-tracing">Code Tracing</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#v4l2-wrapper">V4L2 Wrapper</a></li>
+</ul>
+</li>
 </ul>
 <p class="caption" role="heading"><span class="caption-text">Reference - Android</span></p>
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="../android/android_aosp.html">AOSP (Android Open Source Project)</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../android/android_app_dev.html">Android App Development</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../android/android_external_frameworks.html">Android External Frameworks</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../android/android_native.html">Android Native Development</a></li>
 </ul>
 <p class="caption" role="heading"><span class="caption-text">Reference - Others</span></p>
@@ -67,11 +67,16 @@
 <li class="toctree-l1"><a class="reference internal" href="../kotlin.html">Kotlin</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../system.html">System Administration</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../interviews.html">Interview Preparation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../linux.html">Linux</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../streaming.html">Streaming Technologies</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../external_frameworks.html">External Frameworks</a></li>
 </ul>
 <p class="caption" role="heading"><span class="caption-text">Todo</span></p>
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="../../todo/android_study.html">Android Study Topics</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../../todo/cpp_study.html">Cpp Study Topics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../todo/dsa_study.html">DSA</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../todo/others.html">Others</a></li>
 </ul>
 <p class="caption" role="heading"><span class="caption-text">Archive - Gstreamer</span></p>
 <ul>
@@ -114,7 +119,7 @@
           <div role="navigation" aria-label="Page navigation">
   <ul class="wy-breadcrumbs">
       <li><a href="../../index.html" class="icon icon-home"></a> &raquo;</li>
-      <li>Best Practices and Resources</li>
+      <li>External Frameworks</li>
       <li class="wy-breadcrumbs-aside">
       </li>
   </ul>
@@ -123,23 +128,24 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
              
-  <section id="best-practices-and-resources">
-<h1>Best Practices and Resources<a class="headerlink" href="#best-practices-and-resources" title="Permalink to this heading"></a></h1>
-<section id="comprehensive-resources">
-<h2>Comprehensive Resources<a class="headerlink" href="#comprehensive-resources" title="Permalink to this heading"></a></h2>
+  <section id="external-frameworks">
+<h1>External Frameworks<a class="headerlink" href="#external-frameworks" title="Permalink to this heading"></a></h1>
+<section id="wav-mp3-encoder">
+<h2>wav-mp3 encoder<a class="headerlink" href="#wav-mp3-encoder" title="Permalink to this heading"></a></h2>
 <ul class="simple">
-<li><p><a class="reference external" href="https://riptutorial.com/ebook/cplusplus">https://riptutorial.com/ebook/cplusplus</a></p></li>
-<li><p><a class="reference external" href="https://www.modernescpp.com/index.php/der-einstieg-in-modernes-c">https://www.modernescpp.com/index.php/der-einstieg-in-modernes-c</a></p></li>
-<li><p><a class="reference external" href="https://theboostcpplibraries.com/">https://theboostcpplibraries.com/</a></p></li>
-<li><p><a class="reference external" href="https://practice.geeksforgeeks.org/courses/placement-100-2019?utm_source=geeksforgeeks&amp;utm_medium=referral&amp;utm_campaign=GfG_Right_Top_P100">https://practice.geeksforgeeks.org/courses/placement-100-2019?utm_source=geeksforgeeks&amp;utm_medium=referral&amp;utm_campaign=GfG_Right_Top_P100</a></p></li>
+<li><p><a class="reference external" href="https://github.com/antonl1911/encode">https://github.com/antonl1911/encode</a></p></li>
 </ul>
 </section>
-<section id="code-repositories-and-snippets">
-<h2>Code Repositories and Snippets<a class="headerlink" href="#code-repositories-and-snippets" title="Permalink to this heading"></a></h2>
+<section id="code-tracing">
+<h2>Code Tracing<a class="headerlink" href="#code-tracing" title="Permalink to this heading"></a></h2>
 <ul class="simple">
-<li><p><a class="reference external" href="https://github.com/mensenvau/solutions_metacareers_com/blob/main/level_first/rotary_lock.cpp">https://github.com/mensenvau/solutions_metacareers_com/blob/main/level_first/rotary_lock.cpp</a></p></li>
-<li><p><a class="reference external" href="https://github.com/lamerman/cpp-lru-cache/blob/master/include/lrucache.hpp">https://github.com/lamerman/cpp-lru-cache/blob/master/include/lrucache.hpp</a></p></li>
-<li><p><a class="reference external" href="https://gist.github.com/quickgrid/d9f3f416f0dd639425dd2484f9f118f2">https://gist.github.com/quickgrid/d9f3f416f0dd639425dd2484f9f118f2</a></p></li>
+<li><p><a class="reference external" href="https://www.codeproject.com/Tips/5378622/A-Cplusplus-Code-Function-Tracing-Class">https://www.codeproject.com/Tips/5378622/A-Cplusplus-Code-Function-Tracing-Class</a></p></li>
+</ul>
+</section>
+<section id="v4l2-wrapper">
+<h2>V4L2 Wrapper<a class="headerlink" href="#v4l2-wrapper" title="Permalink to this heading"></a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="https://github.com/severin-lemaignan/webcam-v4l2">https://github.com/severin-lemaignan/webcam-v4l2</a></p></li>
 </ul>
 </section>
 </section>
@@ -148,8 +154,8 @@
            </div>
           </div>
           <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
-        <a href="cpp_algorithms.html" class="btn btn-neutral float-left" title="Algorithms" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
-        <a href="cpp_concurrency.html" class="btn btn-neutral float-right" title="Multithreading and Concurrency" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="cpp_stl.html" class="btn btn-neutral float-left" title="Standard Template Library (STL)" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="../android/android_aosp.html" class="btn btn-neutral float-right" title="AOSP (Android Open Source Project)" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
     </div>
 
   <hr/>

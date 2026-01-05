@@ -1,6 +1,16 @@
 C++ Language Features
 =====================
 
+Best Practices and Resources
+----------------------------------------------
+* https://riptutorial.com/ebook/cplusplus
+* https://www.modernescpp.com/index.php/der-einstieg-in-modernes-c
+* https://theboostcpplibraries.com/
+* https://practice.geeksforgeeks.org/courses/placement-100-2019?utm_source=geeksforgeeks&utm_medium=referral&utm_campaign=GfG_Right_Top_P100
+* https://github.com/mensenvau/solutions_metacareers_com/blob/main/level_first/rotary_lock.cpp
+* https://github.com/lamerman/cpp-lru-cache/blob/master/include/lrucache.hpp
+* https://gist.github.com/quickgrid/d9f3f416f0dd639425dd2484f9f118f2
+
 Templates
 ---------
 
@@ -83,16 +93,13 @@ Boost Library
 -------------
 
 * https://www.geeksforgeeks.org/advanced-c-boost-library/
+* https://theboostcpplibraries.com/boost.smartpointers
 
 Advanced Topics
 ---------------
-
-Code Tracing
-^^^^^^^^^^^^
-
-* https://www.codeproject.com/Tips/5378622/A-Cplusplus-Code-Function-Tracing-Class
 
 Forward Declarations
 ^^^^^^^^^^^^^^^^^^^^
 
 * https://www.google.com/search?q=forward+declaration+c%2B%2B+lvalue
+

@@ -1,0 +1,11 @@
+Others
+====================
+
+Others List
+---------------
+
+* data oriented design
+* entt dots
+* keystore+and+truststore+example
+* ctags c++
+

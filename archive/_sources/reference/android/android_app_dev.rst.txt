@@ -29,32 +29,6 @@ Content Providers & Broadcast Receivers
 * https://www.tutorialspoint.com/android/android_broadcast_receivers.htm
 * https://www.geeksforgeeks.org/how-to-use-localbroadcastmanager-in-android/
 
-UI Components
--------------
-
-SearchView and RecyclerView
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-* https://www.geeksforgeeks.org/searchview-in-android-with-recyclerview/
-* https://stackoverflow.com/questions/33582546/how-to-make-whole-activity-scrollable-according-to-the-data-inside-it
-
-WebView
-^^^^^^^
-
-* https://abhiandroid.com/ui/webview
-
-Notifications
-^^^^^^^^^^^^^
-
-* https://www.tutorialspoint.com/how-to-read-all-the-coming-notifications-in-android
-* https://github.com/Chagall/notification-listener-service-example/blob/master/app/src/main/java/com/github/chagall/notificationlistenerexample/NotificationListenerExampleService.java
-* https://github.com/kpbird/NotificationListenerService-Example
-
-Adapters
-^^^^^^^^
-
-* https://abhiandroid.com/ui/baseadapter-tutorial-example.html
-* https://github.com/AshleyRayMaceli/discussion-forum-android/blob/master/app/src/main/java/com/example/guest/discussionforum/adapters/FirebaseThreadViewHolder.java
 
 Bluetooth
 ---------
@@ -74,26 +48,39 @@ Network Service Discovery
 * https://developer.android.com/training/connect-devices-wirelessly/nsd
 
 Sockets
-^^^^^^^
+^^^^^^^^^^^
 
 * https://www.tutorialspoint.com/sending-and-receiving-data-with-sockets-in-android
 
 IP Address
-^^^^^^^^^^
+^^^^^^^^^^^^^^
 
 * https://stackoverflow.com/questions/59818891/how-to-get-public-ip-address-of-android-device-programmatically
 
 VoIP
-^^^^
+^^^^^^^^
 
 * https://github.com/emugabi/makcal
 * https://www.tutorialspoint.com/android/android_phone_calls.htm
 * https://stackoverflow.com/questions/11176988/android-voip-application-without-access-to-internet
 
-Email
+Android Socket
+^^^^^^^^^^^^^^^^
+
+* https://examples.javacodegeeks.com/android/core/socket-core/android-socket-example/
+
+Android NSD
+^^^^^^^^^^^^
+
+* https://jayrambhia.com/blog/android-wireless-connection-1
+* https://android.googlesource.com/platform/development/+/master/samples/training/NsdChat/src/com/example/android/nsdchat
+
+Chat
 -----
 
-* https://www.tutlane.com/tutorial/android/android-send-email-with-examples
+* https://www.scaledrone.com/blog/android-chat-tutorial/
+* https://bambuser.com/docs/video-platform/broadcasting/android/
+
 
 Data Storage and Preferences
 -----------------------------
@@ -120,31 +107,95 @@ QR Code Scanner
 * https://learntodroid.com/how-to-create-a-qr-code-scanner-app-in-android/
 * https://github.com/learntodroid/AndroidQRCodeScanner
 
-UI Patterns
------------
-
-Navigation Drawer
-^^^^^^^^^^^^^^^^^
-
-* http://www.sketchwarehelp.com/2018/01/a-simple-navigation-drawer-in-sketchware.html
-
-RecyclerView Tips
-^^^^^^^^^^^^^^^^^
-
-* https://stackoverflow.com/questions/46127942/in-android-recyclerview-how-to-change-the-color-of-alternate-rows
 
 Audio
 -----
 
 * https://github.com/DeanThomson/android-udp-audio-chat
 
+Online Streaming
+-------------------------
+
+* https://stackoverflow.com/questions/6283568/online-radio-streaming-app-for-android
+* https://ssaurel.medium.com/implement-audio-streaming-in-android-applications-8758d3bc62f1
+* https://en.buradabiliyorum.com/download-android-my-fm-app-live-streaming-app-source-code/
+* https://github.com/SueSmith/android-streaming-video/blob/master/media-player-streaming/src/com/example/package/MainActivity.java
+* https://github.com/dibakarece/DMAudioStreamer/tree/master/dmaudiostreamer/src/main/java/dm/audiostreamer
+
+
+Streaming Device to Device
+----------------------------
+
+* https://stackoverflow.com/questions/47687861/android-stream-video-from-camera-into-another-android-device
+
+TV
+----
+
+* https://github.com/googlearchive/androidtv-Leanback/blob/master/app/src/main/java/com/example/android/tvleanback/ui/MainFragment.java
+* https://github.com/android/tv-samples/blob/main/ClassicsKotlin/app/src/main/java/com/android/tv/classics/MainActivity.kt
+
+
+Others
+--------
+
 Google Play Store
------------------
+^^^^^^^^^^^^^^^^^^^^
 
 * https://clutch.co/app-developers/resources/get-app-featured-google-play-store
 * https://developers.soundcloud.com/docs/api/terms-of-use#changes
 
-IoT and Trends
---------------
+Other Ideas
+^^^^^^^^^^^^^^^^
 
 * https://www.linkedin.com/posts/android-developer_what-makes-iot-a-popular-trend-in-android-activity-6851052375617236992-wYbB
+* https://www.udemy.com/course/how-to-make-an-e-commerce-application-with-android/
+* https://stackoverflow.com/questions/13373878/android-image-editor
+
+UI Components
+-------------
+
+SearchView RecyclerView Gridview
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+* https://www.geeksforgeeks.org/searchview-in-android-with-recyclerview/
+* https://stackoverflow.com/questions/33582546/how-to-make-whole-activity-scrollable-according-to-the-data-inside-it
+* https://stackoverflow.com/questions/46127942/in-android-recyclerview-how-to-change-the-color-of-alternate-rows
+* https://www.tutorialspoint.com/android/android_grid_view.htm#:~:text=Android%20GridView%20shows%20items%20in,the%20layout%20using%20a%20ListAdapter
+
+WebView
+^^^^^^^
+
+* https://abhiandroid.com/ui/webview
+
+Notifications
+^^^^^^^^^^^^^
+
+* https://www.tutorialspoint.com/how-to-read-all-the-coming-notifications-in-android
+* https://github.com/Chagall/notification-listener-service-example/blob/master/app/src/main/java/com/github/chagall/notificationlistenerexample/NotificationListenerExampleService.java
+* https://github.com/kpbird/NotificationListenerService-Example
+
+Adapters
+^^^^^^^^
+
+* https://abhiandroid.com/ui/baseadapter-tutorial-example.html
+* https://github.com/AshleyRayMaceli/discussion-forum-android/blob/master/app/src/main/java/com/example/guest/discussionforum/adapters/FirebaseThreadViewHolder.java
+
+Navigation Drawer
+^^^^^^^^^^^^^^^^^
+
+* http://www.sketchwarehelp.com/2018/01/a-simple-navigation-drawer-in-sketchware.html
+
+Email
+^^^^^^^^^^^^^^^^^
+
+* https://www.tutlane.com/tutorial/android/android-send-email-with-examples
+
+Others 
+^^^^^^^^^^^^^^^^^
+
+* https://stackoverflow.com/questions/4623508/how-to-set-the-font-style-to-bold-italic-and-underlined-in-an-android-textview
+
+
+
+
+

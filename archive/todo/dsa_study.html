@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DSA &mdash; Easwarnet  documentation</title>
+      <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/_sphinx_javascript_frameworks_compat.js"></script>
+        <script src="../_static/doctools.js"></script>
+    <script src="../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Others" href="others.html" />
+    <link rel="prev" title="Cpp Study Topics" href="cpp_study.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="../index.html" class="icon icon-home"> Easwarnet
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Reference - Cpp</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../reference/cpp/cpp_algorithms.html">Algorithms</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../reference/cpp/cpp_data_structures.html">Data Structures</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../reference/cpp/cpp_concurrency.html">Multithreading and Concurrency</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../reference/cpp/cpp_design_patterns.html">Design Patterns</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../reference/cpp/cpp_language.html">C++ Language Features</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../reference/cpp/cpp_stl.html">Standard Template Library (STL)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../reference/cpp/cpp_projects.html">External Frameworks</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Reference - Android</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../reference/android/android_aosp.html">AOSP (Android Open Source Project)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../reference/android/android_app_dev.html">Android App Development</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../reference/android/android_native.html">Android Native Development</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Reference - Others</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../reference/java.html">Java Resources</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../reference/ai.html">AI and Machine Learning</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../reference/communication.html">Communication</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../reference/kotlin.html">Kotlin</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../reference/system.html">System Administration</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../reference/interviews.html">Interview Preparation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../reference/linux.html">Linux</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../reference/streaming.html">Streaming Technologies</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../reference/external_frameworks.html">External Frameworks</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Todo</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="android_study.html">Android Study Topics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="cpp_study.html">Cpp Study Topics</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">DSA</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#tech-giants-list">Tech Giants List</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#core-topics">Core Topics</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#arrays-and-strings">ARRAYS AND STRINGS</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#linked-lists">LINKED LISTS</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#stacks-and-queues">STACKS AND QUEUES</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#trees">TREES</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#graphs">GRAPHS</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#heaps">HEAPS</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#dynamic-programming">DYNAMIC PROGRAMMING</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#divide-and-conquer">DIVIDE AND CONQUER</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#greedy-algorithm">GREEDY ALGORITHM</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#backtracking">BACKTRACKING</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#questions-that-cover-all-the-dsa-topics-in-leetcode">Questions that cover all the DSA topics in leetcode</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#arrays-strings-11-problems">Arrays &amp; Strings (11 problems)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#linked-lists-8-problems">Linked Lists (8 problems)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#stacks-queues-10-problems">Stacks &amp; Queues (10 problems)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#trees-graphs-14-problems">Trees &amp; Graphs (14 problems)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#dp-backtracking-10-problems">DP &amp; Backtracking (10 problems)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#heaps-bit-manipulation-7-problems-listed">Heaps &amp; Bit Manipulation (7 problems listed)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#greedy">Greedy</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#others">Others</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="others.html">Others</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Archive - Gstreamer</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../archive/gstreamer.html">Gstreamer</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Archive - Links - Streaming</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../archive/streaming.html">Streaming Technologies</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Archive - OS</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../archive/os-general.html">Os - General Concepts</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../archive/os-rtos.html">Os - RTOS</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Archive - C</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../archive/c-pointers.html">C - Pointers</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../archive/c-funcpointers.html">C - Function Pointers</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../archive/c-general.html">C - General</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../archive/c-basicalgo.html">C - Basic Algorithms</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../archive/c-tricks.html">C - Tricks and Others</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Archive - Links - Combined Old</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../archive/old.html">Combined Old Links</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../archive/old.html#design-patterns">Design Patterns</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">Easwarnet</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
+      <li>DSA</li>
+      <li class="wy-breadcrumbs-aside">
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="dsa">
+<h1>DSA<a class="headerlink" href="#dsa" title="Permalink to this heading"></a></h1>
+<section id="tech-giants-list">
+<h2>Tech Giants List<a class="headerlink" href="#tech-giants-list" title="Permalink to this heading"></a></h2>
+<section id="core-topics">
+<h3>Core Topics<a class="headerlink" href="#core-topics" title="Permalink to this heading"></a></h3>
+</section>
+<section id="arrays-and-strings">
+<h3>ARRAYS AND STRINGS<a class="headerlink" href="#arrays-and-strings" title="Permalink to this heading"></a></h3>
+<ul class="simple">
+<li><p>Two Sum (LeetCode 1)</p></li>
+<li><p>Longest Substring Without Repeating Characters (LeetCode 3)</p></li>
+<li><p>Product of Array Except Self (LeetCode 238)</p></li>
+<li><p>Maximum Subarray (LeetCode 53)</p></li>
+<li><p>Merge Intervals (LeetCode 56)</p></li>
+</ul>
+</section>
+<section id="linked-lists">
+<h3>LINKED LISTS<a class="headerlink" href="#linked-lists" title="Permalink to this heading"></a></h3>
+<ul class="simple">
+<li><p>Reverse Linked List (LeetCode 206)</p></li>
+<li><p>Merge Two Sorted Lists (LeetCode 21)</p></li>
+<li><p>Detect Cycle in a Linked List (LeetCode 141)</p></li>
+<li><p>Remove Nth Node From End of List (LeetCode 19)</p></li>
+</ul>
+</section>
+<section id="stacks-and-queues">
+<h3>STACKS AND QUEUES<a class="headerlink" href="#stacks-and-queues" title="Permalink to this heading"></a></h3>
+<ul class="simple">
+<li><p>Valid Parentheses (LeetCode 20)</p></li>
+<li><p>Implement Queue using Stacks (LeetCode 232)</p></li>
+<li><p>Min Stack (LeetCode 155)</p></li>
+<li><p>Largest Rectangle in Histogram (LeetCode 84)</p></li>
+<li><p>Sliding Window Maximum (LeetCode 239)</p></li>
+</ul>
+</section>
+<section id="trees">
+<h3>TREES<a class="headerlink" href="#trees" title="Permalink to this heading"></a></h3>
+<ul class="simple">
+<li><p>Validate Binary Search Tree (LeetCode 98)</p></li>
+<li><p>Lowest Common Ancestor of a Binary Search Tree (LeetCode 235)</p></li>
+<li><p>Binary Tree Maximum Path Sum (LeetCode 124)</p></li>
+</ul>
+</section>
+<section id="graphs">
+<h3>GRAPHS<a class="headerlink" href="#graphs" title="Permalink to this heading"></a></h3>
+<ul class="simple">
+<li><p>Clone Graph (LeetCode 133)</p></li>
+<li><p>Course Schedule (LeetCode 207)</p></li>
+<li><p>Number of Islands (LeetCode 200)</p></li>
+<li><p>Graph Valid Tree (LeetCode 261)</p></li>
+<li><p>Word Ladder (LeetCode 127)</p></li>
+</ul>
+</section>
+<section id="heaps">
+<h3>HEAPS<a class="headerlink" href="#heaps" title="Permalink to this heading"></a></h3>
+<ul class="simple">
+<li><p>Merge k Sorted Lists (LeetCode 23)</p></li>
+<li><p>Top K Frequent Elements (LeetCode 347)</p></li>
+<li><p>Find Median from Data Stream (LeetCode 295)</p></li>
+<li><p>Kth Largest Element in an Array (LeetCode 215)</p></li>
+<li><p>Sliding Window Median (LeetCode 480)</p></li>
+</ul>
+</section>
+<section id="dynamic-programming">
+<h3>DYNAMIC PROGRAMMING<a class="headerlink" href="#dynamic-programming" title="Permalink to this heading"></a></h3>
+<ul class="simple">
+<li><p>Climbing Stairs (LeetCode 70)</p></li>
+<li><p>Longest Increasing Subsequence (LeetCode 300)</p></li>
+<li><p>Coin Change (LeetCode 322)</p></li>
+<li><p>Longest Common Subsequence (LeetCode 1143)</p></li>
+<li><p>Edit Distance (LeetCode 72)</p></li>
+</ul>
+</section>
+<section id="divide-and-conquer">
+<h3>DIVIDE AND CONQUER<a class="headerlink" href="#divide-and-conquer" title="Permalink to this heading"></a></h3>
+<ul class="simple">
+<li><p>Kth Largest Element in an Array (LeetCode 215)</p></li>
+<li><p>Find Peak Element (LeetCode 162)</p></li>
+<li><p>Majority Element (LeetCode 169)</p></li>
+</ul>
+</section>
+<section id="greedy-algorithm">
+<h3>GREEDY ALGORITHM<a class="headerlink" href="#greedy-algorithm" title="Permalink to this heading"></a></h3>
+<ul class="simple">
+<li><p>Gas Station (LeetCode 134)</p></li>
+<li><p>Jump Game (LeetCode 55)</p></li>
+<li><p>Partition Labels (LeetCode 763)</p></li>
+<li><p>Minimum Number of Arrows to Burst Balloons (LeetCode 452)</p></li>
+<li><p>Assign Cookies (LeetCode 455)</p></li>
+</ul>
+</section>
+<section id="backtracking">
+<h3>BACKTRACKING<a class="headerlink" href="#backtracking" title="Permalink to this heading"></a></h3>
+<ul class="simple">
+<li><p>Subsets (LeetCode 78)</p></li>
+<li><p>Permutations (LeetCode 46)</p></li>
+<li><p>Word Search (LeetCode 79)</p></li>
+</ul>
+</section>
+</section>
+<section id="questions-that-cover-all-the-dsa-topics-in-leetcode">
+<h2>Questions that cover all the DSA topics in leetcode<a class="headerlink" href="#questions-that-cover-all-the-dsa-topics-in-leetcode" title="Permalink to this heading"></a></h2>
+<section id="arrays-strings-11-problems">
+<h3>Arrays &amp; Strings (11 problems)<a class="headerlink" href="#arrays-strings-11-problems" title="Permalink to this heading"></a></h3>
+<ol class="arabic simple">
+<li><p>Contains Duplicate</p></li>
+<li><p>Missing Number</p></li>
+<li><p>Numbers Disappeared Array</p></li>
+<li><p>Two Sum</p></li>
+<li><p>How Many Numbers Are Smaller Than the Current</p></li>
+<li><p>Minimum Time Visiting All</p></li>
+<li><p>Spiral Matrix</p></li>
+<li><p>Number of Islands</p></li>
+<li><p>Best Time to Buy and Sell</p></li>
+<li><p>Squares of a Sorted Array</p></li>
+<li><p>Longest Mountain in Array</p></li>
+</ol>
+</section>
+<section id="linked-lists-8-problems">
+<h3>Linked Lists (8 problems)<a class="headerlink" href="#linked-lists-8-problems" title="Permalink to this heading"></a></h3>
+<ol class="arabic simple">
+<li><p>Middle of Linked List</p></li>
+<li><p>Linked List Cycle</p></li>
+<li><p>Reverse Linked List</p></li>
+<li><p>Remove Linked List Elements</p></li>
+<li><p>Reverse Linked List II</p></li>
+<li><p>Palindrome Linked List</p></li>
+<li><p>Merge Two Sorted Lists</p></li>
+<li><p>Linked List Sorting</p></li>
+</ol>
+</section>
+<section id="stacks-queues-10-problems">
+<h3>Stacks &amp; Queues (10 problems)<a class="headerlink" href="#stacks-queues-10-problems" title="Permalink to this heading"></a></h3>
+<ol class="arabic simple">
+<li><p>Min Stack</p></li>
+<li><p>Valid Parentheses</p></li>
+<li><p>Evaluate Reverse Polish Notation</p></li>
+<li><p>Stack Sorting</p></li>
+<li><p>Implement Stack using …</p></li>
+<li><p>Time Needed to Buy Tickets</p></li>
+<li><p>Reverse the First K Elements of a Queue</p></li>
+<li><p>Task Scheduler</p></li>
+<li><p>Letter Case Permutation</p></li>
+<li><p>Minimum Size Subarray Sum</p></li>
+</ol>
+</section>
+<section id="trees-graphs-14-problems">
+<h3>Trees &amp; Graphs (14 problems)<a class="headerlink" href="#trees-graphs-14-problems" title="Permalink to this heading"></a></h3>
+<ol class="arabic simple">
+<li><p>Average of Levels</p></li>
+<li><p>Minimum Depth</p></li>
+<li><p>Min/Max Value</p></li>
+<li><p>Level Order Traversal</p></li>
+<li><p>Same Tree</p></li>
+<li><p>Path Sum</p></li>
+<li><p>Diameter of a Binary Tree</p></li>
+<li><p>Invert Binary Tree</p></li>
+<li><p>Lowest Common Ancestor</p></li>
+<li><p>Binary Search Tree</p></li>
+<li><p>Insert in Binary Search Tree</p></li>
+<li><p>Convert Sorted Array to Binary Search Tree</p></li>
+<li><p>Two Sum IV – Input is a BST</p></li>
+<li><p>Lowest Common Ancestor</p></li>
+</ol>
+</section>
+<section id="dp-backtracking-10-problems">
+<h3>DP &amp; Backtracking (10 problems)<a class="headerlink" href="#dp-backtracking-10-problems" title="Permalink to this heading"></a></h3>
+<ol class="arabic simple">
+<li><p>Coin Change</p></li>
+<li><p>Climbing Stairs</p></li>
+<li><p>Maximum Subarray</p></li>
+<li><p>Counting Bits</p></li>
+<li><p>Range Sum Query – Immutable</p></li>
+<li><p>Subsets</p></li>
+<li><p>Combinations</p></li>
+<li><p>Permutations</p></li>
+<li><p>Cheapest Flights Within K</p></li>
+<li><p>Minimum Absolute Difference</p></li>
+</ol>
+</section>
+<section id="heaps-bit-manipulation-7-problems-listed">
+<h3>Heaps &amp; Bit Manipulation (7 problems listed)<a class="headerlink" href="#heaps-bit-manipulation-7-problems-listed" title="Permalink to this heading"></a></h3>
+<ol class="arabic simple">
+<li><p>Single Number (Bit Manipulation)</p></li>
+<li><p>Kth Smallest Element in a BST</p></li>
+<li><p>Kth Largest Element in an Array</p></li>
+<li><p>K Closest Points to Origin</p></li>
+<li><p>Top K Frequent Elements</p></li>
+<li><p>Delete Node in a BST</p></li>
+<li><p>Balance a Binary Search Tree</p></li>
+</ol>
+</section>
+<section id="greedy">
+<h3>Greedy<a class="headerlink" href="#greedy" title="Permalink to this heading"></a></h3>
+<ul class="simple">
+<li><p>How Many Numbers Are Smaller Than the Current Number</p></li>
+</ul>
+</section>
+</section>
+<section id="others">
+<h2>Others<a class="headerlink" href="#others" title="Permalink to this heading"></a></h2>
+<ul class="simple">
+<li><p>Number of Subarrays Having a Sum Exactly Equal to K</p></li>
+<li><p>How to Replace a Substring in a String</p></li>
+<li><p>Find Length of Loop in Linked List</p></li>
+<li><p>Find the Row with Maximum Number of 1s</p></li>
+<li><p>Zigzag Tree Traversal</p></li>
+</ul>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="cpp_study.html" class="btn btn-neutral float-left" title="Cpp Study Topics" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="others.html" class="btn btn-neutral float-right" title="Others" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2022, Easwarnet.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

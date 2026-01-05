@@ -30,13 +30,12 @@ Advanced Operations
 
 * https://www.geeksforgeeks.org/merge-k-sorted-linked-lists/
 * https://www.geeksforgeeks.org/merge-two-sorted-arrays-o1-extra-space/
-
-Sorting Linked Lists
-^^^^^^^^^^^^^^^^^^^^
-
 * https://www.geeksforgeeks.org/bubble-sort-for-linked-list-by-swapping-nodes/
 * https://leetcode.com/problems/insertion-sort-list/solution/
 * https://www.geeksforgeeks.org/merge-sort-for-linked-list/
+* https://www.geeksforgeeks.org/merge-two-sorted-linked-lists/
+* https://www.geeksforgeeks.org/merge-two-sorted-lists-place/
+
 
 Disjoint Sets / Union-Find
 ---------------------------
@@ -47,3 +46,10 @@ Disjoint Sets / Union-Find
 * https://stackoverflow.com/questions/41777914/disjoint-set-implementation-in-c
 * https://stackoverflow.com/questions/60955485/disjoint-set-union-implementation-using-c
 * https://www.tutorialspoint.com/cplusplus-program-to-implement-disjoint-set-data-structure
+
+Others
+---------------------------
+
+* https://practice.geeksforgeeks.org/problems/min-heap-implementation/1
+* https://practice.geeksforgeeks.org/problems/delete-without-head-pointer/1
+

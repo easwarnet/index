@@ -1,0 +1,196 @@
+DSA
+====================
+
+Tech Giants List
+---------------------
+
+Core Topics
+^^^^^^^^^^^^^^^
+
+ARRAYS AND STRINGS
+^^^^^^^^^^^^^^^^^^^
+* Two Sum (LeetCode 1)  
+* Longest Substring Without Repeating Characters (LeetCode 3)  
+* Product of Array Except Self (LeetCode 238)  
+* Maximum Subarray (LeetCode 53)  
+* Merge Intervals (LeetCode 56)  
+
+
+LINKED LISTS
+^^^^^^^^^^^^^^^
+* Reverse Linked List (LeetCode 206)  
+* Merge Two Sorted Lists (LeetCode 21)  
+* Detect Cycle in a Linked List (LeetCode 141)  
+* Remove Nth Node From End of List (LeetCode 19)  
+
+
+STACKS AND QUEUES
+^^^^^^^^^^^^^^^^^^^
+* Valid Parentheses (LeetCode 20)  
+* Implement Queue using Stacks (LeetCode 232)  
+* Min Stack (LeetCode 155)  
+* Largest Rectangle in Histogram (LeetCode 84)  
+* Sliding Window Maximum (LeetCode 239)  
+
+
+TREES
+^^^^^^^^^^^
+* Validate Binary Search Tree (LeetCode 98)  
+* Lowest Common Ancestor of a Binary Search Tree (LeetCode 235)  
+* Binary Tree Maximum Path Sum (LeetCode 124)  
+
+
+GRAPHS
+^^^^^^^^^^^
+* Clone Graph (LeetCode 133)  
+* Course Schedule (LeetCode 207)  
+* Number of Islands (LeetCode 200)  
+* Graph Valid Tree (LeetCode 261)  
+* Word Ladder (LeetCode 127)  
+
+
+HEAPS
+^^^^^^^^^^^
+* Merge k Sorted Lists (LeetCode 23)  
+* Top K Frequent Elements (LeetCode 347)  
+* Find Median from Data Stream (LeetCode 295)  
+* Kth Largest Element in an Array (LeetCode 215)  
+* Sliding Window Median (LeetCode 480)  
+
+
+DYNAMIC PROGRAMMING
+^^^^^^^^^^^^^^^^^^^^^^^
+* Climbing Stairs (LeetCode 70)  
+* Longest Increasing Subsequence (LeetCode 300)  
+* Coin Change (LeetCode 322)  
+* Longest Common Subsequence (LeetCode 1143)  
+* Edit Distance (LeetCode 72)  
+
+
+DIVIDE AND CONQUER
+^^^^^^^^^^^^^^^^^^^
+* Kth Largest Element in an Array (LeetCode 215)  
+* Find Peak Element (LeetCode 162)  
+* Majority Element (LeetCode 169)  
+
+
+GREEDY ALGORITHM
+^^^^^^^^^^^^^^^^^^^
+* Gas Station (LeetCode 134)  
+* Jump Game (LeetCode 55)  
+* Partition Labels (LeetCode 763)  
+* Minimum Number of Arrows to Burst Balloons (LeetCode 452)  
+* Assign Cookies (LeetCode 455)  
+
+
+BACKTRACKING
+^^^^^^^^^^^^^^^
+* Subsets (LeetCode 78)  
+* Permutations (LeetCode 46)  
+* Word Search (LeetCode 79)  
+
+
+Questions that cover all the DSA topics in leetcode
+-------------------------------------------------------
+
+
+Arrays & Strings (11 problems)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1. Contains Duplicate  
+2. Missing Number  
+3. Numbers Disappeared Array  
+4. Two Sum  
+5. How Many Numbers Are Smaller Than the Current  
+6. Minimum Time Visiting All  
+7. Spiral Matrix  
+8. Number of Islands  
+9. Best Time to Buy and Sell  
+10. Squares of a Sorted Array  
+11. Longest Mountain in Array  
+
+
+Linked Lists (8 problems)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1. Middle of Linked List  
+2. Linked List Cycle  
+3. Reverse Linked List  
+4. Remove Linked List Elements  
+5. Reverse Linked List II  
+6. Palindrome Linked List  
+7. Merge Two Sorted Lists  
+8. Linked List Sorting  
+
+
+Stacks & Queues (10 problems)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1. Min Stack  
+2. Valid Parentheses  
+3. Evaluate Reverse Polish Notation  
+4. Stack Sorting  
+5. Implement Stack using ...
+6. Time Needed to Buy Tickets  
+7. Reverse the First K Elements of a Queue  
+8. Task Scheduler  
+9. Letter Case Permutation  
+10. Minimum Size Subarray Sum  
+
+
+Trees & Graphs (14 problems)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1. Average of Levels  
+2. Minimum Depth  
+3. Min/Max Value  
+4. Level Order Traversal  
+5. Same Tree  
+6. Path Sum  
+7. Diameter of a Binary Tree  
+8. Invert Binary Tree  
+9. Lowest Common Ancestor  
+10. Binary Search Tree  
+11. Insert in Binary Search Tree  
+12. Convert Sorted Array to Binary Search Tree  
+13. Two Sum IV – Input is a BST  
+14. Lowest Common Ancestor  
+
+
+DP & Backtracking (10 problems)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1. Coin Change  
+2. Climbing Stairs  
+3. Maximum Subarray  
+4. Counting Bits  
+5. Range Sum Query – Immutable  
+6. Subsets  
+7. Combinations  
+8. Permutations  
+9. Cheapest Flights Within K  
+10. Minimum Absolute Difference  
+
+
+Heaps & Bit Manipulation (7 problems listed)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1. Single Number (Bit Manipulation)  
+2. Kth Smallest Element in a BST  
+3. Kth Largest Element in an Array  
+4. K Closest Points to Origin  
+5. Top K Frequent Elements  
+6. Delete Node in a BST  
+7. Balance a Binary Search Tree  
+
+
+Greedy
+^^^^^^^^^^^^
+* How Many Numbers Are Smaller Than the Current Number
+
+
+Others
+-----------
+
+* Number of Subarrays Having a Sum Exactly Equal to K
+* How to Replace a Substring in a String
+* Find Length of Loop in Linked List
+* Find the Row with Maximum Number of 1s
+* Zigzag Tree Traversal
+
+
+
