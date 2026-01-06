@@ -1,24 +1,246 @@
-############
-Easwar
-############
+Easwar Balasubramanian
+========================
 
+**Location:** UK  
+**Phone:** +44-7951042450  
+**Email:** easwarnet@gmail.com  
+**LinkedIn:** easwarnet  
 
-About
+**Software Developer | AOSP, Android, Linux | C++/C, Java**  
+**Visa:** UK Skilled Worker – Valid till 2027
+
+------------------------------------------------------------
+
+Professional Summary
+--------------------------
+
+- 15+ years of software development experience spanning Android and Linux using C/C++, Java, and Python.
+- Hands-on experience in AOSP and Android full-stack development including AOSP, Android NDK, native applications, Android apps, Android services, system services, native services, and HALs using C++, Java, HIDL, AIDL, and SELinux compliance.
+- 6+ years of experience in platform application development on Linux-based systems using C++ and IPC mechanisms.
+- Hands-on experience in Embedded Linux including user-space daemon development using C++, STL, threads, sockets, IPC, RPCs, and synchronization mechanisms.
+- Strong background in object-oriented design, IPC, multithreading, and performance optimization.
+- 12+ years of experience in infotainment products.
+- Senior software engineer working in cross-functional Agile teams responsible for system design, implementation, testing, code reviews, and automated testing (unit, component, functional).
+- End-to-end product lifecycle experience across Android and Linux with global, cross-site teams.
+
+------------------------------------------------------------
+
+Technical Skills
+----------------------
+
+- **Languages:** C, C++, Java (Android), Python (Pytest)
+- **Operating Systems:** Linux, Android
+- **Frameworks & Platforms:** Android Frameworks (JNI, AIDL, HIDL, Carservice), AOSP, Paho-MQTT
+- **Protocols:** VSOMEIP, MQTT
+- **Serialization:** JSON
+- **Tools:** GDB, ADB, Perfetto, Docker
+- **Testing:** Pytest, Google UnitTest
+- **Processes & Tools:** Gerrit, Jira, Confluence
+- **Version Control:** Git
+- **Methodology:** Agile-Scrum
+
+------------------------------------------------------------
+
+Professional Experience
+-----------------------------
+
+Samsung R&D UK, Staines, UK
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+**Senior Software Engineer**  
+*Jul 2024 – Present*
+
+**Project:** Android Services for Graphics  
+
+- **Platform:** Android  
+- **Skills & Tools:** C/C++, Java, AOSP, AIDL, Git, ADB, Perfetto, SELinux, JNI  
+
+**Description:**  
+Design services for Android phones.
+
+**Responsibilities:**
+
+- Contributed as part of a cross-functional Agile Scrum team responsible for design, development, and testing of Android platform software.
+- Designed and implemented Android services, system services, and HAL server components using Java and C++.
+- Developed AOSP-based platform components using AIDL and JNI, ensuring SELinux policy compliance.
+- Implemented automated unit tests and Python-based component tests to validate platform functionality.
+- Actively participated in design and code reviews.
+
+------------------------------------------------------------
+
+Dyson Ltd, UK
+~~~~~~~~~~~~~~~~~~~~~
+**Senior Software Engineer**  
+*Sep 2021 – Jul 2024*
+
+**Project:** Dyson Connectivity Service  
+
+- **Platform:** Android, Linux  
+- **Skills & Tools:** Java, C++, Android Services, Python, Pytest  
+
+**Description:**  
+Member of the platform connectivity team developing background services enabling communication between Android mobile applications, cloud services, and Dyson devices.
+
+**Technical Responsibilities:**
+
+- Developed services for network management, MQTT communication, and diagnostics.
+- Implemented unit and functional tests using Google Mock and Pytest.
+
+------------------------------------------------------------
+
+Volvo Cars, Gothenburg, Sweden
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+**Senior Software Consultant (via KnowIT AB)**  
+*Aug 2018 – Aug 2021*
+
+**Project:** Infotainment Head Unit  
+
+- **Platform:** Android, AOSP  
+- **Skills & Tools:** C++, Java, HIDL, AIDL, SELinux, ADB, Google UnitTest, STL, Python  
+
+**Description:**  
+Android-based infotainment system integrating navigation, media, climate control, camera, and vehicle information.
+
+**Technical Responsibilities:**
+
+- Developed Android activities, services, and native applications using C++, Java, and Android Automotive frameworks.
+- Implemented middleware and platform components using AIDL and HIDL, ensuring SELinux and Android Treble compliance.
+- Developed and maintained vehicle HAL, climate control, routing, and BaseTech modules.
+- Built VSOMEIP-based interprocess communication modules for in-vehicle networking.
+
+------------------------------------------------------------
+
+Visteon, Chennai, India
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+**Lead Software Design Engineer**  
+*Sep 2017 – Aug 2018*
+
+**Project:** Cockpit Unit (Cluster & Infotainment)
+
+- **Platform:** QNX, Android  
+- **Skills & Tools:** C/C++, CAN, Vector CANalyzer, Git, GDB, Unit Testing  
+
+**Description:**  
+Member of the core platform software team for QNX/Android-based cockpit systems integrating infotainment, vehicle data, and cluster display functionality.
+
+**Responsibilities:**
+
+- Implemented core platform applications and middleware in C/C++ for QNX and Android environments.
+- Developed vehicle HAL, alerts, warnings, and vehicle information modules.
+- Conducted design and code reviews, unit testing, and functional testing using CANalyzer.
+
+------------------------------------------------------------
+
+Sanmina Technologies, Chennai, India
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+**Senior Software Engineer**  
+*Mar 2011 – Aug 2017*
+
+**Project:** Android-based Headrest Unit – Rear Seat Entertainment  
+
+- **Platform:** Android  
+- **Skills & Tools:** C++, Java, AOSP, Android NDK, Git, GStreamer, ADB  
+
+**Description:**  
+Android-based rear-seat entertainment system for buses integrating media, climate control, navigation, and traffic information.
+
+**Responsibilities:**
+
+- Developed Android applications, services, and middleware using C++ and Java on AOSP-based systems.
+- Implemented vehicle-related features including climate and ambience control.
+- Designed native media abstraction components using Android NDK and JNI to support GStreamer-based streaming and playback.
+
+**Project:** Linux-based Infotainment Unit  
+
+- **Platform:** Linux  
+- **Skills & Tools:** C, C++, GStreamer, VSOMEIP, GDB, CAN, SQLite, SocketCAN  
+
+**Description:**  
+Embedded Linux infotainment system integrating navigation, entertainment, traffic, radio, climate control, and camera.
+
+**Responsibilities:**
+
+- Developed Linux-based applications and middleware using C/C++.
+- Implemented vehicle and climate-related platform components and HALs.
+- Built media streaming and communication components using Linux IPC, CAN (SocketCAN), and service-oriented communication mechanisms.
+
+------------------------------------------------------------
+
+Foundational Experience
+-----------------------------
+
+**Overview:**  
+Early-career experience focused on low-level embedded software development for automotive infotainment and telematics systems across Linux and RTOS platforms.
+
+**Foundational Skills:**
+
+- **Languages:** C
+- **Operating Systems:** Linux, FreeRTOS, RTX, U-Boot
+- **Frameworks:** POSIX, sockets, IPC
+- **Libraries:** GStreamer, BlueZ, WPA_Supplicant, AT commands
+- **Protocols:** SPI, I2C, UART, CAN, PCIe
+- **Tools:** Eclipse, Keil, GDB, Valgrind
+
+Automotive Infotronics Pvt Ltd (via acquisitions of AppliedDSP & Kaynes Emsys)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+**Embedded Software Engineer**  
+*Jul 2007 – Jan 2011*
+
+**Project:** Bus Infotainment & Telematics System  
+
+**Description:**  
+Passenger information, navigation, GPS tracking, and media streaming system for public transport.
+
+**Responsibilities:**
+
+- Developed Linux-based applications and middleware using POSIX, pthreads, sockets, and IPC.
+- Built RTOS-based firmware (FreeRTOS, RTX) for multiple microcontroller subsystems.
+- Implemented HALs and middleware for RFID, GPS, network services, storage, and vehicle functions.
+- Developed device drivers for SPI, I2C, UART, and CAN peripherals.
+- Implemented OTA firmware updates, configuration management, and secure data exchange mechanisms.
+- Supported board bring-up, U-Boot, kernel, and root filesystem porting.
+- Performed requirement analysis, low-level design, implementation, and unit/functional testing.
+- Contributed from initial development to stable production release.
+
+------------------------------------------------------------
+
+Technical Portfolio
+-------------------
+
+**Hobby Project:** Embedded Android Tutorial – Android App  
+
+- **Platform:** Mobile  
+- **Environment:** Ubuntu, Android Studio  
+- **Skills & Tools:** Java, Android Frameworks  
+
+**Description:**  
+A tutorial and quiz application covering core Android and AOSP topics such as native applications, Android test suite, partitions, and internals.
+
+**Link:**  
+https://play.google.com/store/apps/details?id=com.tarjet.embeddedandroid
+
+**Responsibilities:**
+
+- Designed and developed the complete Android application using Java.
+- Implemented features using Activities, SharedPreferences, JSON, RecyclerView, GridView, ExpandableListView, MVVM, WebView, and Intents.
+
+------------------------------------------------------------
+
+Education
 ---------
-Site Hosting programming notes. 
 
+- **B.E. (Electronics & Instrumentation)** – Anna University, India (2002–2006)  
+  Percentage: 68%
+- **12th Standard:** 85% (2002)  
+- **10th Standard:** 72% (2000)
 
-.. toctree::
-   :maxdepth: 1
-   :caption: CV
+------------------------------------------------------------
 
-   profile.rst
+Other Information
+-----------------
 
-.. toctree::
-   :maxdepth: 1
-   :caption: OS
-
-   reference.rst
-
-
+- **Gender:** Male  
+- **Nationality:** Indian  
+- **GitHub:** easwarnet  
+- **LeetCode:** easwarnet  
+- **Play Store:** easwarnet
 
