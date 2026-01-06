@@ -5,7 +5,21 @@ Easwar
 
 About
 ---------
-Site Hosting programming notes. 
+I am a Senior Software Engineer with over 15 years of experience building
+system-level software across Android and Linux platforms.
+
+My career began in low-level embedded systems, developing drivers and middleware
+for RTOS and Linux-based automotive products, and evolved toward Android platform
+and AOSP development, including system services, HALs, and native components.
+
+Experienced in Android platform and AOSP development,
+system services, HALs, and native applications using C++ and Java. Strong
+background in end-to-end product delivery and automated testing.
+
+I also specialize in designing and implementing robust platform software using C++,
+Java, and Python, with a strong focus on performance, reliability, and automated
+testing. I have delivered production software across the full product lifecycle
+in automotive and consumer electronics domains.
 
 
 .. toctree::
