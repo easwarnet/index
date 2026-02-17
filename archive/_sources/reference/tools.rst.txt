@@ -1,0 +1,62 @@
+Tools
+=====================
+
+Vs Code - Plugins
+-------------------
+* Debug Visualizer
+
+Linux 
+--------------
+* https://www.linuxlinks.com/best-free-open-source-file-sharing-tools/
+* https://www.linuxlinks.com/best-free-open-source-remote-display-clients/
+* https://www.linuxlinks.com/best-free-open-source-scheme-static-site-generators/
+
+Operating Systems
+-----------------
+
+* https://www.linuxliteos.com/download.php
+
+VPN
+---
+
+* https://github.com/OpenVPN/openvpn
+
+
+QR Code Generators
+---------------------
+
+* https://www.linuxtoday.com/blog/4-best-qr-code-generator-tools-for-linux/
+
+
+Video Editors
+---------------------
+
+* https://www.shotcut.org/download/
+* KDENLive
+* Blender
+* Openshot
+* Shotcut
+
+Popularity
++++++++++++
+
+* Shortcut 4
+* Kdenlive 7
+* Blender 2
+* Openshot 3
+* Olive 1 ?
+* Avidmux 1
+* Wevideo 1
+* Filmora 1
+* Cinelerra 1
+* DaVinci Resolve (paid)
+* Piviti 1
+* synthesia ai video creator
+
+
+
+
+
+
+
+

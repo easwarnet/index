@@ -7,6 +7,13 @@ General AI Resources
 * https://github.com/D7EAD/liboai
 * https://grow.google/intl/en_pk/guide-ai-machine-learning/
 * https://www.cloudskillsboost.google/course_templates/536
+* https://www.anthropic.com/engineering/building-effective-agents
+* https://github.com/ARM-software/kleidiai/tree/main
+* https://docs.agno.com/reasoning/reasoning-agents#reasoning-with-tools
+* https://github.com/Picovoice/picollm
+* https://developer.arm.com/mobile-graphics-and-gaming/ai-mobile
+* https://www.linuxlinks.com/machine-learning-linux-serge-web-interface-chatting/
+* https://www.warp.dev/
 
 Edge AI
 ------------------------

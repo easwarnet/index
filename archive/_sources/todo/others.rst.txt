@@ -9,3 +9,46 @@ Others List
 * keystore+and+truststore+example
 * ctags c++
 
+
+Skills that AI Can't replace
+------------------------------
+
+Programming Fundamentals
++++++++++++++++++++++++++++++++++
+    
+* Learn a core language (Python, Java, C++, etc.)
+* Master variables, data types, control structures, OOP concepts
+
+Data Structures & Algorithms
++++++++++++++++++++++++++++++++++
+
+* Arrays, lists, stacks, queues, trees, graphs
+* Sorting, searching, complexity (Big O notation)
+
+Web & Networking Basics
++++++++++++++++++++++++++++++++++
+* HTTP, REST, client-server model
+* APIs, request–response lifecycle
+
+
+HIGH-LEVEL DESIGN TOPICS
+------------------------------
+* Load Balancer
+* Database Sharding & Replication
+* Caching Strategies (Redis, CDN)
+* Rate Limiter
+* CAP Theorem
+* Consistency Patterns (Eventual, Strong)
+* Leader Election (Raft, Paxos)
+* Message Queue
+* Data Partitioning (Hash, Range)
+* Long Polling, Web Sockets
+* Circuit Breaker & Retry Logic
+* Write-through, Write-back Cache
+* Horizontal vs Vertical Scaling
+* CDN & Geo-Distributed Systems
+* Microservices vs Monolith
+* API Gateway & BFF pattern
+* Authentication & Authorization
+
+

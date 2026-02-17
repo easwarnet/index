@@ -9,12 +9,43 @@ Core Topics
 
 ARRAYS AND STRINGS
 ^^^^^^^^^^^^^^^^^^^
+
 * Two Sum (LeetCode 1)  
 * Longest Substring Without Repeating Characters (LeetCode 3)  
 * Product of Array Except Self (LeetCode 238)  
 * Maximum Subarray (LeetCode 53)  
 * Merge Intervals (LeetCode 56)  
+* Merge Sorted Array
+* Remove Element
+* Two Sum
+* Best Time to Buy and Sell Stock
+* Spiral Matrix
+* Contains Duplicate  
+* Missing Number  
+* Numbers Disappeared Array  
+* Two Sum  
+* How Many Numbers Are Smaller Than the Current  
+* Minimum Time Visiting All  
+* Spiral Matrix  
+* Number of Islands  
+* Best Time to Buy and Sell  
+* Squares of a Sorted Array  
+* Longest Mountain in Array
+* Insert Interval (LeetCode 57)
+* 3Sum (LeetCode 15)
+* Combination Sum (LeetCode 39)
+* Minimum Time Visiting All Points (LeetCode 1266)
+* Longest Substring Without Repeating Characters (LeetCode 3)
+* Minimum Window Substring (LeetCode 76)
 
+Focus
+++++++
+
+* Manipulation of linear data structures
+* Common techniques like two pointers, sliding window, and matrix traversal
+* Hashing for frequency/count problems
+* Interval-based problems requiring merge or insertion logic
+* Multi-pointer techniques for sum-based problems
 
 LINKED LISTS
 ^^^^^^^^^^^^^^^
@@ -22,7 +53,24 @@ LINKED LISTS
 * Merge Two Sorted Lists (LeetCode 21)  
 * Detect Cycle in a Linked List (LeetCode 141)  
 * Remove Nth Node From End of List (LeetCode 19)  
+* Linked List Cycle
+* Add Two Numbers
+* Reverse Linked List
+* Valid Parentheses
+* Min Stack
+* Middle of Linked List  
+* Linked List Cycle  
+* Reverse Linked List  
+* Remove Linked List Elements  
+* Reverse Linked List II  
+* Palindrome Linked List  
+* Merge Two Sorted Lists  
+* Linked List Sorting  
 
+Focus
+++++++
+* Problems based on sequential and pointer-based structures
+* Use of stack data structures for parsing and evaluation
 
 STACKS AND QUEUES
 ^^^^^^^^^^^^^^^^^^^
@@ -31,6 +79,23 @@ STACKS AND QUEUES
 * Min Stack (LeetCode 155)  
 * Largest Rectangle in Histogram (LeetCode 84)  
 * Sliding Window Maximum (LeetCode 239)  
+* Min Stack  
+* Valid Parentheses  
+* Evaluate Reverse Polish Notation  
+* Stack Sorting  
+* Implement Stack using ...
+* Time Needed to Buy Tickets  
+* Reverse the First K Elements of a Queue  
+* Task Scheduler  
+* Letter Case Permutation  
+* Minimum Size Subarray Sum
+* Evaluate Reverse Polish Notation (LeetCode 150)
+* Trapping Rain Water (LeetCode 42)
+
+Focus
+++++++
+* Stack-driven evaluation of expressions
+* Monotonic stack patterns for height/water problems
 
 
 TREES
@@ -38,7 +103,30 @@ TREES
 * Validate Binary Search Tree (LeetCode 98)  
 * Lowest Common Ancestor of a Binary Search Tree (LeetCode 235)  
 * Binary Tree Maximum Path Sum (LeetCode 124)  
+* Maximum Depth of Binary Tree
+* Same Tree
+* Construct Binary Tree from Traversals
+* Average of Levels  
+* Minimum Depth  
+* Min/Max Value  
+* Level Order Traversal  
+* Same Tree  
+* Path Sum  
+* Diameter of a Binary Tree  
+* Invert Binary Tree  
+* Lowest Common Ancestor  
+* Binary Search Tree  
+* Insert in Binary Search Tree  
+* Convert Sorted Array to Binary Search Tree  
+* Two Sum IV – Input is a BST  
+* Binary Tree Level Order Traversal (LeetCode 102)
+* Serialize and Deserialize Binary Tree (LeetCode 297)
 
+Focus
+++++++
+* Hierarchical data structures and their traversals
+* BFS-based level-order traversal
+* Encoding and reconstructing tree structures
 
 GRAPHS
 ^^^^^^^^^^^
@@ -47,7 +135,26 @@ GRAPHS
 * Number of Islands (LeetCode 200)  
 * Graph Valid Tree (LeetCode 261)  
 * Word Ladder (LeetCode 127)  
+* Clone Graph
+* Lowest Common Ancestor
+* 01 Matrix (LeetCode 542)
+* Rotting Oranges (LeetCode 994)
 
+Focus
+++++++
+* Graph algorithms (BFS, DFS) and applications
+* Multi-source BFS problems
+* Distance propagation on grids
+
+Trie
+^^^^^^^^^^^
+
+* Implement Trie
+
+Focus
+++++++
+
+* Trie-based problems for string search and manipulation
 
 HEAPS
 ^^^^^^^^^^^
@@ -56,7 +163,11 @@ HEAPS
 * Find Median from Data Stream (LeetCode 295)  
 * Kth Largest Element in an Array (LeetCode 215)  
 * Sliding Window Median (LeetCode 480)  
-
+* Add Binary (LeetCode 67)
+* Reverse Bits (LeetCode 190)
+* Palindrome Number (LeetCode 9)
+* Plus One (LeetCode 66)
+* Factorial Trailing Zeroes (LeetCode 172)
 
 DYNAMIC PROGRAMMING
 ^^^^^^^^^^^^^^^^^^^^^^^
@@ -65,6 +176,21 @@ DYNAMIC PROGRAMMING
 * Coin Change (LeetCode 322)  
 * Longest Common Subsequence (LeetCode 1143)  
 * Edit Distance (LeetCode 72)  
+* Fibonacci
+* MIN/MAX Path Sum
+* Partition Problem, Subset Sum
+* Unbounded Knapsack
+* House Robber
+* House Robber II
+* Longest Increasing Subsequence
+* Vertex Cover
+* Matrix Multiplication
+* Cutting Rod
+* Palindrome Partitioning
+* Counting Bits (LeetCode 338)
+* Range Sum Query - Immutable (LeetCode 303)
+* Cheapest Flights Within K Stops (LeetCode 787)
+* Minimum Absolute Difference (LeetCode 1200)
 
 
 DIVIDE AND CONQUER
@@ -73,7 +199,6 @@ DIVIDE AND CONQUER
 * Find Peak Element (LeetCode 162)  
 * Majority Element (LeetCode 169)  
 
-
 GREEDY ALGORITHM
 ^^^^^^^^^^^^^^^^^^^
 * Gas Station (LeetCode 134)  
@@ -81,7 +206,7 @@ GREEDY ALGORITHM
 * Partition Labels (LeetCode 763)  
 * Minimum Number of Arrows to Burst Balloons (LeetCode 452)  
 * Assign Cookies (LeetCode 455)  
-
+* How Many Numbers Are Smaller Than the Current Number
 
 BACKTRACKING
 ^^^^^^^^^^^^^^^
@@ -89,108 +214,206 @@ BACKTRACKING
 * Permutations (LeetCode 46)  
 * Word Search (LeetCode 79)  
 
+BINARY SEARCH
+^^^^^^^^^^^^^^^^^^^^^
+* Search in Rotated Sorted Array (LeetCode 33)
+* Time-Based Key-Value Store (LeetCode 981)
+* Binary Search (LeetCode 704)
+* Find Peak Element (LeetCode 162)
+* Kth Largest Element in an Array (LeetCode 215)
 
-Questions that cover all the DSA topics in leetcode
--------------------------------------------------------
-
-
-Arrays & Strings (11 problems)
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-1. Contains Duplicate  
-2. Missing Number  
-3. Numbers Disappeared Array  
-4. Two Sum  
-5. How Many Numbers Are Smaller Than the Current  
-6. Minimum Time Visiting All  
-7. Spiral Matrix  
-8. Number of Islands  
-9. Best Time to Buy and Sell  
-10. Squares of a Sorted Array  
-11. Longest Mountain in Array  
+RECURSION
+^^^^^^^^^^^^^^^^^^^^^
+* Permutations (LeetCode 46)
+* Subsets (LeetCode 78)
+* Combination Sum (LeetCode 39)
 
 
-Linked Lists (8 problems)
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-1. Middle of Linked List  
-2. Linked List Cycle  
-3. Reverse Linked List  
-4. Remove Linked List Elements  
-5. Reverse Linked List II  
-6. Palindrome Linked List  
-7. Merge Two Sorted Lists  
-8. Linked List Sorting  
+Combination or Sort
+---------------------
+
+DP or Backtracking
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+* Maximum Subarray  
+* Counting Bits  
+* Range Sum Query – Immutable  
+* Subsets  
+* Combinations  
+* Cheapest Flights Within K  
+* Minimum Absolute Difference 
+
+Focus
+++++++
+* Breaking problems into overlapping subproblems (DP)
+* Exploring solution spaces recursively (Backtracking)
 
 
-Stacks & Queues (10 problems)
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-1. Min Stack  
-2. Valid Parentheses  
-3. Evaluate Reverse Polish Notation  
-4. Stack Sorting  
-5. Implement Stack using ...
-6. Time Needed to Buy Tickets  
-7. Reverse the First K Elements of a Queue  
-8. Task Scheduler  
-9. Letter Case Permutation  
-10. Minimum Size Subarray Sum  
+Heaps & Bit Manipulation
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+* Single Number (Bit Manipulation)  
+* Kth Smallest Element in a BST  
+* Kth Largest Element in an Array  
+* K Closest Points to Origin  
+* Top K Frequent Elements  
+* Delete Node in a BST  
+* Balance a Binary Search Tree  
+* Add Binary
+* Reverse Bits
+* Palindrome Number
+* Plus One
+* Maximum Subarray (Kadane’s Algorithm)
+* Factorial Trailing Zeroes
 
+Focus
+++++++
 
-Trees & Graphs (14 problems)
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-1. Average of Levels  
-2. Minimum Depth  
-3. Min/Max Value  
-4. Level Order Traversal  
-5. Same Tree  
-6. Path Sum  
-7. Diameter of a Binary Tree  
-8. Invert Binary Tree  
-9. Lowest Common Ancestor  
-10. Binary Search Tree  
-11. Insert in Binary Search Tree  
-12. Convert Sorted Array to Binary Search Tree  
-13. Two Sum IV – Input is a BST  
-14. Lowest Common Ancestor  
-
-
-DP & Backtracking (10 problems)
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-1. Coin Change  
-2. Climbing Stairs  
-3. Maximum Subarray  
-4. Counting Bits  
-5. Range Sum Query – Immutable  
-6. Subsets  
-7. Combinations  
-8. Permutations  
-9. Cheapest Flights Within K  
-10. Minimum Absolute Difference  
-
-
-Heaps & Bit Manipulation (7 problems listed)
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-1. Single Number (Bit Manipulation)  
-2. Kth Smallest Element in a BST  
-3. Kth Largest Element in an Array  
-4. K Closest Points to Origin  
-5. Top K Frequent Elements  
-6. Delete Node in a BST  
-7. Balance a Binary Search Tree  
-
-
-Greedy
-^^^^^^^^^^^^
-* How Many Numbers Are Smaller Than the Current Number
-
+* Problems involving numerical computations and mathematical reasoning
+* Bit-level operations for performance and space efficiency
 
 Others
------------
+^^^^^^^^^^^^^^^
 
 * Number of Subarrays Having a Sum Exactly Equal to K
 * How to Replace a Substring in a String
 * Find Length of Loop in Linked List
 * Find the Row with Maximum Number of 1s
 * Zigzag Tree Traversal
+
+
+SORTING, SEARCHING & GREEDY
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+* Binary Search
+* Merge Intervals
+* Jump Game
+* Kth Largest Element
+* Merge k Sorted Lists, etc.
+
+Focus
+++++++
+
+* Problems that require ordering and efficient lookup
+* Strategies that make locally optimal choices (Greedy)
+* Divide & conquer methods for problem partitioning
+
+
+Main
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+1. Prefix Sum
+2. Two Pointers
+3. Sliding Window
+4. Fast & Slow Pointers
+5. LinkedList In-place Reversal
+6. Monotonic Stack
+7. Top ‘K’ Elements
+8. Overlapping Intervals
+9. Modified Binary Search
+10. Binary Tree Traversal
+11. Depth-First Search (DFS)
+12. Breadth-First Search (BFS)
+13. Matrix Traversal
+14. Backtracking
+15. Dynamic Programming Patterns
+
+
+Categories
+---------------------
+
++------------+------------------------------------------------------------+
+| Topic      | Data Structures and Algorithms                             |
++============+============================================================+
+| Data Types | Stack, Queue, Bag, Union-Find, Priority Queue              |
++------------+------------------------------------------------------------+
+| Sorting    | Quicksort, Mergesort, Heapsort, Radix Sorts                |
++------------+------------------------------------------------------------+
+| Searching  | BST, Red-Black BST, Hash Table                             |
++------------+------------------------------------------------------------+
+| Graphs     | BFS, DFS, Prim, Kruskal, Dijkstra                          |
++------------+------------------------------------------------------------+
+| Strings    | KMP, Regular Expressions, TST, Huffman, LZW                |
++------------+------------------------------------------------------------+
+| Advanced   | B-tree, Suffix Array, Maxflow                              |
++------------+------------------------------------------------------------+
+
+
++----------------+--------------------------------------------+
+| DATA STRUCTURE | PATTERNS                                   |
++================+============================================+
+| ARRAY          | Sliding Window, Two Pointer                |
++----------------+--------------------------------------------+
+| STRING         | Prefix Sum, Greedy                         |
++----------------+--------------------------------------------+
+| LINKED LIST    | Fast and Slow Pointer, Expanding From      |
++----------------+--------------------------------------------+
+| STACK          | Monotonic Stack, Parenthesis               |
++----------------+--------------------------------------------+
+| QUEUE          | BFS, Deque                                 |
++----------------+--------------------------------------------+
+| TREE           | DFS, Binary Search                         |
++----------------+--------------------------------------------+
+
+
++------------------+--------------------------------------------+
+| GRAPH            | PATTERNS                                   |
++==================+============================================+
+| BFS              | Shortest Path, Level Order                 |
++------------------+--------------------------------------------+
+| DFS              | Connected Components                       |
++------------------+--------------------------------------------+
+| TOPOLOGICAL SORT | Dependency Resolution                      |
++------------------+--------------------------------------------+
+| UNION FIND       | Cycle Detection                            |
++------------------+--------------------------------------------+
+| DJIKSTRA         | Shortest Path (Weighted)                   |
++------------------+--------------------------------------------+
+| BELLMAN FORD     | Shortest Path (Negative Weighted)          |
++------------------+--------------------------------------------+
+
+
+Plan and Priority
+---------------------
+
+Plan 1
+--------
+
+Plan
+++++++++++
+
+* Fundamentals & Data Structures: Review your primary language's syntax, data types, control structures, and essential data structures (arrays, linked lists, stacks, queues, trees, graphs)
+* Algorithms & Complexity: Practice sorting and searching techniques while understanding Big O notation to analyze efficiency.
+* Object-Oriented Programming & Design Patterns: Deep dive into OOP principles (encapsulation, inheritance, polymorphism, abstraction) and study common design patterns like Singleton, Factory, and Observer.
+
+Priority
+++++++++++
+
+* HIGH: Arrays, Strings, Hash Tables, Linked Lists, Stacks/Queues, Trees (BST, Heaps), Graphs (BFS/DFS), Sorting, Binary Search, Two Pointers, Sliding Window, Recursion
+* MEDIUM: DYNAMIC PROGRAMMING (BASICS), GREEDY ALGORITHMS, TRIES, BACKTRACKING
+* LOW: ADVANCED GRAPH ALGORITHMS (DIJKSTRA), ADVANCED DP, SEGMENT TREES, ETC.
+
+
+Plan 2
+--------
+
+PHASE 1: FOUNDATIONS (WEEKS 1-2)
+++++++++++++++++++++++++++++++++++++++++
+
+* Data Structures: Arrays, Strings, Linked Lists, Stacks/Queues, Hash Tables.
+* Algorithms: Binary Search, Basic Sorting (Bubble, Insertion, Merge, Quick).
+* Practice: Solve 5-10 problems/day on platforms like LeetCode or Codeforces.
+
+PHASE 2 – INTERMEDIATE (WEEKS 3-4)
+++++++++++++++++++++++++++++++++++++++++
+
+* Trees: BST, Heaps, Traversals
+* Graphs: BFS, DFS, Cycle Detection
+* Patterns: Two Pointers, Recursion
+
+PHASE 3 – ADVANCED (WEEKS 5-6)
+++++++++++++++++++++++++++++++++++++++++
+* Dynamic Programming – Knapsack
+* Greedy Algorithms – Activity Selection, Fractional Knapsack
+* Backtracking – N-Queens, Subsets
 
 
 

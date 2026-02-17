@@ -1,0 +1,9 @@
+AI Study Topics
+====================
+
+STEP 1 – Fundamental
+^^^^^^^^^^^^^^^^^^^^^
+
+- AI Fundamentals  
+- Learn PyTorch, TensorFlow  
+

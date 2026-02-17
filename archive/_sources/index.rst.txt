@@ -43,6 +43,7 @@ Notes
    reference/linux
    reference/streaming
    reference/external_frameworks
+   reference/tools
 
 .. toctree::
    :maxdepth: 1
@@ -52,7 +53,8 @@ Notes
    todo/cpp_study
    todo/dsa_study
    todo/others
-
+   todo/ai
+   todo/designpatterns
 
 .. toctree::
    :maxdepth: 1
